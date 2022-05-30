@@ -1,76 +1,84 @@
 // import './App.css';
+import jeopardy from "../images/assets/Inspirational-Jeopardy.png"
+import password from "../images/assets/Password.png"
+import restaurant from "../images/assets/Restaurant.png"
+
+
+const styles = {
+  header: {
+    height: "40vh",
+    justifyContent: "center",
+    marginTop: "5%",
+    marginLeft: "5%",
+    marginRight: "40%",
+    fontSize: "35px"
+  },
+  image: {
+    // position: "absolute",
+    height: "80vh",
+    width: "40rem",
+    marginTop: "-15%",
+    marginLeft: "45%",
+    marginRight: "40%"
+  },
+  margin: {
+    marginTop: "5%",
+
+    marginRight: "40%"
+  }
+}
+
 
 function Portfolio() {
   return (
     <div>
-      
-    <body>
-        <div id="resume">
-          <a href="./assets/Eric Taylor Resume 3.0.pdf" download><button id="myResume">Download my Resume</button></a>
+      <section class="MERN" style={styles.header}>
+        <h1>From Building games to 
+          <br></br>fetching API's</h1>
+      </section>
+      <section class="MERN" style={{marginLeft:"50px"}}>
+        <h2 >Inspirational Jeopardy</h2>
+        <p >Materialize/Javascript/JQuery</p>
+        <div style={{display:"flex", marginRight:"10px", listStyle:"none"}}>
+            <a href="https://github.com/erict001/inspirational-jeopardy" target="_blank"><button id="gitJeopardy">Click here to view my Github repository</button></a>
+         </div>
+         <div>
+            <a href="https://erict001.github.io/inspirational-jeopardy/" target="_blank" id="liveJeopardy"><button>Click here to view my deployed link</button></a>
         </div>
-      <main>
-              <section>
-              <section class="work-box">
-                <a id="work"></a><h3>Work</h3>
-                <section class="Reports">
-                  <section class="Surf">
-                    <section class="MERN">
-                      <h3>Inspirational Jeopardy</h3>
-                      <p>Materialize/Javascript/JQuery</p>
-                      <div>
-                        <a href="https://github.com/erict001/inspirational-jeopardy" target="_blank"><h6 id="gitJeopardy">Click here to view my github repository</h6></a>
-                      </div>
-                      <div>
-                        <a href="https://erict001.github.io/inspirational-jeopardy/" target="_blank" id="liveJeopardy"><h6>Click here to view my deployed link</h6></a>
-                      </div>
-                    </section>
-                  </section>
-                  <section class="LED">
-                    <section class="LED1">
-                      <h3>Generate Password</h3>
-                      <p>HTML/JavaScript/CSS</p>
-                      <div>
-                        <a href="https://github.com/erict001/Password-Generator" target="_blank"><h6 id="gitPassword">Click here to view my github repository</h6></a>
-                      </div>
-                      <div>
-                        <a href="https://erict001.github.io/Password-Generator/" target="_blank" ><h6 id="livePassword">Click here to view deployed link</h6></a>
-                      </div>
-                    </section>
-                  </section>
-                  <section class="CALC">
-                    <section class="LED1">
-                      <h3>Work Planner</h3>
-                      <p>HTML/JavaScript/CSS</p>
-                      <div>
-                        <a href="https://github.com/erict001/Work-Planner" target="_blank"><h6 id="gitPlanner">Click here to view my github repository</h6></a>
-                      </div>
-                      <div>
-                        <a href="https://erict001.github.io/Work-Planner/" target="_blank"><h6 id="livePlanner">Click here to view my deployed link</h6></a>
-                      </div>
-                    </section>
-                  </section>
-                  <section class="CALC">
-                    <section class="LED1">
-                      <h3>Restaurant Finder</h3>
-                      <p>HTML/JavaScript/CSS/Node/Express</p>
-                      <div>
-                        <a href="https://github.com/erict001/Restaurant-Finder" target="_blank"><h6 id="gitPlanner">Click here to view my github repository</h6></a>
-                      </div>
-                      <div>
-                        <a href="https://roogle-2022.herokuapp.com/" target="_blank"><h6 id="livePlanner">Click here to view my deployed link</h6></a>
-                      </div>
-                    </section>
-                  </section>
-                </section>
-              </section>
-            </section>
-            
-
-          </main>
-
-        </body>
+        <div >
+        <img src={jeopardy} style={styles.image}></img>
+        </div>
+      </section>
+      <br></br>
+      <section class="MERN" style={{marginLeft:"50px"}}>
+        <h2 >Generate Password</h2>
+        <p >HTML/JavaScript/CSS</p>
+        <div style={{display:"flex", marginRight:"10px", listStyle:"none"}}>
+            <a href="https://github.com/erict001/Password-Generator" target="_blank"><button id="gitJeopardy">Click here to view my Github repository</button></a>
+         </div>
+         <div>
+            <a href="https://erict001.github.io/Password-Generator/" target="_blank" id="liveJeopardy"><button>Click here to view my deployed link</button></a>
+        </div>
+        <div >
+        <img src={password} style={styles.image}></img>
+        </div>
+      </section>
+      <br></br>
+      <section class="MERN" style={{marginLeft:"50px"}}>
+        <h2 >Restaurant Finder</h2>
+        <p >HTML/JavaScript/CSS/Node/Express</p>
+        <div style={{display:"flex", marginRight:"10px", listStyle:"none"}}>
+            <a href="https://github.com/erict001/Restaurant-Finder" target="_blank"><button id="gitJeopardy">Click here to view my Github repository</button></a>
+         </div>
+         <div>
+            <a href="https://roogle-2022.herokuapp.com/" target="_blank" id="liveJeopardy"><button>Click here to view my deployed link</button></a>
+        </div>
+        <div >
+        <img src={restaurant} style={styles.image}></img>
+        </div>
+      </section>
     </div>
-        );
+  );
 }
 
 export default Portfolio;

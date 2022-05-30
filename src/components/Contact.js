@@ -8,36 +8,32 @@ const styles = {
     justifyContent: "space-around",
   },
   label: {
-    width: "3rem",
+    width: "30rem",
   }
 }
 
 function Contact() {
   return (
-    <div>
-      
-    <section class="contact-us">
-              <a id="contact"></a><h3>Contact Me</h3>
-              <ul>
-                <a href=""><li>206.372.4315</li></a>
-                <a href="mailto:eric.taylor1012@gmail.com"><li>eric.taylor1012@gmail.com</li></a>
-                <a href="https://github.com/erict001/"><li>GitHub</li></a>
-                <a href="https://www.linkedin.com/in/eric-taylor-03181917a/"><li>LinkedIn</li></a>
-              </ul>
-            </section>
+    <div style={{marginTop: "10vh", marginLeft: "10vw"}}>
+      <h2>Let's chat!</h2>
+      <p>Fill out the form below or email me at <a href="mailto:eric.taylor1012@gmail.com">eric.taylor1012@gmail.com</a></p>
     <form style={styles.header}>
-      <label style={styles.label}>
+      <label >
         Name:
-        <input type="text" name="name" />
+        <br></br>
+        <input type="text" name="name" style={styles.label}/>
       </label>
       <label>
         Email Address:
-        <input type="text" name="email" />
+        <br></br>
+        <input type="text" name="email" style={styles.label}/>
       </label>
       <label>
         Message:
-        <input type="text" name="message" rows="5" />
+        <br></br>
+        <input type="text" name="message" rows="5" style={{height: "20rem", width:"30rem"}}/>
       </label>
+      <button style={{width: "10rem", marginTop:"2vh"}}>Submit</button>
     </form>
     </div>
   );

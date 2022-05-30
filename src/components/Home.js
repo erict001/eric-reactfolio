@@ -1,11 +1,18 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+// import About from './components/About'
 
-
+const styles = {
+  margin: {
+    marginTop: "5%",
+    marginLeft: "5%",
+    marginRight: "40%"
+  }
+}
 
 function About() {
   return (
-    <div className="tabs">
+    <div className="tabs" style={styles.margin}>
         <div>
           <h2>Hi, I'm Eric Taylor.</h2>
           <h1>Full Stack Developer. Designer. Coach.</h1>
@@ -13,11 +20,10 @@ function About() {
             I'm driven to help people and companies become their best selves through creative design, quality branding, and unparalleled customer service.
             <br />
             <br />
-            Currently a graduate full stack web developer from University of Washington. Experienced business operations manager with a track record of driving multiple businesses to thriving results. 
+            Currently a full stack web developer student from University of Washington. Experienced business operations manager with a track record of driving multiple businesses to successful outcomes. 
             <br />
             <br />
           </p>
-          <h5>Learn More</h5>
         </div>
     </div>
   );
