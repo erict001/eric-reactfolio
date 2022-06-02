@@ -20,12 +20,11 @@ const styles = {
   icons: {
     height: "50px",
     width: "50px",
-    marginLeft: "40%"
+    marginLeft: "50%"
+  },
+  item: {
+    fontSize: "20px"
   }
-  // item: {
-  //   width: "4rem",
-  //   listStyle: "none"
-  // }
 }
 function App() {
   return (
@@ -42,7 +41,6 @@ function App() {
         <div>
           <TabPanel>
             <h2><Home /> </h2>
-            {/* <Link to = {value="1"}><h2>Learn More</h2></Link> */}
           </TabPanel>
           <TabPanel>
             <h2><About /></h2>
@@ -62,7 +60,6 @@ function App() {
       <footer>
         <a href={"https://github.com/erict001?tab=repositories"}><img src={Github} style={styles.icons}></img></a>
         <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img src={LinkedIn} style={{height:"50px", width: "50px"}}></img></a>
-
       </footer>
     </div>
   );

@@ -15,6 +15,7 @@ function About() {
     <div className="tabs" style={styles.margin}>
         <div>
           <h2>Hi, I'm Eric Taylor.</h2>
+          <br></br>
           <h1>Full Stack Developer. Designer. Coach.</h1>
           <p>
             I'm driven to help people and companies become their best selves through creative design, quality branding, and unparalleled customer service.
