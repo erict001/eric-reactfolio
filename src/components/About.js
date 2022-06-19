@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Profile from '../images/assets/picture.png'
 
 const styles = {
   margin: {
@@ -13,6 +14,7 @@ const styles = {
 function About() {
   return (
     <div className="tabs" style={styles.margin}>
+      <img src={Profile} style={{marginLeft: "30%", height: "30%", width: "30%", border:"5px solid black"}}/>
       <p>I am currently a student in the University of Washington full-stack web development coding bootcamp.
         <br></br>
         <br></br>

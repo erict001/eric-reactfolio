@@ -14,7 +14,7 @@ const styles = {
   },
   image: {
     // position: "absolute",
-    height: "100vh",
+    height: "60vh",
     width: "80%",
   },
   margin: {

@@ -17,15 +17,14 @@ function Contact() {
   const nameField = document.getElementById("name")
   const emailField = document.getElementById("email")
   const messageField = document.getElementById("message")
-
   const submitBtn = document.getElementById("submit")
 
   function fields() {
-    if (nameField === null) {
+    if (nameField.value === null) {
       window.alert("Fill out your name")
-    } else if (emailField === null) {
+    } else if (emailField.value === null) {
       window.alert("Fill out your email")
-    } else if (messageField === null) {
+    } else if (messageField.value === null) {
       window.alert("Fill out a message")
     } else {
       window.alert("Your form got submitted!")

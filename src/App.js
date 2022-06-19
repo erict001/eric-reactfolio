@@ -12,6 +12,10 @@ import LinkedIn from "./images/assets/LinkedIn.png"
 
 
 const styles = {
+  rootStyle: {
+    height: '100vh',
+    backgroundColor: "black",
+  },
   header: {
     display: "flex",
     listStyle: "none",
@@ -56,11 +60,11 @@ function App() {
           </TabPanel>
 
         </div>
-      </Tabs>
       <footer>
         <a href={"https://github.com/erict001?tab=repositories"}><img src={Github} style={styles.icons}></img></a>
         <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img src={LinkedIn} style={{height:"50px", width: "50px"}}></img></a>
       </footer>
+      </Tabs>
     </div>
   );
 }
