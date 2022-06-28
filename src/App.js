@@ -14,12 +14,13 @@ import LinkedIn from "./images/assets/LinkedIn.png"
 const styles = {
   rootStyle: {
     height: '100vh',
-    backgroundColor: "black",
+    color: "white",
   },
   header: {
     display: "flex",
     listStyle: "none",
     justifyContent: "space-around",
+    paddingTop: "20px",
   },
   icons: {
     height: "50px",
@@ -30,8 +31,11 @@ const styles = {
     fontSize: "20px"
   }
 }
+
+
 function App() {
   return (
+    // <div className="tabs" class="text-white dark:bg-black">
     <div className="tabs">
       <Tabs>
         <TabList style={styles.header}>
