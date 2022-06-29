@@ -60,24 +60,24 @@ function About() {
       </div>
       {/* Add media query to make the size smaller*/}
       <div style={{ height: "110vh" }}>
-        <video style={{ width: "100vw", height: "100vh" }} src={apolloFull} autoPlay muted loop width="1000"></video>
+        <video style={{ width: "100%", height: "100vh" }} src={apolloFull} autoPlay muted loop width="1000"></video>
       </div>
-      <div style={{ display: "flex", height: "80vh", paddingLeft: "3vw" }}>
-        <div class="w-2/5">
-          <img src={picture} style={{ marginLeft: "1rem", marginRight: "1rem", height: "50rem", borderRadius: "1rem" }}></img>
-        </div>
-        <div class="w-3/5">
-          <h1 class="lg:text-5xl md:text-3xl sm:text-3xl" style={{ fontFamily: "Zapfino", fontWeight: 900 }}>Hi I'm Eric Taylor!</h1>
-          <br></br>
-          <br></br>
-          <h1 class="text-5xl w-4/5">
-            I'm driven to help people and companies become their best selves through creative design, quality branding, and unparalleled customer service.
-            <br />
-            <br />
-            A recent full stack web developer graduate from the University of Washington. Experienced business operations manager with a track record of driving multiple businesses to successful outcomes.
-            <br />
-            <br />
-          </h1>
+      <div class="flex">
+        <div class="flex pt-20 pb-20 w-100">
+          <div class="lg:w-2/5 md:w-5/5">
+            <img src={picture} style={{ marginLeft: "1rem", marginRight: "1rem", height: "50rem", borderRadius: "1rem" }}></img>
+          </div>
+          <div class="lg:w-3/5">
+            <h1 class="lg:text-5xl md:text-3xl sm:text-3xl" style={{ fontFamily: "Zapfino", fontWeight: 900 }}>Hi I'm Eric Taylor!</h1>
+            <br></br>
+            <br></br>
+            <h1 class="text-5xl lg:w-4/5 ">
+              I'm driven to help people and companies become their best selves through creative design, quality branding, and unparalleled customer service.
+              <br />
+              <br />
+              A recent full stack web developer graduate from the University of Washington. Experienced business operations manager with a track record of driving multiple businesses to successful outcomes.
+            </h1>
+          </div>
         </div>
       </div>
       <hr></hr>
@@ -85,7 +85,7 @@ function About() {
         <h1 style={{ alignContent: "center", fontSize: "100px" }}>Projects</h1>
       </div>
       <hr></hr>
-      <div style={{color: "black"}}>
+      <div style={{ color: "black" }}>
         <div>
           <div>
             <h1 class="flex justify-center text-5xl" style={{ width: "100%", fontFamily: "Zapfino", paddingTop: "10vh", fontWeight: 900 }}>Before Bootcamp:</h1>
@@ -103,7 +103,7 @@ function About() {
                 </p>
               </div>
               <div class="px-6 pt-4 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</span>
+              <a href="www.apolloacademyhoops.com" target="_blank" id="liveJeopardy"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
               </div>
             </div>
           </div>
@@ -150,6 +150,7 @@ function About() {
                 </div>
                 <div class="px-6 pt-4 pb-2">
                   <a href="https://github.com/erict001/Password-Generator" target="_blank" id="gitPassword"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
+                  <a href="https://erict001.github.io/Password-Generator/" target="_blank" id="livePlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
                 </div>
               </div>
               <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
