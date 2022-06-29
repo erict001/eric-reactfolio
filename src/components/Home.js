@@ -74,7 +74,7 @@ function About() {
             <br></br>
             <br></br>
             <div>
-              <h1 class="text-5xl lg:w-4/5 md:4/5">
+              <h1 class="text-5xl pr-10 lg:w-4/5 md:4/5">
                 I'm driven to help people and companies become their best selves through creative design, quality branding, and unparalleled customer service.
                 <br />
                 <br />
