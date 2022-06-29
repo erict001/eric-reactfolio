@@ -50,8 +50,8 @@ function About() {
   return (
     <div className="tabs">
       <div>
-        <section class="flex justify-center">
-          <div style={styles.heading} class="flex content-center">
+        <section class="flex justify-center content-center">
+          <div style={styles.heading}>
             <h1 class="flex justify-center">Full Stack Developer.</h1>
             <h1 class="flex justify-center">Designer.</h1>
             <h1 class="flex justify-center">Coach.</h1>
@@ -80,117 +80,112 @@ function About() {
           </h1>
         </div>
       </div>
-      <div style={{ display: "flex", justifyContent: "center", height: "24vh", width: "100vw", backgroundColor: "black", color: "white", marginBottom: "10vh" }}>
+      <hr></hr>
+      <div style={{ display: "flex", justifyContent: "center", height: "14vh", width: "100vw", backgroundColor: "black", color: "white" }}>
         <h1 style={{ alignContent: "center", fontSize: "100px" }}>Projects</h1>
       </div>
-      <h1 class="flex justify-center text-5xl" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>Before Bootcamp:</h1>
-      <br></br>
-      <br></br>
-      <br></br>
-      <div class="flex justify-center mb-20" >
-        <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
-          <img class="w-full" src={apollo} alt="Sunset in the mountains" />
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-            <p class="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-            </p>
+      <hr></hr>
+      <div style={{color: "black"}}>
+        <div>
+          <div>
+            <h1 class="flex justify-center text-5xl" style={{ width: "100%", fontFamily: "Zapfino", paddingTop: "10vh", fontWeight: 900 }}>Before Bootcamp:</h1>
+            <br></br>
+            <br></br>
+            <br></br>
           </div>
-          <div class="px-6 pt-4 pb-2">
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          <div class="flex justify-center mb-20" >
+            <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+              <img class="w-full" src={apollo} alt="Sunset in the mountains" />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">Apollo Academy Basketball</div>
+                <p class="text-gray-700 text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</span>
+              </div>
+            </div>
           </div>
         </div>
-
-      </div>
-      {/* <div class="flex justify-center" style={{ display: "flex", height: "100vh" }}>
+        {/* <div class="flex justify-center" style={{ display: "flex", height: "100vh" }}>
         <div class="flex justify-center">
           <video style={{ width: "100%", height: "80vh" }} src={apolloMov} controls width="1000"></video>
         </div>
       </div> */}
-      <div>
-        <div class= "flex content-center" style={{ height: "4rem"}}>
-        <h1 class="flex justify-center text-5xl" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>During Bootcamp:</h1>
-        </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <div class="flex justify-center space-evenly center">
-          <div class="lg:columns-2 md:columns-1 sm:columns-1">
-            <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
-              <img class="w-full" src={jeopardy} alt="Sunset in the mountains" />
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p class="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
+        <div>
+          <div class="flex content-center" style={{ height: "4rem" }}>
+            <h1 class="flex justify-center text-5xl" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>During Bootcamp:</h1>
+          </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div class="flex justify-center space-evenly center">
+            <div class="lg:columns-2 md:columns-1 sm:columns-1">
+              <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+                <img class="w-full" src={jeopardy} alt="Sunset in the mountains" />
+                <div class="px-6 py-4">
+                  <div class="flex flex-row justify-between font-bold text-xl mb-2">
+                    <h1>Inspirational Jeopardy</h1>
+                    <h3 style={{ marginRight: "2rem" }}>Project Manager</h3>
+                  </div>
+                  <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <a href="https://github.com/erict001/inspirational-jeopardy" target="_blank"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
+                  <a href="https://erict001.github.io/inspirational-jeopardy/" target="_blank" id="liveJeopardy"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
+                </div>
               </div>
-              <div class="px-6 pt-4 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+              <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+                <img class="w-full" src={password} alt="Sunset in the mountains" />
+                <div class="px-6 py-4">
+                  <div class="flex flex-row justify-between font-bold text-xl mb-2">
+                    <h1>Password Generator</h1>
+                  </div>
+                  <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <a href="https://github.com/erict001/Password-Generator" target="_blank" id="gitPassword"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
+                </div>
               </div>
-            </div>
-            <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
-              <img class="w-full" src={password} alt="Sunset in the mountains" />
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p class="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
+              <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+                <img class="w-full" src={restaurant} alt="Sunset in the mountains" />
+                <div class="px-6 py-4">
+                  <div class="flex flex-row justify-between font-bold text-xl mb-2">
+                    <h1>Restaurant Finder</h1>
+                    <h3 style={{ marginRight: "2rem" }}>Git Manager + FrontEnd Developer</h3>
+                  </div>
+                  <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <a href="https://github.com/erict001/Restaurant-Finder" target="_blank" id="gitPlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
+                  <a href="https://roogle-2022.herokuapp.com/" target="_blank" id="livePlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
+                </div>
               </div>
-              <div class="px-6 pt-4 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-              </div>
-            </div>
-            <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
-              <img class="w-full" src={restaurant} alt="Sunset in the mountains" />
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p class="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
-              </div>
-              <div class="px-6 pt-4 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-              </div>
-            </div>
-            <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
-              <img class="w-full" src={apollo} alt="Sunset in the mountains" />
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p class="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
-              </div>
-              <div class="px-6 pt-4 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+              <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+                <img class="w-full" src={apollo} alt="Sunset in the mountains" />
+                <div class="px-6 py-4">
+                  <div class="flex flex-row justify-between font-bold text-xl mb-2">
+                    <h1>Appa's Landing</h1>
+                    <h3 style={{ marginRight: "2rem" }}>Lead Game Developer</h3>
+                  </div>
+                  <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button>
+                  <button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button>
+                </div>
               </div>
             </div>
           </div>
-          {/* <div class="bg-cover w-1/2 group hover:opacity-75 flex justify-center items-center" style={{ height: "50vh", width: "45vw", backgroundImage: `url(${jeopardy})` }}>
-            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Github</button>
-            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Deployed Link</button>
-          </div>
-          <div class="bg-cover w-1/2 group hover:opacity-75 flex justify-center items-center" style={{ height: "50vh", width: "45vw", backgroundImage: `url(${password})` }}>
-            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Github</button>
-            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Deployed Link</button>
-          </div>
-          <div class="bg-cover w-1/2 group hover:opacity-75 flex justify-center items-center" style={{height: "50vh", width: "45vw",  backgroundImage: `url(${restaurant})` }}>
-            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Github</button>
-            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Deployed Link</button>
-          </div>
-          <div class="bg-cover w-1/2 group hover:opacity-75 flex justify-center items-center" style={{height: "50vh", width: "45vw",  backgroundImage: `url(${apollo})` }}>
-            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Github</button>
-            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Deployed Link</button>
-          </div> */}
         </div>
       </div>
     </div>

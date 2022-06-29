@@ -25,25 +25,35 @@ const styles = {
   icons: {
     height: "50px",
     width: "50px",
-    marginLeft: "50%"
   },
   item: {
+    fontSize: "20px",
+    // paddingLeft: "3rem",
+    // paddingRight: "75rem",
+  },
+  items: {
+    // border: "solid 1px white",
+    // padding: "1rem",
     fontSize: "20px"
+  },
+  color: {
+    background: "linear-gradient(black 10%, 30%, white 50%)",
+    color: "white"
   }
 }
 
 
 function App() {
   return (
-    // <div className="tabs" class="text-white dark:bg-black">
+    <div className="tabs" style={styles.color}>
     <div className="tabs">
       <Tabs>
         <TabList style={styles.header}>
-          <Tab style={styles.item}>Home</Tab>
-          <Tab style={styles.item}>About</Tab>
-          <Tab style={styles.item}>Portfolio</Tab>
-          <Tab style={styles.item}>Resume</Tab>
-          <Tab style={styles.item}>Contact</Tab>
+          <Tab class="w-3/5 pl-20" style={styles.item}>Home</Tab>
+          <a href="https://github.com/erict001" target="_blank"><button style={styles.items}>Eric's Github</button></a>
+          <a href="./assets/Eric Taylor Resume 3.0.pdf" download><button style={styles.items}>Download My Resume</button></a>
+          <a href="mailto:eric.taylor1012@gmail.com" target="_blank"><button style={styles.items}>Contact Me</button></a>
+
         </TabList>
 
         <div>
@@ -62,13 +72,15 @@ function App() {
           <TabPanel>
             <h2><Contact /></h2>
           </TabPanel>
-
         </div>
       <footer>
+        <div class="flex flex-row justify-center mt-9">
         <a href={"https://github.com/erict001?tab=repositories"}><img src={Github} style={styles.icons}></img></a>
         <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img src={LinkedIn} style={{height:"50px", width: "50px"}}></img></a>
+        </div>
       </footer>
       </Tabs>
+    </div>
     </div>
   );
 }
