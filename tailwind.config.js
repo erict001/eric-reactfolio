@@ -5,9 +5,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     screens: {
-      sm: '480px',
+      xs: '480px',
+      sm: '760px',
       md: '768px',
-      lg: '976px',
+      lg: '770px',
       xl: '1440px',
     },
     backgroundImage: {
