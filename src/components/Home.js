@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import picture from "../images/assets/picture.png"
+import appa from "../images/assets/appa.png"
 import apollo from "../images/assets/apollo.png"
 import apolloFull from "../images/assets/apolloFull.mov"
 import apolloMov from "../images/assets/apollo.mov"
@@ -103,7 +104,7 @@ function About() {
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Apollo Academy Basketball</div>
                 <p class="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  This website was built to support my former basketball company, Apollo Academy Basketball. This application was built using Elementor and deployed to Wordpress. I loved the creativity and freedom that coding provides and sparked my interest in software development.
                 </p>
               </div>
               <div class="px-6 pt-4 pb-2">
@@ -134,12 +135,16 @@ function About() {
                     <h3 style={{ marginRight: "2rem" }}>Project Manager</h3>
                   </div>
                   <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                    We created a jeopardy style game, which displays like a jeopardy game board, that fetches past Jeopardy questions and answers to generate categories with progressively harder questions corresponding to the category and difficulty. If the user answers correctly, the user's score increases with the corresponding score amount. If the user guesses incorrectly, the user receives an inspirational quote.
+                    <br></br>
+                    <br></br>
+                    The Inspirational Jeopardy API fetches data from the jService API to gather questions from the past 30 years of Jeopardy questions, answers, and their corresponding categories. For incorrect answers, we fetched the inspirational quotes from Zen Quotes API. My role as project manager was to provide guidance and leadership to keep our team pointed in the same direction and appoint teammates to positions where they would be the most successful.  
                   </p>
                 </div>
                 <div class="px-6 pt-4 pb-2">
                   <a href="https://github.com/erict001/inspirational-jeopardy" target="_blank"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
                   <a href="https://erict001.github.io/inspirational-jeopardy/" target="_blank" id="liveJeopardy"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
+                  <button class="inline-block bg-yellow rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">People's Choice Award</button>
                 </div>
               </div>
               <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
@@ -147,9 +152,10 @@ function About() {
                 <div class="px-6 py-4">
                   <div class="flex flex-row justify-between font-bold text-xl mb-2">
                     <h1>Password Generator</h1>
+                    <h3 style={{ marginRight: "2rem" }}>FrontEnd Developer</h3>
                   </div>
                   <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                    We created an API that generates a random password from the user's selection of password length and characters based on the parameters that were entered. 
                   </p>
                 </div>
                 <div class="px-6 pt-4 pb-2">
@@ -165,7 +171,10 @@ function About() {
                     <h3 style={{ marginRight: "2rem" }}>Git Manager + FrontEnd Developer</h3>
                   </div>
                   <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                    We created an app that allows the user to generate a restaurant search based on search parameters then save their favorite restaurants to view the menu, call the restaurant, and make a reservation.
+                    <br></br>
+                    <br></br>
+                    The Restaurant Finder app fetches data from the Yelp Fusion API to generate restaurant searches where the user saves the restaurant into their database. When the user logs in, the database displays their favorite restaurants. The user will have quicker access to their favorite restaurants to view changes and make a reservation.
                   </p>
                 </div>
                 <div class="px-6 pt-4 pb-2">
@@ -174,19 +183,22 @@ function About() {
                 </div>
               </div>
               <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
-                <img class="w-full" src={apollo} alt="Sunset in the mountains" />
+                <img class="w-full" src={appa} alt="Sunset in the mountains" />
                 <div class="px-6 py-4">
                   <div class="flex flex-row justify-between font-bold text-xl mb-2">
                     <h1>Appa's Landing</h1>
                     <h3 style={{ marginRight: "2rem" }}>Lead Game Developer</h3>
                   </div>
                   <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                  </p>
+                    We created a 2D scroller game API that allows the user to login and choose from a list of characters from the Nickelodeon show "Avatar the Last Airbender". The user then gets to play with their selected character and weave their way through 3 levels of increasing difficulty before reachign the boss level. Each level is themed with a new obstacle in addition to enemies shooting at the user's player. 
+                    <br></br>
+                    <br></br>
+                    The Appa's Landing API is built using React, Node.js, Express, and the npm package Matter.js to handle collisions and provide a physics game engine. I was responsible for adding the majority of the game functionality using React and Matter.js </p>
                 </div>
                 <div class="px-6 pt-4 pb-2">
-                  <button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button>
-                  <button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button>
+                <a href="https://github.com/erict001/Restaurant-Finder" target="_blank" id="gitPlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
+                  <a href="https://mysterious-anchorage-31370.herokuapp.com/" target="_blank" id="livePlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
+                  <button class="inline-block bg-yellow rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">People's Choice Award</button>
                 </div>
               </div>
             </div>
