@@ -36,7 +36,7 @@ const styles = {
 function Portfolio() {
   return (
     <div>
-      <section style={styles.header}>
+      {/* <section style={styles.header}>
         <h1 style={{fontSize: "45px"}}>From Building games to 
           <br></br>fetching API's</h1>
       </section>
@@ -84,7 +84,7 @@ function Portfolio() {
             <a href="https://roogle-2022.herokuapp.com/" target="_blank"><button style={styles.button}>Click here to view my deployed link</button></a>
         </div>
         </div >
-      </section>
+      </section> */}
     </div>
   );
 }

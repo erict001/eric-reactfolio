@@ -15,13 +15,13 @@ const styles = {
     flexDirection: "column",
     // marginLeft: "35vw",
     justifyContent: "center",
-    height: "40vh",
-    width: "100%",
-    fontSize: "60px",
+    height: "60vh",
+    width: "100vw",
+    fontSize: "6rem",
     fontWeight: "bold",
   },
   title: {
-    width: "60%"
+    width: "60vw"
   },
   ul: {
     display: "flex",
@@ -30,7 +30,7 @@ const styles = {
   li: {
     display: "flex",
     paddingTop: "1vh",
-    width: "30%"
+    width: "30vw"
   },
   button: {
     marginLeft: "7vw",
@@ -44,47 +44,30 @@ const styles = {
 }
 
 
+
+
 function About() {
   return (
     <div className="tabs">
       <div>
-        <section>
-          <div style={styles.heading}>
+        <section class="flex justify-center">
+          <div style={styles.heading} class="flex content-center">
             <h1 class="flex justify-center">Full Stack Developer.</h1>
             <h1 class="flex justify-center">Designer.</h1>
             <h1 class="flex justify-center">Coach.</h1>
           </div>
         </section>
       </div>
-      <div style={{height: "100vh"}}>
-        <video style={{ width: "100%", height: "100vh" }} src={apolloFull} autoPlay muted loop width="1000"></video>
+      {/* Add media query to make the size smaller*/}
+      <div style={{ height: "110vh" }}>
+        <video style={{ width: "100vw", height: "100vh" }} src={apolloFull} autoPlay muted loop width="1000"></video>
       </div>
-      {/* <div style={{ height: "24vh", width: "100vw", marginBottom: "10vh", backgroundColor: "black", color: "white" }}>
-        <ul style={styles.ul}>
-          <div style={styles.li}>
-            <h1 style={{ width: "30%", fontSize: "4rem", color: "green" }}>2:6</h1>
-            <h3 style={{ paddingTop: "20px", width: "60%" }} >Owned and Operated two multi six figure companies</h3>
-          </div>
-          <div style={styles.li}>
-            <h1 style={{ width: "45%", fontSize: "4rem", color: "goldenrod" }}>WWW</h1>
-            <h3 style={{ paddingTop: "20px", width: "50%" }}>Built and maintained all of my websites and web presences</h3>
-          </div>
-          <div style={styles.li}>
-            <h1 style={{ marginLeft: "3vw", width: "20%", fontSize: "4rem", color: "green" }}>7</h1>
-            <h3 style={{ paddingTop: "20px", width: "50%" }}>Director of Logistics for a 7 figure company</h3>
-          </div>
-          <div style={styles.li}>
-            <h1 style={{ width: "40%", fontSize: "4rem", color: "purple" }}>3.75</h1>
-            <h3 style={{ paddingTop: "20px", width: "50%" }}>GPA for Full Stack Web Development Bootcamp through University of Washington</h3>
-          </div>
-        </ul>
-      </div> */}
-      <div style={{ display: "flex", height: "60vh", paddingLeft: "3vw" }}>
+      <div style={{ display: "flex", height: "80vh", paddingLeft: "3vw" }}>
         <div class="w-2/5">
-          <img src={picture} style={{ marginLeft: "90px", marginRight: "90px", height: "50rem", borderRadius: "150px" }}></img>
+          <img src={picture} style={{ marginLeft: "1rem", marginRight: "1rem", height: "50rem", borderRadius: "1rem" }}></img>
         </div>
         <div class="w-3/5">
-          <h1 class="text-5xl" style={{ fontFamily: "Zapfino", fontWeight: 900 }}>Hi I'm Eric Taylor!</h1>
+          <h1 class="lg:text-5xl md:text-3xl sm:text-3xl" style={{ fontFamily: "Zapfino", fontWeight: 900 }}>Hi I'm Eric Taylor!</h1>
           <br></br>
           <br></br>
           <h1 class="text-5xl w-4/5">
@@ -104,49 +87,110 @@ function About() {
       <br></br>
       <br></br>
       <br></br>
-      <div class="flex justify-center" style={{ display: "flex", height: "100vh" }}>
-        {/* <div class="w-1/5">
-          <h1 class="text-2xl">Apollo Academy <br></br>Basketball Website</h1>
-        </div> */}
+      <div class="flex justify-center mb-20" >
+        <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+          <img class="w-full" src={apollo} alt="Sunset in the mountains" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          </div>
+        </div>
+
+      </div>
+      {/* <div class="flex justify-center" style={{ display: "flex", height: "100vh" }}>
         <div class="flex justify-center">
           <video style={{ width: "100%", height: "80vh" }} src={apolloMov} controls width="1000"></video>
         </div>
-      </div>
-      <h1 class="flex justify-center text-5xl" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>During Bootcamp:</h1>
-      <br></br>
-      <br></br>
-      <br></br>
-      <div class="col-2">
-        <div class="flex justify-center">
-          <div style={{ height: "80vh", width: "60vw", backgroundImage: `url(${jeopardy})` }}>
-            <button class="w-60 h-20 text-2xl">Github</button>
-            <button>Deployed Link</button>
-          </div>
-          {/* <img src={jeopardy} style={styles.image}></img> */}
+      </div> */}
+      <div>
+        <div class= "flex content-center" style={{ height: "4rem"}}>
+        <h1 class="flex justify-center text-5xl" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>During Bootcamp:</h1>
         </div>
-        <div style={{ display: "flex", height: "60vh", paddingLeft: "3vw", paddingRight: "1vw" }}>
-          <div>
-            <h1 style={{ width: "90%" }}>Password Generator</h1>
+        <br></br>
+        <br></br>
+        <br></br>
+        <div class="flex justify-center space-evenly center">
+          <div class="lg:columns-2 md:columns-1 sm:columns-1">
+            <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+              <img class="w-full" src={jeopardy} alt="Sunset in the mountains" />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p class="text-gray-700 text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+              </div>
+            </div>
+            <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+              <img class="w-full" src={password} alt="Sunset in the mountains" />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p class="text-gray-700 text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+              </div>
+            </div>
+            <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+              <img class="w-full" src={restaurant} alt="Sunset in the mountains" />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p class="text-gray-700 text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+              </div>
+            </div>
+            <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+              <img class="w-full" src={apollo} alt="Sunset in the mountains" />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p class="text-gray-700 text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+              </div>
+            </div>
           </div>
-          <div>
-            <img src={password} style={styles.image}></img>
+          {/* <div class="bg-cover w-1/2 group hover:opacity-75 flex justify-center items-center" style={{ height: "50vh", width: "45vw", backgroundImage: `url(${jeopardy})` }}>
+            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Github</button>
+            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Deployed Link</button>
           </div>
-        </div>
-        <div style={{ display: "flex", height: "100vh", paddingLeft: "3vw", paddingRight: "1vw" }}>
-          <div>
-            <h1 style={{ width: "90%" }}>Restaurant Finder</h1>
+          <div class="bg-cover w-1/2 group hover:opacity-75 flex justify-center items-center" style={{ height: "50vh", width: "45vw", backgroundImage: `url(${password})` }}>
+            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Github</button>
+            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Deployed Link</button>
           </div>
-          <div>
-            <img src={restaurant} style={styles.image}></img>
+          <div class="bg-cover w-1/2 group hover:opacity-75 flex justify-center items-center" style={{height: "50vh", width: "45vw",  backgroundImage: `url(${restaurant})` }}>
+            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Github</button>
+            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Deployed Link</button>
           </div>
-        </div>
-        <div style={{ display: "flex", height: "100vh", paddingLeft: "3vw", paddingRight: "1vw" }}>
-          <div>
-            <h1 style={{ width: "90%" }}>Appa's Landing</h1>
-          </div>
-          <div>
-            <video style={{ width: "100%", height: "90vh" }} src={appaMov} controls width="1000"></video>
-          </div>
+          <div class="bg-cover w-1/2 group hover:opacity-75 flex justify-center items-center" style={{height: "50vh", width: "45vw",  backgroundImage: `url(${apollo})` }}>
+            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Github</button>
+            <button style={{ height: "80px", width: "300px", fontSize: "25px" }} class="hidden group-hover:block group-hover:bg-white group-hover:text-black-500">Deployed Link</button>
+          </div> */}
         </div>
       </div>
     </div>
