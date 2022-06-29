@@ -85,7 +85,7 @@ function About() {
         </div>
       </div>
       <hr></hr>
-      <div style={{ display: "flex", justifyContent: "center", height: "14vh", width: "100vw", backgroundColor: "black", color: "white" }}>
+      <div style={{ display: "flex", justifyContent: "center", height: "auto", width: "100vw", backgroundColor: "black", color: "white" }}>
         <h1 style={{ alignContent: "center", fontSize: "100px" }}>Projects</h1>
       </div>
       <hr></hr>
