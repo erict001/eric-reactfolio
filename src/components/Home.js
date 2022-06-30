@@ -81,6 +81,10 @@ function About() {
                 <br />
                 A recent full stack web developer graduate from the University of Washington. Experienced business operations manager with a track record of driving multiple businesses to successful outcomes.
               </h1>
+              <br></br>
+              {/* <button class="w-1/4 h-10 bg-black text-white">Education</button>
+              <button class="w-1/4 h-10 bg-black text-white ml-1">Technologies</button>
+              <button class="w-1/4 h-10 bg-black text-white ml-1">Career</button> */}
             </div>
           </div>
         </div>
