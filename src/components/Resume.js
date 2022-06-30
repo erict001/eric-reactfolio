@@ -1,5 +1,5 @@
 // import './App.css';
-import tech from "../images/assets/Resume.pdf"
+import tech from "../Resume.pdf"
 
 const styles = {
   margin: {

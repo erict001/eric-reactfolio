@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import Home from './components/Home'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
-import Resume from './components/Resume'
+import Resume from "../src/images/assets/Resume.pdf"
 import Contact from './components/Contact'
 import { Link } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -51,7 +51,7 @@ function App() {
         <TabList style={styles.header}>
           <Tab class="w-3/5 pl-20" style={styles.item}>Home</Tab>
           <a href="https://github.com/erict001" target="_blank"><button style={styles.items}>Eric's Github</button></a>
-          <a href="./assets/Eric Taylor Resume 3.0.pdf" download><button style={styles.items}>Download My Resume</button></a>
+          <a href={Resume} download><button style={styles.items}>Download My Resume</button></a>
           <a href="mailto:eric.taylor1012@gmail.com" target="_blank"><button style={styles.items}>Contact Me</button></a>
 
         </TabList>
