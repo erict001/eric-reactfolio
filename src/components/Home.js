@@ -64,18 +64,18 @@ function About() {
         <video style={{ width: "100%", height: "100vh" }} src={apolloFull} autoPlay muted loop width="1000" alt="Eric Apollo Academy Media"></video>
       </div>
       <div class="flex flex-col">
-        <div class="lg:colums-2 md:columns-2 sm:columns-1 h-min pt-20 pb-20 pl-20 w-100">
+        <div class="xl:columns-2 lg:columns-1 md:columns-1 sm:columns-1 h-min pt-20 pb-20 pl-20 w-100">
           <div class="lg:columns-1 md:columns-1 lg:w-4/5 md:w-4/5 sm:w-4/5">
             <img src={picture} style={{ marginLeft: "1rem", marginRight: "1rem", paddingRight: "1rem", height: "50rem", borderRadius: "1rem" }} alt="Eric Taylor"></img>
           </div>
           <div class="flex flex-col flex-wrap lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
             <div class="flex flex-col lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
-              <h1 class="lg:text-5xl md:text-4xl sm:text-4xl xs:text-4xl" style={{ fontFamily: "Zapfino", fontWeight: 900 }}>Hi I'm Eric Taylor!</h1>
+              <h1 class="flex lg:text-4xl md:text-4xl sm:text-2xl xs:text-4xl" style={{ fontFamily: "Zapfino", fontWeight: 900 }}>Hi, I'm Eric Taylor!</h1>
             </div>
             <br></br>
             <br></br>
             <div>
-              <h1 class="lg:text-5xl md:text-4xl sm:text-4xl xs:text-4xl pr-10 lg:w-4/5 md:4/5">
+              <h1 class="auto-cols-max xl:text-4xl lg:text-4xl md:text-4xl sm:text-3xl xs:text-3xl pr-10 lg:w-4/5 md:4/5">
                 I'm driven to help people and companies become their best selves through creative design, quality branding, and unparalleled customer service.
                 <br />
                 <br />
@@ -124,7 +124,7 @@ function About() {
           <br></br>
           <br></br>
           <br></br>
-          <div class="flex justify-center space-evenly center">
+          <div class="flex flex-wrap justify-center space-evenly center">
             <div class="lg:columns-2 md:columns-1 sm:columns-1">
               <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
                 <img class="w-full" src={jeopardy} alt="Inspirational Jeopardy" />
