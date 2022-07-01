@@ -125,7 +125,7 @@ function About() {
           <br></br>
           <br></br>
           <div class="flex flex-wrap justify-center space-evenly center">
-            <div class="lg:columns-2 md:columns-1 sm:columns-1">
+            <div class="xl:columns-2 lg:columns-1 md:columns-1 sm:columns-1">
               <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
                 <img class="w-full" src={jeopardy} alt="Inspirational Jeopardy" />
                 <div class="px-6 py-4">

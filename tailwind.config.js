@@ -8,8 +8,8 @@ module.exports = {
       xs: '480px',
       sm: '760px',
       md: '840px',
-      lg: '850x',
-      xl: '860px',
+      lg: '1050x',
+      xl: '1060px',
     },
     backgroundImage: {
       'jeopardy': "url('../assets/jeopardy"
