@@ -49,7 +49,7 @@ function App() {
     <div className="tabs">
       <Tabs>
         <TabList style={styles.header}>
-          <Tab class="w-/5 pl-20" style={styles.item}>Home</Tab>
+          <Tab class="w-2/5 pl-20" style={styles.item}>Home</Tab>
           <a href="https://github.com/erict001" target="_blank"><button style={styles.items}>Eric's Github</button></a>
           <a href={Resume} download><button style={styles.items}>Download My Resume</button></a>
           <a href="mailto:eric.taylor1012@gmail.com" target="_blank"><button style={styles.items}>Contact Me</button></a>
