@@ -7,8 +7,8 @@ module.exports = {
     screens: {
       xs: '480px',
       sm: '760px',
-      md: '768px',
-      lg: '770px',
+      md: '840px',
+      lg: '960px',
       xl: '1440px',
     },
     backgroundImage: {
