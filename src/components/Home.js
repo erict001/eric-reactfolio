@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import picture from "../images/assets/picture.png"
 import appa from "../images/assets/appa.png"
 import apollo from "../images/assets/apollo.png"
 import apolloFull from "../images/assets/apolloFull.mov"
-import apolloMov from "../images/assets/apollo.mov"
+// import apolloMov from "../images/assets/apollo.mov"
 import jeopardy from "../images/assets/Inspirational-Jeopardy.png"
 import password from "../images/assets/Password.png"
 import restaurant from "../images/assets/Restaurant.png"
-import appaMov from "../images/assets/appa.mov"
+// import appaMov from "../images/assets/appa.mov"
 
 const styles = {
   heading: {
