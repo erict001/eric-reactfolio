@@ -61,12 +61,12 @@ function About() {
       </div>
       {/* Add media query to make the size smaller*/}
       <div style={{ height: "110vh" }}>
-        <video style={{ width: "100%", height: "100vh" }} src={apolloFull} autoPlay muted loop width="1000"></video>
+        <video style={{ width: "100%", height: "100vh" }} src={apolloFull} autoPlay muted loop width="1000" alt="Eric Apollo Academy Media"></video>
       </div>
       <div class="flex flex-col">
         <div class="lg:colums-2 md:columns-2 sm:columns-1 pt-20 pb-20 pl-20 w-100">
           <div class="lg:w-5/5 md:w-5/5">
-            <img src={picture} style={{ marginLeft: "1rem", marginRight: "1rem", paddingRight: "1rem", height: "50rem", borderRadius: "1rem" }}></img>
+            <img src={picture} style={{ marginLeft: "1rem", marginRight: "1rem", paddingRight: "1rem", height: "50rem", borderRadius: "1rem" }} alt="Eric Taylor"></img>
           </div>
           <div class="flex flex-col lg:columns-1 md:columns-1 sm:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
             <div>
@@ -104,7 +104,7 @@ function About() {
           </div>
           <div class="flex justify-center mb-20" >
             <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
-              <img class="w-full" src={apollo} alt="Sunset in the mountains" />
+              <img class="w-full" src={apollo} alt="Apollo Academy website" />
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Apollo Academy Basketball</div>
                 <p class="text-gray-700 text-base">
@@ -117,11 +117,6 @@ function About() {
             </div>
           </div>
         </div>
-        {/* <div class="flex justify-center" style={{ display: "flex", height: "100vh" }}>
-        <div class="flex justify-center">
-          <video style={{ width: "100%", height: "80vh" }} src={apolloMov} controls width="1000"></video>
-        </div>
-      </div> */}
         <div>
           <div class="flex content-center" style={{ height: "4rem" }}>
             <h1 class="flex justify-center text-5xl" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>During Bootcamp:</h1>
@@ -187,7 +182,7 @@ function About() {
                 </div>
               </div>
               <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
-                <img class="w-full" src={appa} alt="Sunset in the mountains" />
+                <img class="w-full" src={appa} alt="Appa's Landing" />
                 <div class="px-6 py-4">
                   <div class="flex flex-row justify-between font-bold text-xl mb-2">
                     <h1>Appa's Landing</h1>
