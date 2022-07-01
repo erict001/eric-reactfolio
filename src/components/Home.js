@@ -66,7 +66,7 @@ function About() {
       <div class="flex flex-col">
         <div class="xl:columns-2 lg:columns-1 md:columns-1 sm:columns-1 h-min pt-20 pb-20 pl-20 w-100">
           <div class="lg:columns-1 md:columns-1 lg:w-4/5 md:w-4/5 sm:w-4/5">
-            <img src={picture} style={{ marginLeft: "1rem", marginRight: "1rem", paddingRight: "1rem", height: "50rem", borderRadius: "1rem" }} alt="Eric Taylor"></img>
+            <img src={picture} style={{ marginLeft: "1rem", marginRight: "1rem", paddingRight: "1rem", height: "50rem", borderRadius: "2rem" }} alt="Eric Taylor"></img>
           </div>
           <div class="flex flex-col flex-wrap lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
             <div class="flex flex-col lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
@@ -147,6 +147,25 @@ function About() {
                 </div>
               </div>
               <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+                <img class="w-full" src={appa} alt="Appa's Landing" />
+                <div class="px-6 py-4">
+                  <div class="flex flex-row justify-between font-bold text-xl mb-2">
+                    <h1>Appa's Landing</h1>
+                    <h3 style={{ marginRight: "2rem" }}>Lead Game Developer</h3>
+                  </div>
+                  <p class="text-gray-700 text-base">
+                    We created a 2D scroller game API that allows the user to login and choose from a list of characters from the Nickelodeon show "Avatar the Last Airbender". The user then gets to play with their selected character and weave their way through 3 levels of increasing difficulty before reachign the boss level. Each level is themed with a new obstacle in addition to enemies shooting at the user's player. 
+                    <br></br>
+                    <br></br>
+                    The Appa's Landing API is built using React, Node.js, Express, and the npm package Matter.js to handle collisions and provide a physics game engine. I was responsible for adding the majority of the game functionality using React and Matter.js </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                <a href="https://github.com/erict001/project-3" target="_blank" id="gitPlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
+                  <a href="https://mysterious-anchorage-31370.herokuapp.com/" target="_blank" id="livePlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
+                  <button class="inline-block bg-yellow rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">People's Choice Award</button>
+                </div>
+              </div>
+              <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
                 <img class="w-full" src={password} alt="Password Generator" />
                 <div class="px-6 py-4">
                   <div class="flex flex-row justify-between font-bold text-xl mb-2">
@@ -155,6 +174,9 @@ function About() {
                   </div>
                   <p class="text-gray-700 text-base">
                     We created an API that generates a random password from the user's selection of password length and characters based on the parameters that were entered. 
+                    <br></br>
+                    <br></br>
+                    Password Generator used Javascript, HTML, and CSS to create and was diployed using Github pages.  
                   </p>
                 </div>
                 <div class="px-6 pt-4 pb-2">
@@ -179,25 +201,6 @@ function About() {
                 <div class="px-6 pt-4 pb-2">
                   <a href="https://github.com/erict001/Restaurant-Finder" target="_blank" id="gitPlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
                   <a href="https://roogle-2022.herokuapp.com/" target="_blank" id="livePlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
-                </div>
-              </div>
-              <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
-                <img class="w-full" src={appa} alt="Appa's Landing" />
-                <div class="px-6 py-4">
-                  <div class="flex flex-row justify-between font-bold text-xl mb-2">
-                    <h1>Appa's Landing</h1>
-                    <h3 style={{ marginRight: "2rem" }}>Lead Game Developer</h3>
-                  </div>
-                  <p class="text-gray-700 text-base">
-                    We created a 2D scroller game API that allows the user to login and choose from a list of characters from the Nickelodeon show "Avatar the Last Airbender". The user then gets to play with their selected character and weave their way through 3 levels of increasing difficulty before reachign the boss level. Each level is themed with a new obstacle in addition to enemies shooting at the user's player. 
-                    <br></br>
-                    <br></br>
-                    The Appa's Landing API is built using React, Node.js, Express, and the npm package Matter.js to handle collisions and provide a physics game engine. I was responsible for adding the majority of the game functionality using React and Matter.js </p>
-                </div>
-                <div class="px-6 pt-4 pb-2">
-                <a href="https://github.com/erict001/project-3" target="_blank" id="gitPlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
-                  <a href="https://mysterious-anchorage-31370.herokuapp.com/" target="_blank" id="livePlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
-                  <button class="inline-block bg-yellow rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">People's Choice Award</button>
                 </div>
               </div>
             </div>
