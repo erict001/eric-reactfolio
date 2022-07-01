@@ -70,12 +70,12 @@ function About() {
           </div>
           <div class="flex flex-col flex-wrap lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
             <div class="flex flex-col lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
-              <h1 class="flex lg:text-4xl md:text-4xl sm:text-2xl xs:text-4xl" style={{ fontFamily: "Zapfino", fontWeight: 900 }}>Hi, I'm Eric Taylor!</h1>
+              <h1 class="flex xl:text-5xl lg:text-6xl md:text-4xl sm:text-4xl xs:text-4xl" style={{ fontFamily: "Zapfino", fontWeight: 900 }}>Hi, I'm Eric Taylor!</h1>
             </div>
             <br></br>
             <br></br>
             <div>
-              <h1 class="auto-cols-max xl:text-4xl lg:text-4xl md:text-4xl sm:text-3xl xs:text-3xl pr-10 lg:w-4/5 md:4/5">
+              <h1 class="auto-cols-max xl:text-4.2xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-3xl pr-10 lg:w-4/5 md:4/5">
                 I'm driven to help people and companies become their best selves through creative design, quality branding, and unparalleled customer service.
                 <br />
                 <br />
