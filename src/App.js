@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 import Home from './components/Home'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
@@ -37,8 +37,7 @@ const styles = {
     fontSize: "20px"
   },
   color: {
-    background: "linear-gradient(black 10%, 30%, white 50%)",
-    color: "white"
+    color: "black"
   }
 }
 

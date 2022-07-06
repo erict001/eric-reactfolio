@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Link } from "react-router-dom";
-import Profile from '../images/assets/picture.png'
+import picture from "../images/assets/picture.png"
 
 const styles = {
   margin: {
@@ -11,23 +11,36 @@ const styles = {
 }
 
 
-function About() {
-  return (
-    <div className="tabs" style={styles.margin}>
-      <img src={Profile} style={{marginLeft: "30%", height: "30%", width: "30%", border:"5px solid black"}}/>
-      <p>I am currently a student in the University of Washington full-stack web development coding bootcamp.
-        <br></br>
-        <br></br>
-        Prior to this course, I spent 7 years owning and operating several, multiple 6 figure and 7 figure companies in athletics.
-        <br></br>
-        <br></br>
-        I have strong leadership acumen with proven results in multi-department collaboration to achieve goals in both start-up and corporate environments. Enthusiastic team lead with a passion for marketing, mentorship, and project management. I earned a Full-Stack Web Development from the University of Washington where I developed expertise in both frontend and backend programming languages. Throughout this course I have planned and orchestrated the social media strategy for a local client, resulting in a 25% increase in website traffic. Excited to bring a solid foundation in designing and delivering targeted campaigns across email, web, and social channels.
-        <br></br>
-        <br></br>
-        I graduated Saint Martin's University in 2013 with a Biology degree while receiving a 4 year basketball scholarship.</p>
-
-    </div>
+class About extends Component {
+  render() {
+    return (
+    <div class="flex flex-col">
+        <div class="xl:columns-2 lg:columns-1 md:columns-1 sm:columns-1 h-min pt-20 pb-20 pl-20 w-100">
+          <div class="lg:columns-1 md:columns-1 lg:w-4/5 md:w-4/5 sm:w-4/5">
+            <img src={picture} style={{ marginLeft: "1rem", marginRight: "1rem", paddingRight: "1rem", height: "50rem", borderRadius: "2rem" }} alt="Eric Taylor"></img>
+          </div>
+          <div class="flex flex-col flex-wrap lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
+            <div class="flex flex-col lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
+              <h1 class="flex xl:text-5xl lg:text-6xl md:text-4xl sm:text-4xl xs:text-4xl" style={{ fontFamily: "Zapfino", fontWeight: 900 }}>Hi, I'm Eric Taylor!</h1>
+            </div>
+            <br></br>
+            <br></br>
+            <div>
+              <h1 class="auto-cols-max xl:text-4.2xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-3xl pr-10 lg:w-4/5 md:4/5">
+                I'm driven to help people and companies become their best selves through creative design, quality branding, and unparalleled customer service.
+                <br />
+                <br />
+                A recent full stack web developer graduate from the University of Washington. Experienced business operations manager with a track record of driving multiple businesses to successful outcomes.
+              </h1>
+              <br></br>
+              {/* <button class="w-1/4 h-10 bg-black text-white">Education</button>
+              <button class="w-1/4 h-10 bg-black text-white ml-1">Technologies</button>
+              <button class="w-1/4 h-10 bg-black text-white ml-1">Career</button> */}
+            </div>
+          </div>
+        </div>
+      </div>
   );
-}
+}};
 
 export default About;
