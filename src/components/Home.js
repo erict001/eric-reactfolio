@@ -11,6 +11,8 @@ import restaurant from "../images/assets/Restaurant.png"
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import About from './About'
+import Resume from './Resume'
+import Headers from './Headers'
 import StickyBox from "react-sticky-box";
 
 const styles = {
@@ -48,10 +50,6 @@ const styles = {
   }
 }
 
-
-
-
-
 class Home extends Component {
   render() {
     return (
@@ -65,18 +63,17 @@ class Home extends Component {
             </div>
           </section>
         </div>
-        <StickyBox>
+        {/* <StickyBox>
           Sidebar
           <div>Main Content</div>
-        </StickyBox>
+        </StickyBox> */}
         <div style={{ height: "110vh" }}>
           <video style={{ width: "100%", height: "100vh" }} src={apolloFull} autoPlay muted loop width="1000" alt="Eric Apollo Academy Media"></video>
         </div>
-        <div style={{ display: "flex", justifyContent: "center", height: "auto", width: "100vw", backgroundColor: "black", color: "white" }}>
-          <h1 style={{ alignContent: "center", fontSize: "100px" }}>About Me</h1>
-        </div>
         <About />
         <Portfolio />
+        <Headers />
+        <Resume />
         <Contact />
       </div>
     );

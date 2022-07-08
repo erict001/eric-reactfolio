@@ -1,5 +1,14 @@
-// import './App.css';
-import tech from "../Resume.pdf"
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import City from "./City"
+import Fenix from "./Fenix"
+import Apollo from "./Apollo"
+import Denali from "./Denali"
+import Accomplishments from "./Accomplishments"
+// import Contact from "./Contact"
+// import Portfolio from "./Portfolio"
+
 
 const styles = {
   margin: {
@@ -21,42 +30,36 @@ const styles = {
   }
 }
 
-function Resume() {
-  return (
-    <div className="tabs" style={styles.margin}>
-      <div style={{display: "flex"}}>
-        <div id="resume" style={{ marginRight: "10%" }}>
-        <iframe style={styles.resume} src="https://docs.google.com/document/d/e/2PACX-1vQ4LDdMgbePtH9dOSw-6ZGox3ufWntAkRsJbPsjoQomyVNQmU_yPeNmWrPicBva9LM3MQ-Ly6CkDLhM/pub?embedded=true"></iframe>
-          <br></br>
-          <a href={tech} download><button id="myResume">Download my Resume</button></a>
-        </div>
+class Resume extends Component {
+  render() {
+    return (
+      <div className="tabs" >
+      <Tabs>
+        <TabList class="xl:columns-4 lg:columns-2 md:columns-1 sm:columns-1"style={{display: "flex", listStyle: "none", justifyContent: "space-between"}} >
+          <Tab ><Apollo/></Tab>
+          <Tab ><Fenix/></Tab>
+          <Tab ><City/></Tab>
+          <Tab ><Denali/></Tab>
+        </TabList>
+
         <div>
-            <h3>FrontEnd:</h3>
-            <ul style={{ fontSize: "20px" }}>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>Javscript</li>
-              <li>React</li>
-            </ul>
-          </div>
-          <br></br>
-          <br></br>
-          <div>
-            <h3>BackEnd:</h3>
-            <ul style={{ fontSize: "20px" }}>
-              <li>Express</li>
-              <li>Node</li>
-              <li>SQL</li>
-              <li>Mongo</li>
-              <li>Sequelize</li>
-            </ul>
-          <div>
-          </div>
+          <TabPanel>
+            <Accomplishments/>
+          </TabPanel>
+          <TabPanel>
+            <h2>Director of Logistics and Director of Sports Performance</h2>
+          </TabPanel>
+          <TabPanel>
+            <h2>Co-Founder / COO</h2>
+          </TabPanel>
+          <TabPanel>
+            <h2>Founder / CEO</h2>
+          </TabPanel>
         </div>
-      </div>
+      </Tabs>
     </div>
-  );
-}
+    );
+  }
+};
 
 export default Resume;
