@@ -6,6 +6,7 @@ import Fenix from "./Fenix"
 import Apollo from "./Apollo"
 import Denali from "./Denali"
 import Accomplishments from "./Accomplishments"
+// import 'react-tabs/style/react-tabs.css'
 // import Contact from "./Contact"
 // import Portfolio from "./Portfolio"
 
@@ -35,7 +36,7 @@ class Resume extends Component {
     return (
       <div className="tabs" >
       <Tabs>
-        <TabList class="xl:columns-4 lg:columns-2 md:columns-1 sm:columns-1"style={{display: "flex", listStyle: "none", justifyContent: "space-between"}} >
+        <TabList class="xl:columns-4 lg:columns-2 md:columns-1 sm:columns-1" style={{display: "flex", listStyle: "none", justifyContent: "space-evenly"}} >
           <Tab ><Apollo/></Tab>
           <Tab ><Fenix/></Tab>
           <Tab ><City/></Tab>

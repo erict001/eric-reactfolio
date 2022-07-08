@@ -45,41 +45,41 @@ const styles = {
 function App() {
   return (
     <div className="tabs" style={styles.color}>
-    <div className="tabs">
-      <Tabs>
-        <TabList style={styles.header}>
-          <Tab class="w-2/5 pl-20" style={styles.item}>Home</Tab>
-          <a href="https://github.com/erict001" target="_blank"><button style={styles.items}>Eric's Github</button></a>
-          <a href={Resume} download><button style={styles.items}>Download My Resume</button></a>
-          <a href="mailto:eric.taylor1012@gmail.com" target="_blank"><button style={styles.items}>Contact Me</button></a>
+      <div className="tabs">
+        <Tabs>
+          <TabList style={styles.header}>
+            <Tab class="w-3/5 pl-20" style={styles.item}>Home</Tab>
+            <a href="https://github.com/erict001" target="_blank"><button style={styles.items}>Eric's Github</button></a>
+            <a href={Resume} download><button style={styles.items}>Download My Resume</button></a>
+            <a href="mailto:eric.taylor1012@gmail.com" target="_blank"><button style={styles.items}>Contact Me</button></a>
 
-        </TabList>
+          </TabList>
 
-        <div>
-          <TabPanel>
-            <h2><Home /> </h2>
-          </TabPanel>
-          <TabPanel>
-            <h2><About /></h2>
-          </TabPanel>
-          <TabPanel>
-            <h2><Portfolio /></h2>
-          </TabPanel>
-          <TabPanel>
-            <h2><Resume /></h2>
-          </TabPanel>
-          <TabPanel>
-            <h2><Contact /></h2>
-          </TabPanel>
-        </div>
-      <footer>
-        <div class="flex flex-row justify-center mt-9">
-        <a href={"https://github.com/erict001?tab=repositories"}><img src={Github} style={styles.icons}></img></a>
-        <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img src={LinkedIn} style={{height:"50px", width: "50px"}}></img></a>
-        </div>
-      </footer>
-      </Tabs>
-    </div>
+          <div>
+            <TabPanel>
+              <h2><Home /> </h2>
+            </TabPanel>
+            <TabPanel>
+              <h2><About /></h2>
+            </TabPanel>
+            <TabPanel>
+              <h2><Portfolio /></h2>
+            </TabPanel>
+            <TabPanel>
+              <h2><Resume /></h2>
+            </TabPanel>
+            <TabPanel>
+              <h2><Contact /></h2>
+            </TabPanel>
+          </div>
+          <footer>
+            <div class="flex flex-row justify-center mt-9">
+              <a href={"https://github.com/erict001?tab=repositories"}><img src={Github} style={styles.icons}></img></a>
+              <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img src={LinkedIn} style={{ height: "50px", width: "50px" }}></img></a>
+            </div>
+          </footer>
+        </Tabs>
+      </div>
     </div>
   );
 }
