@@ -11,7 +11,7 @@ import Denali from './components/Denali';
 import City from './components/City';
 import Fenix from './components/Fenix';
 import Apollo from './components/Apollo';
-import Accomplishments from './components/Accomplishments';
+import ApolloAccomplishments from './components/apolloAccomplishments';
 
 
 
@@ -28,7 +28,7 @@ root.render(
     <Route path="/city" element={<City />} />
     <Route path="/fenix" element={<Fenix />} />
     <Route path="/apollo" element={<Apollo />} />
-    <Route path="/accomplishments" element={<Accomplishments />} />
+    <Route path="/apolloAccomplishments" element={<ApolloAccomplishments />} />
 
   </Routes>
 </BrowserRouter>

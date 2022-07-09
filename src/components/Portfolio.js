@@ -6,7 +6,6 @@ import apolloFull from "../images/assets/apolloFull.mov"
 import jeopardy from "../images/assets/Inspirational-Jeopardy.png"
 import password from "../images/assets/Password.png"
 import restaurant from "../images/assets/Restaurant.png"
-import StickyBox from "react-sticky-box";
 
 
 const styles = {

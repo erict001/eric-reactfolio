@@ -13,7 +13,6 @@ import Contact from './Contact'
 import About from './About'
 import Resume from './Resume'
 import Headers from './Headers'
-import StickyBox from "react-sticky-box";
 
 const styles = {
   heading: {
@@ -63,10 +62,6 @@ class Home extends Component {
             </div>
           </section>
         </div>
-        {/* <StickyBox>
-          Sidebar
-          <div>Main Content</div>
-        </StickyBox> */}
         <div style={{ height: "110vh" }}>
           <video style={{ width: "100%", height: "100vh" }} src={apolloFull} autoPlay muted loop width="1000" alt="Eric Apollo Academy Media"></video>
         </div>

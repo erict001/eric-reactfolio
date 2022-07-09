@@ -22,6 +22,7 @@ module.exports = {
       red: colors.rose,
       pink: colors.fuchsia,
       "yellow": '#eab308',
+      "orange": "#FFD700"
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -37,7 +38,9 @@ module.exports = {
       }
     }
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-animate")
+  ],
   variants: {
     extend: {
         display: ["group-hover"],

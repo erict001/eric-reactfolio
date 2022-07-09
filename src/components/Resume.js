@@ -5,7 +5,7 @@ import City from "./City"
 import Fenix from "./Fenix"
 import Apollo from "./Apollo"
 import Denali from "./Denali"
-import Accomplishments from "./Accomplishments"
+import Accomplishments from "./apolloAccomplishments"
 // import 'react-tabs/style/react-tabs.css'
 // import Contact from "./Contact"
 // import Portfolio from "./Portfolio"
