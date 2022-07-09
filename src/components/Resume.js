@@ -5,7 +5,8 @@ import City from "./City"
 import Fenix from "./Fenix"
 import Apollo from "./Apollo"
 import Denali from "./Denali"
-import Accomplishments from "./apolloAccomplishments"
+import ApolloAccomplishments from "./apolloAccomplishments"
+import FenixAccomplishments from "./fenixAccomplishments"
 // import 'react-tabs/style/react-tabs.css'
 // import Contact from "./Contact"
 // import Portfolio from "./Portfolio"
@@ -36,7 +37,7 @@ class Resume extends Component {
     return (
       <div className="tabs" >
       <Tabs>
-        <TabList class="xl:columns-4 lg:columns-2 md:columns-1 sm:columns-1" style={{display: "flex", listStyle: "none", justifyContent: "space-evenly"}} >
+        <TabList class="flex flex-row xl:columns-4 lg:columns-2 md:columns-1 sm:columns-2 xs:columns-2" style={{display: "flex", listStyle: "none", justifyContent: "space-evenly"}} >
           <Tab ><Apollo/></Tab>
           <Tab ><Fenix/></Tab>
           <Tab ><City/></Tab>
@@ -45,10 +46,10 @@ class Resume extends Component {
 
         <div>
           <TabPanel>
-            <Accomplishments/>
+            <ApolloAccomplishments/>
           </TabPanel>
           <TabPanel>
-            <h2>Director of Logistics and Director of Sports Performance</h2>
+            <FenixAccomplishments/>
           </TabPanel>
           <TabPanel>
             <h2>Co-Founder / COO</h2>
