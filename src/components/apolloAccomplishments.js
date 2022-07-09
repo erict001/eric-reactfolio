@@ -26,7 +26,7 @@ const styles = {
 class apolloAccomplishments extends Component {
     render() {
         return (
-            < div class="container mx-10 bg-black ">
+            < div class="container mx-10 xs:mx-4 bg-black ">
                 {/* <!-- card --> */}
                 <div class="flex flex-col bg-black" style={{ width: "97.2vw" }}>
                     < div class="flex flex-row lg:flex-col lg:columns-2 md:columns-2 sm:columns-1 xs:columns-1 overflow-hidden
@@ -37,16 +37,16 @@ class apolloAccomplishments extends Component {
                                 <div>
                                     <img class="inset-0 h-auto w-conver object-fill object-center" src={Apollo} />
                                 </div>
-                                <div class="flex flex-col content-center lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1">
-                                    <h1 class="font-semibold text-4xl leading-tight text-white truncate">Apollo Basketball</h1>
-                                    <h2 class="text-3xl text-white">Founder, <br></br>CEO</h2>
-                                    <h3 class="text-white">November 2018 - February 2022</h3>
+                                <div class="flex flex-col content-center lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 md:px-4 xs:px-4">
+                                    <h1 class="font-semibold text-6xl pt-4 md:text-3xl sm:text-xl xs:text-xl leading-tight text-white truncate">Apollo Basketball</h1>
+                                    <h2 class="text-3xl md:text-4xl xs:text-xl text-white">Founder, <br></br>CEO</h2>
+                                    <h3 class="text-white md:text-2xl xs:text-lg">November 2018 - February 2022</h3>
                                 </div>
                             </div>
                         </div>
                         {/* <!-- content --> */}
                         <div class="w-2/3 pt-4 px-12 text-white text-3xl flex flex-col">
-                            <ul class="list-disc">
+                            <ul class="list-disc md:text-3xl xs:text-2xl">
                                 <li class="pt-2"> Manages a group of 10 employees as well as over 130+ student-athletes and families. </li>
                                 <li class="pt-2"> Responsible for all customer inquiries and questions, helping to improve functionality to meet organizational needs. </li>
                                 <li class="pt-2"> Solves logistic and scheduling constraints while managing space, employee, and family availability. </li>
@@ -55,45 +55,47 @@ class apolloAccomplishments extends Component {
                             </ul>
                         </div>
                     </div >
-                    <div class="text-white mb-12 ml-10 mr-10">
+                    <div class="text-white mb-12 ml-10 mr-10 ">
                         <div class="flex flex-col">
-                            <div >
+                            <div>
                                 <div class="mt-8 mb-8 ">
                                     <h1 class="text-3xl">Accomplishments:</h1>
                                     <hr></hr>
                                 </div>
-                                <div class="flex flex-row h-2/3" style={{ justifyContent: "space-between" }}>
-                                    <div class="text-7xl pt-14" >
-                                        <div class="flex justify-center pt-10 md:text-7xl">
-                                            <CountUp delay={2} duration={10} end={230000} />
+                                <div class="flex flex-col h-full">
+                                    <div class="flex flex-row justify-around xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1 xs:justify-center">
+                                        <div class="text-7xl pt-14">
+                                            <div class="flex justify-center pt-10 md:text-7xl">
+                                                <CountUp delay={2} duration={10} end={230000} />
+                                            </div>
+                                            <div class="pt-32 flex justify-center">
+                                                <h1 class="text-2xl md:text-3xl md:px-2">Built the company from scratch to multiple  <br></br> 6 figures in annual revenue in under 2 years.</h1>
+                                            </div>
                                         </div>
-                                        <div class="pt-32">
-                                            <h1 class="text-2xl md:text-3xl md:px-2">Built the company from scratch to multiple  <br></br> 6 figures in annual revenue in under 2 years.</h1>
+                                        <div class="h-full">
+                                            <div class="flex justify-center pt-16">
+                                                <img src={Nike} class="scale-150 animate-in zoom-in-0 duration-1000"></img>
+                                            </div>
+                                            <div class="flex justify-center pt-20">
+                                                <h1 class="text-2xl md:text-3xl md:px-2">Partnered with the world's largest <br></br> sporting goods company in my 2nd year.</h1>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="h-full">
-                                        <div class="flex justify-center pt-14">
-                                            <img src={Nike} class="scale-150 animate-in zoom-in-0 duration-1000"></img>
-                                        </div>
-                                        <div class="pt-20">
-                                            <h1 class="text-2xl md:text-3xl md:px-2">Partnered with the world's largest <br></br> sporting goods company in my 2nd year.</h1>
-                                        </div>
-                                    </div>
-                                    <div class="h-1/2">
-                                        <div class="flex justify-center h-72">
-                                            <img src={kids} class="scale-150 animate-bounce "></img>
+                                        <div class="h-1/2">
+                                            <div class="flex justify-center h-72">
+                                                <img src={kids} class="scale-150 animate-bounce "></img>
+                                            </div>
+                                            <div class="flex justify-center">
+                                                <h1 class="text-2xl md:text-3xl md:px-2">Created a very highly regarded, positive culture <br></br>around helping kids reach their maximum <br></br>potential athletically, academically, and socially.</h1>
+                                            </div>
                                         </div>
                                         <div>
-                                            <h1 class="text-2xl md:text-3xl md:px-2">Created a very highly regarded, positive culture <br></br>around helping kids reach their maximum <br></br>potential athletically, academically, and socially.</h1>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="flex flex-row justify-center pt-24 animate-in slide-in-from-top duration-700 md:text-4xl">
-                                            <h1 class="text-8xl">3</h1>
-                                            <h1 class="text-3xl">rd</h1>
-                                        </div>
-                                        <div class="pt-24">
-                                            <h1 class="text-2xl md:text-3xl md:px-2">Built Seattle's 3rd largest basketball <br></br>company in under 2 years.</h1>
+                                            <div class="flex flex-row justify-center pt-24 animate-in slide-in-from-top duration-700 md:text-4xl">
+                                                <h1 class="text-8xl">3</h1>
+                                                <h1 class="text-3xl">rd</h1>
+                                            </div>
+                                            <div class="pt-24">
+                                                <h1 class="text-2xl md:text-3xl md:px-2 flex justify-center">Built Seattle's 3rd largest basketball <br></br>company in under 2 years.</h1>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -107,22 +109,36 @@ class apolloAccomplishments extends Component {
                                     <h1 class="text-3xl">Partnerships:</h1>
                                     <hr></hr>
                                 </div>
-                                <div class="flex flex-row" style={{ justifyContent: "space-between" }}>
-                                    <div>
-                                        <img src={nikeAlternate} class="pt-8"></img>
-                                        <h1 class="text-2xl pt-8 flex justify-center md:text-lg">Nike</h1>
-                                    </div>
-                                    <div>
-                                        <img src={APT} class="scale-150"></img>
-                                        <h1 class="text-2xl md:text-lg">A.P.T. Resilience Training</h1>
-                                    </div>
-                                    <div>
-                                        <img src={SPS} class="h-240 scale-150 pt-10 pb-12 invert"></img>
-                                        <h1 class="text-2xl flex justify-center md:text-lg">City of Seattle Parks and Recreation </h1>
-                                    </div>
-                                    <div>
-                                        <img src={Vice} class="h-240 scale-150 invert"></img>
-                                        <h1 class="text-2xl flex justify-center md:text-lg">Vice Athletics </h1>
+                                <div class="flex flex-col h-full">
+                                    <div class="flex flex-row justify-around xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1 xs:justify-center">
+                                    <div class="h-240 scale-150 flex justify-center">
+                                                <img src={nikeAlternate} ></img>
+                                            </div>
+                                            <div class="text-2xl flex justify-center md:text-lg">
+                                                <h1 >Nike</h1>
+                                            </div>
+                                        <div class="h-240 scale-150 flex justify-center">
+                                                <img src={APT} ></img>
+                                            </div>
+                                            <div class="text-2xl flex justify-center md:text-lg">
+                                                <h1 >A.P.T. Resilience</h1>
+                                            </div>
+                                        <div class="flex flex-col justify-center pt-16">
+                                        <div class="h-240 scale-150 flex justify-center">
+                                                <img src={SPS} class="invert"></img>
+                                            </div>
+                                            <div class="text-2xl flex justify-center md:text-lg">
+                                                <h1 >City of Seattle Parks and Recreation </h1>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col justify-center">
+                                            <div class="h-240 scale-150 flex justify-center">
+                                                <img src={Vice} ></img>
+                                            </div>
+                                            <div class="text-2xl flex justify-center md:text-lg">
+                                                <h1 >Vice Athletics </h1>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
