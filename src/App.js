@@ -37,7 +37,8 @@ const styles = {
     fontSize: "20px"
   },
   color: {
-    color: "black"
+    color: "white",
+    backgroundColor: "#100c08"
   }
 }
 

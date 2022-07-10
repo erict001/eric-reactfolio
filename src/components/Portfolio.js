@@ -41,14 +41,14 @@ class Portfolio extends Component {
   render() {
     return (
       <div style={{ height: "auto" }}>
-        <div style={{ display: "flex", justifyContent: "center", height: "auto", width: "100vw", backgroundColor: "black", color: "white" }}>
+        <div style={{ display: "flex", justifyContent: "center", height: "auto", width: "100vw", color: "white" }}>
           <h1 style={{ alignContent: "center", fontSize: "100px" }}>Projects</h1>
         </div>
         <hr></hr>
         <div style={{ color: "black" }}>
           <div>
             <div>
-              <h1 class="flex justify-center text-5xl" style={{ width: "100%", fontFamily: "Zapfino", paddingTop: "10vh", fontWeight: 900 }}>Before Bootcamp:</h1>
+              <h1 class="flex justify-center text-5xl text-white" style={{ width: "100%", fontFamily: "Zapfino", paddingTop: "10vh", fontWeight: 900 }}>Before Bootcamp:</h1>
               <br></br>
               <br></br>
               <br></br>
@@ -70,7 +70,7 @@ class Portfolio extends Component {
           </div>
           <div>
             <div class="flex content-center" style={{ height: "4rem" }}>
-              <h1 class="flex justify-center text-5xl" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>During Bootcamp:</h1>
+              <h1 class="flex justify-center text-5xl text-white" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>During Bootcamp:</h1>
             </div>
             <br></br>
             <br></br>

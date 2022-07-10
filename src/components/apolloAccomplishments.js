@@ -26,16 +26,16 @@ const styles = {
 class apolloAccomplishments extends Component {
     render() {
         return (
-            < div class="container mx-10 xs:mx-4 bg-black ">
+            < div class="container bg-black ">
                 {/* <!-- card --> */}
-                <div class="flex flex-col bg-black" style={{ width: "97.2vw" }}>
+                <div class="flex flex-col bg-black" style={{ width: "98.7vw" }}>
                     < div class="flex flex-row lg:flex-col lg:columns-2 md:columns-2 sm:columns-1 xs:columns-1 overflow-hidden
-                    bg-black rounded-lg shadow-xl h-auto mt-4 mr-1">
+                    bg-black rounded-lg shadow-xl h-auto mt-4">
                         {/* <!-- media --> */}
                         <div class="h-max w-1/3 flex flex-col xl:columns-3 lg:columns-2 md:columns-2 sm:columns-1 xs:columns-1">
                             <div class="flex flex-row xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1">
                                 <div>
-                                    <img class="inset-0 h-auto w-conver object-fill object-center" src={Apollo} />
+                                    <img class="inset-0 h-auto w-cover object-fill object-center" src={Apollo} />
                                 </div>
                                 <div class="flex flex-col content-center lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 md:px-4 xs:px-4">
                                     <h1 class="font-semibold text-6xl pt-4 md:text-3xl sm:text-xl xs:text-xl leading-tight text-white truncate">Apollo Basketball</h1>
@@ -63,9 +63,9 @@ class apolloAccomplishments extends Component {
                                     <hr></hr>
                                 </div>
                                 <div class="flex flex-col h-full">
-                                    <div class="flex flex-row justify-around xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1 xs:justify-center">
+                                    <div class="flex flex-row md:justify-around xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1 xs:justify-center">
                                         <div class="text-7xl pt-14">
-                                            <div class="flex justify-center pt-10 md:text-7xl">
+                                            <div class="flex justify-center pt-10 text-green md:text-7xl">
                                                 <CountUp delay={2} duration={10} end={230000} />
                                             </div>
                                             <div class="pt-32 flex justify-center">
@@ -109,22 +109,26 @@ class apolloAccomplishments extends Component {
                                     <h1 class="text-3xl">Partnerships:</h1>
                                     <hr></hr>
                                 </div>
-                                <div class="flex flex-col h-full">
-                                    <div class="flex flex-row justify-around xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1 xs:justify-center">
-                                    <div class="h-240 scale-150 flex justify-center">
-                                                <img src={nikeAlternate} ></img>
+                                <div class="flex flex-col h-full justify-between">
+                                    <div class="flex flex-row md:justify-around xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1 xs:justify-center">
+                                        <div class="flex flex-col justify-center pt-16">
+                                            <div class="h-240 scale-150 flex justify-center">
+                                                <img src={nikeAlternate}></img>
                                             </div>
                                             <div class="text-2xl flex justify-center md:text-lg">
                                                 <h1 >Nike</h1>
                                             </div>
-                                        <div class="h-240 scale-150 flex justify-center">
+                                        </div>
+                                        <div class="flex flex-col justify-center pt-16">
+                                            <div class="h-240 scale-150 flex justify-center">
                                                 <img src={APT} ></img>
                                             </div>
                                             <div class="text-2xl flex justify-center md:text-lg">
-                                                <h1 >A.P.T. Resilience</h1>
+                                                <h1 >A.P.T Resilience </h1>
                                             </div>
+                                        </div>
                                         <div class="flex flex-col justify-center pt-16">
-                                        <div class="h-240 scale-150 flex justify-center">
+                                            <div class="h-240 scale-150 flex justify-center">
                                                 <img src={SPS} class="invert"></img>
                                             </div>
                                             <div class="text-2xl flex justify-center md:text-lg">

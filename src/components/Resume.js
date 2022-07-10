@@ -29,23 +29,26 @@ const styles = {
     justifyContent: "center",
     height: "90vh",
     width: "55vw"
-  }
+  },
+  tabs:{
+    border: "2px solid white",
+    height: "100%"
+  },
 }
 
 class Resume extends Component {
   render() {
     return (
-      <div className="tabs" >
+      <div className="tabs">
       <Tabs>
-        <TabList class="flex flex-row xl:columns-4 lg:columns-2 md:columns-1 sm:columns-2 xs:columns-2" style={{display: "flex", listStyle: "none", justifyContent: "space-evenly"}} >
-          <Tab ><Apollo/></Tab>
-          <Tab ><Fenix/></Tab>
-          <Tab ><City/></Tab>
-          <Tab ><Denali/></Tab>
+        <TabList className="tab" class="flex flex-row xl:columns-4 lg:columns-2 md:columns-1 sm:columns-2 xs:columns-2" style={{display: "flex", listStyle: "none", justifyContent: "space-around"}} >
+          <Tab style={styles.tabs}><Apollo/></Tab>
+          <Tab style={styles.tabs}><Fenix/></Tab>
+          <Tab style={styles.tabs}><City/></Tab>
+          <Tab style={styles.tabs}><Denali/></Tab>
         </TabList>
-
-        <div>
-          <TabPanel>
+        <div class="mt-20 mx-4">
+          <TabPanel style={styles.tabs}>
             <ApolloAccomplishments/>
           </TabPanel>
           <TabPanel>
