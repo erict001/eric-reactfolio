@@ -13,15 +13,17 @@ import Contact from './Contact'
 import About from './About'
 import Resume from './Resume'
 import Headers from './Headers'
+import Carousel from './Carousel'
 
 const styles = {
   heading: {
-    // marginTop: "8%",
+    marginTop: "8%",
+    marginBottom: "8%",
     display: "flex",
     flexDirection: "column",
     // marginLeft: "35vw",
     justifyContent: "center",
-    height: "60vh",
+    height: "auto",
     width: "100vw",
     fontSize: "6rem",
     fontWeight: "bold",
@@ -55,7 +57,8 @@ class Home extends Component {
       <div className="tabs">
         <div>
           <section class="flex justify-center content-center">
-            <div class="xs:mt-20 ml-20" style={styles.heading}>
+            <div style={styles.heading}>
+              {/* <Carousel></Carousel> */}
               <h1 class="flex justify-center">Full Stack Developer.</h1>
               <h1 class="flex justify-center">Designer.</h1>
               <h1 class="flex justify-center">Coach.</h1>

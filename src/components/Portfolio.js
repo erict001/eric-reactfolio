@@ -41,20 +41,20 @@ class Portfolio extends Component {
   render() {
     return (
       <div style={{ height: "auto" }}>
-        <div style={{ display: "flex", justifyContent: "center", height: "auto", width: "100vw", color: "white" }}>
+        <div style={{ display: "flex", justifyContent: "center", height: "auto", width: "100vw", color: "white" , backgroundColor: "black" }}>
           <h1 style={{ alignContent: "center", fontSize: "100px" }}>Projects</h1>
         </div>
         <hr></hr>
         <div style={{ color: "black" }}>
           <div>
             <div>
-              <h1 class="flex justify-center text-5xl text-white" style={{ width: "100%", fontFamily: "Zapfino", paddingTop: "10vh", fontWeight: 900 }}>Before Bootcamp:</h1>
+              <h1 class="flex justify-center text-5xl text-black" style={{ width: "100%", fontFamily: "Zapfino", paddingTop: "10vh", fontWeight: 900 }}>Before Bootcamp:</h1>
               <br></br>
               <br></br>
               <br></br>
             </div>
             <div class="flex justify-center mb-20" >
-              <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+              <div class="max-w-5xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
                 <img class="w-full" src={apollo} alt="Apollo Academy website" />
                 <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2">Apollo Academy Basketball</div>
@@ -70,19 +70,19 @@ class Portfolio extends Component {
           </div>
           <div>
             <div class="flex content-center" style={{ height: "4rem" }}>
-              <h1 class="flex justify-center text-5xl text-white" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>During Bootcamp:</h1>
+              <h1 class="flex justify-center text-5xl text-black" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>During Bootcamp:</h1>
             </div>
             <br></br>
             <br></br>
             <br></br>
             <div class="flex flex-wrap justify-center space-evenly center">
               <div class="xl:columns-4 lg:columns-1 md:columns-1 sm:columns-1 xl:ml-4">
-                <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-10 ">
+                <div class="max-w-5xl rounded overflow-hidden shadow-2xl mb-10 border-solid border-2 border-black">
                   <img class="w-full" src={jeopardy} alt="Inspirational Jeopardy" />
                   <div class="px-6 py-4">
-                    <div class="flex flex-row justify-between font-bold text-xl mb-2">
+                    <div class="flex flex-row justify-between font-bold text-xl mb-4">
                       <h1>Inspirational Jeopardy</h1>
-                      <h3 style={{ marginLeft: "1rem" }}>Project Manager</h3>
+                      <h3 class="ml-1 sm:ml-0" >Project Manager</h3>
                     </div>
                     <p class="text-gray-700 text-base">
                       We created a jeopardy style game, which displays like a jeopardy game board, that fetches past Jeopardy questions and answers to generate categories with progressively harder questions corresponding to the category and difficulty. If the user answers correctly, the user's score increases with the corresponding score amount. If the user guesses incorrectly, the user receives an inspirational quote.
@@ -97,10 +97,10 @@ class Portfolio extends Component {
                     <button class="inline-block bg-yellow rounded-full px-3 py-1 text-sm font-semibold text-black-700 mr-2 mb-2">People's Choice Award</button>
                   </div>
                 </div>
-                <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+                <div class="max-w-5xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
                   <img class="w-full" src={appa} alt="Appa's Landing" />
                   <div class="px-6 py-4">
-                    <div class="flex flex-row justify-between font-bold text-xl mb-10">
+                    <div class="flex flex-row justify-between font-bold text-xl mb-4">
                       <h1>Appa's Landing</h1>
                       <h3 style={{ marginLeft: "2rem" }}>Lead Game Developer</h3>
                     </div>
@@ -116,10 +116,10 @@ class Portfolio extends Component {
                     <button class="inline-block bg-yellow rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">People's Choice Award</button>
                   </div>
                 </div>
-                <div class="max-w-5xl rounded overflow-hidden shadow-lg mb-4">
+                <div class="max-w-5xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
                   <img class="w-full" src={password} alt="Password Generator" />
                   <div class="px-6 py-4">
-                    <div class="flex flex-row justify-between font-bold text-lg mb-2">
+                    <div class="flex flex-row justify-between font-bold text-lg mb-4">
                       <h1>Password Generator</h1>
                       <h3 style={{ marginLeft: "2rem" }}>FrontEnd Developer</h3>
                     </div>
@@ -135,10 +135,10 @@ class Portfolio extends Component {
                     <a href="https://erict001.github.io/Password-Generator/" target="_blank" id="livePlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
                   </div>
                 </div>
-                <div class="max-w-5xl rounded overflow-hidden shadow-lg mr-4">
+                <div class="max-w-5xl rounded overflow-hidden shadow-2xl mr-4 border-solid border-2 border-black">
                   <img class="w-full" src={restaurant} alt="Restaurant Finder" />
                   <div class="px-6 py-4">
-                    <div class="flex flex-row justify-between font-bold text-xl mb-2">
+                    <div class="flex flex-row justify-between font-bold text-xl mb-4">
                       <h1>Restaurant Finder</h1>
                       <h3 style={{ marginLeft: "1rem" }}>Git Manager <br></br>FrontEnd Developer</h3>
                     </div>

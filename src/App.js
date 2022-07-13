@@ -25,6 +25,8 @@ const styles = {
   icons: {
     height: "50px",
     width: "50px",
+    backgroundColor: "#F3F2F2",
+    borderRadius: "2rem"
   },
   item: {
     fontSize: "20px",
@@ -37,8 +39,9 @@ const styles = {
     fontSize: "20px"
   },
   color: {
-    color: "white",
-    backgroundColor: "#100c08"
+    color: "black",
+    // backgroundColor: "white"
+    backgroundColor: "#F3F2F2"
   }
 }
 
@@ -53,30 +56,16 @@ function App() {
             <a href="https://github.com/erict001" target="_blank"><button style={styles.items}>Eric's Github</button></a>
             <a href={Resume} download><button style={styles.items}>Download My Resume</button></a>
             <a href="mailto:eric.taylor1012@gmail.com" target="_blank"><button style={styles.items}>Contact Me</button></a>
-
           </TabList>
-
           <div>
             <TabPanel>
               <h2><Home /> </h2>
             </TabPanel>
-            <TabPanel>
-              <h2><About /></h2>
-            </TabPanel>
-            <TabPanel>
-              <h2><Portfolio /></h2>
-            </TabPanel>
-            <TabPanel>
-              <h2><Resume /></h2>
-            </TabPanel>
-            <TabPanel>
-              <h2><Contact /></h2>
-            </TabPanel>
           </div>
           <footer>
-            <div class="flex flex-row justify-center mt-9">
-              <a href={"https://github.com/erict001?tab=repositories"}><img src={Github} style={styles.icons}></img></a>
-              <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img src={LinkedIn} style={{ height: "50px", width: "50px" }}></img></a>
+            <div class="flex flex-row justify-center mt-9" >
+              <a href={"https://github.com/erict001"}><img src={Github} style={styles.icons}></img></a>
+              <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img src={LinkedIn} style={{ marginLeft: "2rem", height: "50px", width: "50px", backgroundColor: "#F3F2F2"  }}></img></a>
             </div>
           </footer>
         </Tabs>

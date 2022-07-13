@@ -12,6 +12,7 @@ import City from './components/City';
 import Fenix from './components/Fenix';
 import Apollo from './components/Apollo';
 import ApolloAccomplishments from './components/apolloAccomplishments';
+import Carousel from './components/Carousel';
 
 
 
@@ -29,6 +30,8 @@ root.render(
     <Route path="/fenix" element={<Fenix />} />
     <Route path="/apollo" element={<Apollo />} />
     <Route path="/apolloAccomplishments" element={<ApolloAccomplishments />} />
+    <Route path="/carousel" element={<Carousel />} />
+
 
   </Routes>
 </BrowserRouter>
