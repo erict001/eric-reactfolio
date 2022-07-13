@@ -57,7 +57,10 @@ class Portfolio extends Component {
               <div class="max-w-5xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
                 <img class="w-full" src={apollo} alt="Apollo Academy website" />
                 <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Apollo Academy Basketball</div>
+                  <div class="flex flex-row justify-between font-bold text-xl mb-4">
+                      <h1>Apollo Academy Basketball</h1>
+                      <h3 style={{ marginLeft: "2rem" }}>FrontEnd Engineer</h3>
+                    </div>
                   <p class="text-gray-700 text-base">
                     This website was built to support my former basketball company, Apollo Academy Basketball. This application was built using Elementor and deployed to Wordpress. I loved the creativity and freedom that coding provides and sparked my interest in software development.
                   </p>
@@ -82,7 +85,7 @@ class Portfolio extends Component {
                   <div class="px-6 py-4">
                     <div class="flex flex-row justify-between font-bold text-xl mb-4">
                       <h1>Inspirational Jeopardy</h1>
-                      <h3 class="ml-1 sm:ml-0" >Project Manager</h3>
+                      <h3 class="ml-1 sm:ml-0" >Project Manager<br></br>FrontEnd Engineer</h3>
                     </div>
                     <p class="text-gray-700 text-base">
                       We created a jeopardy style game, which displays like a jeopardy game board, that fetches past Jeopardy questions and answers to generate categories with progressively harder questions corresponding to the category and difficulty. If the user answers correctly, the user's score increases with the corresponding score amount. If the user guesses incorrectly, the user receives an inspirational quote.
@@ -102,7 +105,7 @@ class Portfolio extends Component {
                   <div class="px-6 py-4">
                     <div class="flex flex-row justify-between font-bold text-xl mb-4">
                       <h1>Appa's Landing</h1>
-                      <h3 style={{ marginLeft: "2rem" }}>Lead Game Developer</h3>
+                      <h3 style={{ marginLeft: "2rem" }}>Lead Game Engineer</h3>
                     </div>
                     <p class="text-gray-700 text-base">
                       We created a 2D scroller game API that allows the user to login and choose from a list of characters from the Nickelodeon show "Avatar the Last Airbender". The user then gets to play with their selected character and weave their way through 3 levels of increasing difficulty before reachign the boss level. Each level is themed with a new obstacle in addition to enemies shooting at the user's player.
@@ -121,7 +124,7 @@ class Portfolio extends Component {
                   <div class="px-6 py-4">
                     <div class="flex flex-row justify-between font-bold text-lg mb-4">
                       <h1>Password Generator</h1>
-                      <h3 style={{ marginLeft: "2rem" }}>FrontEnd Developer</h3>
+                      <h3 style={{ marginLeft: "2rem" }}>FrontEnd Engineer</h3>
                     </div>
                     <p class="text-gray-700 text-base">
                       We created an API that generates a random password from the user's selection of password length and characters based on the parameters that were entered.
@@ -140,7 +143,7 @@ class Portfolio extends Component {
                   <div class="px-6 py-4">
                     <div class="flex flex-row justify-between font-bold text-xl mb-4">
                       <h1>Restaurant Finder</h1>
-                      <h3 style={{ marginLeft: "1rem" }}>Git Manager <br></br>FrontEnd Developer</h3>
+                      <h3 style={{ marginLeft: "1rem" }}>Git Manager <br></br>FrontEnd Engineer</h3>
                     </div>
                     <p class="text-gray-700 text-base">
                       We created an app that allows the user to generate a restaurant search based on search parameters then save their favorite restaurants to view the menu, call the restaurant, and make a reservation.
