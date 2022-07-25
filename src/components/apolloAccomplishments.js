@@ -39,7 +39,7 @@ class apolloAccomplishments extends Component {
                                 </div>
                                 <div class="flex flex-col content-center lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 md:px-4 xs:px-4">
                                     <h1 class="font-semibold text-6xl pt-4 md:text-3xl sm:text-xl xs:text-xl leading-tight text-white truncate">Apollo Basketball</h1>
-                                    <h2 class="text-3xl md:text-4xl xs:text-xl text-white">Founder, <br></br>CEO</h2>
+                                    <h2 class="text-3xl md:text-3xl xs:text-xl text-white">Founder, <br></br>CEO</h2>
                                     <h3 class="text-white md:text-2xl xs:text-lg">November 2018 - February 2022</h3>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ class apolloAccomplishments extends Component {
                                     <div class="flex flex-row md:justify-around xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1 xs:justify-center">
                                         <div class="text-7xl pt-14">
                                             <div class="flex justify-center pt-10 text-green md:text-7xl">
-                                                <CountUp delay={2} duration={10} end={230000} />
+                                                <CountUp delay={2} duration={10} end={300000} />
                                             </div>
                                             <div class="pt-32 flex justify-center">
                                                 <h1 class="text-2xl md:text-3xl md:px-2">Built the company from scratch to multiple  <br></br> 6 figures in annual revenue in under 2 years.</h1>
@@ -113,35 +113,35 @@ class apolloAccomplishments extends Component {
                                     <div class="flex flex-row md:justify-around xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1 xs:justify-center">
                                         <div class="flex flex-col justify-center pt-16">
                                             <div class="h-240 scale-150 flex justify-center">
-                                                <img src={nikeAlternate}></img>
+                                                <a href="https://nike.com"><img src={nikeAlternate}></img></a>
                                             </div>
-                                            <div class="text-2xl flex justify-center md:text-lg">
+                                            {/* <div class="text-2xl flex justify-center md:text-lg">
                                                 <h1 >Nike</h1>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div class="flex flex-col justify-center pt-16">
                                             <div class="h-240 scale-150 flex justify-center">
-                                                <img src={APT} ></img>
+                                                <a href="https://www.aptresilience.com"><img src={APT} ></img></a>
                                             </div>
-                                            <div class="text-2xl flex justify-center md:text-lg">
+                                            {/* <div class="text-2xl flex justify-center md:text-lg">
                                                 <h1 >A.P.T Resilience </h1>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div class="flex flex-col justify-center pt-16">
-                                            <div class="h-240 scale-150 flex justify-center">
-                                                <img src={SPS} class="invert"></img>
+                                            <div class="h-2/3 scale-150 flex justify-center">
+                                                <a href="https://www.seattle.gov/parks"><img src={SPS} class="invert"></img></a>
                                             </div>
-                                            <div class="text-2xl flex justify-center md:text-lg">
+                                            {/* <div class="text-2xl flex justify-center md:text-lg">
                                                 <h1 >City of Seattle Parks and Recreation </h1>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div class="flex flex-col justify-center">
                                             <div class="h-240 scale-150 flex justify-center">
-                                                <img src={Vice} ></img>
+                                                <a href="https://viceathletics.com"><img src={Vice} ></img></a>
                                             </div>
-                                            <div class="text-2xl flex justify-center md:text-lg">
+                                            {/* <div class="text-2xl flex justify-center md:text-lg">
                                                 <h1 >Vice Athletics </h1>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>

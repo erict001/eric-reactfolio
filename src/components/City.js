@@ -33,7 +33,7 @@ class City extends Component {
                             <div class="w-2/3 pt-4 px-12 text-white flex flex-col">
                                 <h1 class="font-semibold text-2xl leading-tight truncate pt-4">City Baseball</h1>
                                 <h2 class="text-xl">Director of Operations, <br></br>Sports Performance Director</h2>
-                                <h3>September 2013 - November 2018</h3>
+                                <h3>September 2014 - March 2017</h3>
                                 <br></br>
                                 <button class="btn bg-white text-black">Learn More...</button>
                             </div>
