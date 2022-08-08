@@ -21,6 +21,10 @@ const styles = {
     listStyle: "none",
     justifyContent: "space-around",
     paddingTop: "20px",
+    paddingBottom: "20px",
+    backgroundColor: "black",
+    color: "white",
+    fontWeight: "bold",
   },
   icons: {
     height: "50px",
@@ -36,7 +40,8 @@ const styles = {
   items: {
     // border: "solid 1px white",
     // padding: "1rem",
-    fontSize: "20px"
+    fontSize: "20px",
+    color: "white"
   },
   color: {
     color: "black",
@@ -47,25 +52,31 @@ const styles = {
 
 
 function App() {
+
   return (
     <div className="tabs" style={styles.color}>
       <div className="tabs">
         <Tabs>
           <TabList style={styles.header}>
             <Tab class="w-3/5 pl-20" style={styles.item}>Home</Tab>
-            <a href="https://github.com/erict001" target="_blank"><button style={styles.items}>Eric's Github</button></a>
+            <Tab class="w-3/5 pl-20" style={styles.item}>My Story</Tab>
+            {/* <a href={<About />} target="_blank"><button style={styles.items}>My Story</button></a> */}
+            <a href="https://github.com/erict001" target="_blank"><button style={styles.items}>Github</button></a>
             <a href={Resume} download><button style={styles.items}>Download My Resume</button></a>
             <a href="mailto:eric.taylor1012@gmail.com" target="_blank"><button style={styles.items}>Contact Me</button></a>
           </TabList>
           <div>
             <TabPanel>
-              <h2><Home /> </h2>
+              <Home />
+            </TabPanel>
+            <TabPanel>
+              <About />
             </TabPanel>
           </div>
           <footer>
             <div class="flex flex-row justify-center mt-9" >
               <a href={"https://github.com/erict001"}><img src={Github} style={styles.icons}></img></a>
-              <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img src={LinkedIn} style={{ marginLeft: "2rem", height: "50px", width: "50px", backgroundColor: "#F3F2F2"  }}></img></a>
+              <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img src={LinkedIn} style={{ marginLeft: "2rem", height: "50px", width: "50px", backgroundColor: "#F3F2F2" }}></img></a>
             </div>
           </footer>
         </Tabs>

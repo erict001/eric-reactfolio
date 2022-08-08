@@ -2,18 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {BrowserRouter, Routes, Route, Navbar} from "react-router-dom"
 import Home from '../src/components/Home';
-import Portfolio from '../src/components/Portfolio';
-import Contact from '../src/components/Contact';
-import Resume from '../src/components/Resume';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 import Denali from './components/Denali';
 import City from './components/City';
 import Fenix from './components/Fenix';
 import Apollo from './components/Apollo';
 import ApolloAccomplishments from './components/apolloAccomplishments';
 import CityAccomplishments from './components/cityAccomplishments';
-import Carousel from './components/Carousel';
 
 
 
@@ -23,6 +23,7 @@ root.render(
   <Routes>
     <Route path="/" element={<App />} />
     <Route path="/" element={<Home />} />
+    <Route path="/about" element={<About />} />
     <Route path="/portfolio" element={<Portfolio />} />
     <Route path="/contact" element={<Contact />} />
     <Route path="/resume" element={<Resume />} />

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Apollo from "../images/assets/City.png"
 import CountUp from "react-countup"
-import Nike from "../images/assets/NBalance.png"
+import NBalance from "../images/assets/NBalance.png"
 import sportsStadium from "../images/assets/sportsStadium.png"
 import nikeAlternate from "../images/assets/nikeAlternate.png"
-import APT from "../images/assets/SEL.png"
-import SPS from "../images/assets/WSU.png"
+import SEL from "../images/assets/SEL.png"
+import WSU from "../images/assets/WSU.png"
 import Vice from "../images/assets/WOU.png"
 
 const styles = {
@@ -73,7 +73,7 @@ class cityAccomplishments extends Component {
                                         </div>
                                         <div class="h-full">
                                             <div class="flex justify-center">
-                                                <img src={Nike} class="scale-100 animate-in zoom-in-0 duration-1000"></img>
+                                                <img src={NBalance} class="scale-100 animate-in zoom-in-0 duration-1000"></img>
                                             </div>
                                             <div class="flex justify-center">
                                                 <h1 class="text-2xl md:text-3xl md:px-2">Partnered with the world's largest <br></br> baseball sporting goods company.</h1>
@@ -112,7 +112,7 @@ class cityAccomplishments extends Component {
                                     <div class="flex flex-row md:justify-around xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1 xs:justify-center">
                                         <div class="flex flex-col justify-center pt-16">
                                             <div class="h-240 scale-100 flex justify-center">
-                                                <a href="https://newbalance.com"><img src={Nike} alt="New Balance"></img></a>
+                                                <a href="https://newbalance.com"><img src={NBalance} alt="New Balance"></img></a>
                                             </div>
                                             {/* <div class="text-2xl flex justify-center md:text-lg">
                                                 <h1 >Nike</h1>
@@ -120,7 +120,7 @@ class cityAccomplishments extends Component {
                                         </div>
                                         <div class="flex flex-col justify-center pt-16">
                                             <div class="h-240 scale-150 flex justify-center">
-                                                <a href="hhttps://www.seattleelitebaseball.com/page/show/2064397-home"><img src={APT} alt="seattle elite league"></img></a>
+                                                <a href="hhttps://www.seattleelitebaseball.com/page/show/2064397-home"><img src={SEL} alt="seattle elite league"></img></a>
                                             </div>
                                             {/* <div class="text-2xl flex justify-center md:text-lg">
                                                 <h1 >A.P.T Resilience </h1>
@@ -128,7 +128,7 @@ class cityAccomplishments extends Component {
                                         </div>
                                         <div class="flex flex-col justify-center">
                                             <div class="h-2/3 scale-150 flex justify-center mb-10">
-                                                <a href="https://wsucougars.com/sports/baseball"><img src={SPS} alt="wsu baseball"></img></a>
+                                                <a href="https://wsucougars.com/sports/baseball"><img src={WSU} alt="wsu baseball"></img></a>
                                             </div>
                                             {/* <div class="text-2xl flex justify-center md:text-lg">
                                                 <h1 >City of Seattle Parks and Recreation </h1>

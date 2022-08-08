@@ -13,17 +13,16 @@ import Contact from './Contact'
 import About from './About'
 import Resume from './Resume'
 import Headers from './Headers'
-import Carousel from './Carousel'
 
 const styles = {
   heading: {
-    marginTop: "8%",
-    marginBottom: "8%",
+    // marginTop: "8%",
+    // marginBottom: "8%",
     display: "flex",
     flexDirection: "column",
     // marginLeft: "35vw",
     justifyContent: "center",
-    height: "auto",
+    height: "90vh",
     width: "100vw",
     fontSize: "6rem",
     fontWeight: "bold",
@@ -58,7 +57,6 @@ class Home extends Component {
         <div>
           <section class="flex justify-center content-center">
             <div style={styles.heading}>
-              {/* <Carousel></Carousel> */}
               <h1 class="flex justify-center">Full Stack Developer.</h1>
               <h1 class="flex justify-center">Designer.</h1>
               <h1 class="flex justify-center">Coach.</h1>
