@@ -14,6 +14,9 @@ import Fenix from './components/Fenix';
 import Apollo from './components/Apollo';
 import ApolloAccomplishments from './components/apolloAccomplishments';
 import CityAccomplishments from './components/cityAccomplishments';
+import Nav from './components/Navbar';
+import Icon from './components/Icons';
+
 
 
 
@@ -23,6 +26,8 @@ root.render(
   <Routes>
     <Route path="/" element={<App />} />
     <Route path="/" element={<Home />} />
+    <Route path="/" element={<Nav />} />
+    <Route path="/" element={<Icon />} />
     <Route path="/about" element={<About />} />
     <Route path="/portfolio" element={<Portfolio />} />
     <Route path="/contact" element={<Contact />} />
