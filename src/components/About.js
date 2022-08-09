@@ -20,9 +20,9 @@ class About extends Component {
         </div>
         <hr></hr>
         <div class="flex flex-col">
-          <div class="xl:columns-2 lg:columns-1 md:columns-1 sm:columns-1 h-min pt-20 pb-20 pl-20 pr-20 w-100">
+          <div class="xl:columns-2 lg:columns-1 md:columns-1 sm:columns-1 h-min pt-20 pb-20 lg:pl-20 pr-20 w-100">
             <div class="lg:columns-1 md:columns-1 lg:w-4/5 md:w-4/5 sm:w-4/5">
-              <img src={picture} class="border-solid border-2 border-black shadow-2xl" style={{ marginLeft: "10rem", marginRight: "1rem", height: "50rem", borderRadius: "2rem" }} alt="Eric Taylor"></img>
+              <img src={picture} class="border-solid border-2 border-black shadow-2xl" style={{ marginLeft: "5rem", marginRight: "1rem", height: "50rem", borderRadius: "2rem" }} alt="Eric Taylor"></img>
             </div>
             <div class="flex flex-col flex-wrap lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
               <div class="flex flex-col lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
