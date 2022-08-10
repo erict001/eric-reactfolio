@@ -44,7 +44,7 @@ class Home extends Component {
       <div className="tabs">
         <div>
           <section class="flex justify-center content-center" style={styles.heading}>
-            <div style={styles.font}>
+            <div>
               <Carousel />
             </div>
             <div>

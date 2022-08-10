@@ -53,8 +53,13 @@ export default function Home() {
         marginTop: "1vh",
         width: "100vw",
         height: "90vh",
+        zIndex: "0",
       }}
-    ></div>
+    >
+      <div style={{backgroundColor: "rgba(255, 255, 255, 0.56)", height: "100%", width: "100%"}}>
+        <h1 class="z-100 opacity-100 text-red-900">There</h1>
+      </div>
+    </div>
   );
 }
 
