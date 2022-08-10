@@ -11,44 +11,14 @@ import Github from "./images/assets/Github.png"
 import LinkedIn from "./images/assets/LinkedIn.png"
 import Navbar from './components/Navbar';
 import Icons from './components/Icons'
-
+import Images from './components/Carousel'
 
 const styles = {
-  rootStyle: {
-    height: '100vh',
-    color: "white",
-  },
-  header: {
-    display: "flex",
-    listStyle: "none",
-    justifyContent: "space-around",
-    paddingTop: "20px",
-    paddingBottom: "20px",
-    backgroundColor: "black",
-    color: "white",
-    fontWeight: "bold",
-  },
-  icons: {
-    height: "50px",
-    width: "50px",
-    backgroundColor: "#F3F2F2",
-    borderRadius: "2rem"
-  },
-  item: {
-    fontSize: "20px",
-    // paddingLeft: "3rem",
-    // paddingRight: "75rem",
-  },
-  items: {
-    // border: "solid 1px white",
-    // padding: "1rem",
-    fontSize: "20px",
-    color: "white"
-  },
   color: {
     color: "black",
     // backgroundColor: "white"
-    backgroundColor: "#F3F2F2"
+    backgroundColor: "#F3F2F2",
+    height: "auto"
   }
 }
 
@@ -56,9 +26,16 @@ const styles = {
 function App() {
 
   return (
-    <div className="tabs" style={styles.color}>
+    <div style={styles.color}>
       <Icons />
       <Navbar />
+      {/* <Images /> */}
+      {/* <footer>
+        <div class="flex flex-row justify-center mt-9" >
+          <a href={"https://github.com/erict001"}><img src={Github} style={styles.icons}></img></a>
+          <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img src={LinkedIn} style={{ marginLeft: "2rem", height: "50px", width: "50px", backgroundColor: "#F3F2F2" }}></img></a>
+        </div>
+      </footer> */}
     </div>
   );
 }

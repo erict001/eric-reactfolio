@@ -87,7 +87,7 @@ function Contact() {
             name="email"
             onChange={handleInputChange}
             type="email"
-            placeholder="   jondoe@gmail.com"
+            placeholder="   john_doe@gmail.com"
           />
         </div>
         <div class="mt-4 mb-4">

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d907ef1e.css",
+    "main.js": "/static/js/main.af231576.js",
+    "static/media/apolloFull.mov": "/static/media/apolloFull.96fd9d3e2fe44fb927f4.mov",
+    "static/media/apollo.png": "/static/media/apollo.b5d34c5df456eaae358c.png",
+    "static/media/picture.png": "/static/media/picture.5c218921a661d248be52.png",
+    "static/media/Restaurant.png": "/static/media/Restaurant.ed3382a2af18b1abbcb8.png",
+    "static/media/Inspirational-Jeopardy.png": "/static/media/Inspirational-Jeopardy.e6a514d6f445752955dd.png",
+    "static/media/appa.png": "/static/media/appa.5afd9e4545456c00379e.png",
+    "static/media/Password.png": "/static/media/Password.e89f5e6558302a66505d.png",
+    "static/media/BGCKC.png": "/static/media/BGCKC.6da012cc21649133487f.png",
+    "static/media/Resume.pdf": "/static/media/Resume.337b89f4bd4b6332a26a.pdf",
+    "static/media/ApolloB.png": "/static/media/ApolloB.5b9d6ef58d1b5ed371f7.png",
+    "static/media/Github.png": "/static/media/Github.704ded1ab4aed9095e06.png",
+    "static/media/NBalance.png": "/static/media/NBalance.93e72f3ec38b6a447e6f.png",
+    "static/media/WOU.png": "/static/media/WOU.3b9eced17ab340f9712d.png",
+    "static/media/WSU.png": "/static/media/WSU.4b8927b18b11f7219882.png",
+    "static/media/threeD.png": "/static/media/threeD.bb9ffd9d5c2894f4a8ac.png",
+    "static/media/Denali.png": "/static/media/Denali.e67a7d7178354cda1afa.png",
+    "static/media/sportsStadium.png": "/static/media/sportsStadium.fe6edad9c9a3e42db664.png",
+    "static/media/SEL.png": "/static/media/SEL.87a266e81fa09a078cb6.png",
+    "static/media/Fenix.png": "/static/media/Fenix.a77fc66aa0e0856561b3.png",
+    "static/media/nikeAlternate.png": "/static/media/nikeAlternate.9f47e37e2d42105004cc.png",
+    "static/media/APT.png": "/static/media/APT.02e56d7c1ad9caee6716.png",
+    "static/media/91030.png": "/static/media/91030.cc1191fa4d92653d16e0.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.d907ef1e.css.map": "/static/css/main.d907ef1e.css.map",
+    "main.af231576.js.map": "/static/js/main.af231576.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d907ef1e.css",
+    "static/js/main.af231576.js"
+  ]
+}

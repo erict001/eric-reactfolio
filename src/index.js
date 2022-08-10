@@ -16,6 +16,7 @@ import ApolloAccomplishments from './components/apolloAccomplishments';
 import CityAccomplishments from './components/cityAccomplishments';
 import Nav from './components/Navbar';
 import Icon from './components/Icons';
+import Carousel from './components/Carousel';
 
 
 
@@ -28,6 +29,7 @@ root.render(
     <Route path="/" element={<Home />} />
     <Route path="/" element={<Nav />} />
     <Route path="/" element={<Icon />} />
+    <Route path="/carousel" element={<Carousel />} />
     <Route path="/about" element={<About />} />
     <Route path="/portfolio" element={<Portfolio />} />
     <Route path="/contact" element={<Contact />} />

@@ -13,6 +13,10 @@ import Contact from './Contact'
 import About from './About'
 import Resume from './Resume'
 import Headers from './Headers'
+import Carousel from './Carousel'
+import BackgroundSlider from 'react-background-slider'
+
+const image1 = "../images/assets/Nike.png"
 
 const styles = {
   heading: {
@@ -26,27 +30,11 @@ const styles = {
     width: "100vw",
     fontSize: "6rem",
     fontWeight: "bold",
+    // backgroundImage: `url(${jeopardy})`,
+    opacity: "50%"
   },
-  title: {
-    width: "60vw"
-  },
-  ul: {
-    display: "flex",
-    flexDirection: "row",
-  },
-  li: {
-    display: "flex",
-    paddingTop: "1vh",
-    width: "30vw"
-  },
-  button: {
-    marginLeft: "7vw",
-    marginBottom: "1vh",
-    height: "5vh",
-    width: "15vw",
-    borderRadius: "15px",
-    backgroundColor: "skyblue",
-    fontSize: "20px"
+  font: {
+    opacity: "100%"
   }
 }
 
@@ -55,11 +43,12 @@ class Home extends Component {
     return (
       <div className="tabs">
         <div>
-          <section class="flex justify-center content-center">
-            <div style={styles.heading}>
-              <h1 class="flex justify-center">Full Stack Developer.</h1>
-              <h1 class="flex justify-center">Designer.</h1>
-              <h1 class="flex justify-center">Coach.</h1>
+          <section class="flex justify-center content-center" style={styles.heading}>
+            <div style={styles.font}>
+              <Carousel />
+            </div>
+            <div>
+
             </div>
           </section>
         </div>
