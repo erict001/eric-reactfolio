@@ -14,7 +14,6 @@ import About from './About'
 import Resume from './Resume'
 import Headers from './Headers'
 import Carousel from './Carousel'
-import BackgroundSlider from 'react-background-slider'
 import AboutSection from './AboutSection'
 
 const image1 = "../images/assets/Nike.png"
