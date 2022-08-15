@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import picture from "../images/assets/picture.png"
+import profile from "../images/assets/profilePic.png"
 
 const styles = {
   margin: {
     marginTop: "5%",
     marginLeft: "5%",
     marginRight: "40%"
+  },
+  text: {
+    color: "white",
+    textShadow: "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000",
+    fontFamily: "Impact", 
+    letterSpacing: ".5rem"
   }
 }
 
@@ -15,18 +22,19 @@ class About extends Component {
   render() {
     return (
       <div>
-        <div style={{ display: "flex", justifyContent: "center", height: "auto", width: "100vw", color: "white", backgroundColor: "black" }}>
+        {/* <div style={{ display: "flex", justifyContent: "center", height: "auto", width: "100vw", color: "white", backgroundColor: "black" }}>
           <h1 style={{ alignContent: "center", fontSize: "100px" }}>About Me</h1>
-        </div>
+        </div> */}
         <hr></hr>
         <div class="flex flex-col">
           <div class="xl:columns-2 lg:columns-1 md:columns-1 sm:columns-1 h-min pt-20 pb-20 lg:pl-20 pr-20 w-100">
             <div class="lg:columns-1 md:columns-1 lg:w-4/5 md:w-4/5 sm:w-4/5">
-              <img src={picture} class="border-solid border-2 border-black shadow-2xl" style={{ marginLeft: "5rem", marginRight: "1rem", height: "50rem", borderRadius: "2rem" }} alt="Eric Taylor"></img>
+              <img src={picture} class="border-2 rounded-xl" style={{ marginLeft: "8rem", marginRight: "1rem", height: "50rem", borderRadius: "80rem" }} alt="Eric Taylor"></img>
             </div>
             <div class="flex flex-col flex-wrap lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
               <div class="flex flex-col lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
-                <h1 class="flex xl:text-5xl lg:text-6xl md:text-4xl sm:text-4xl xs:text-4xl text-black" style={{ fontFamily: "Zapfino", fontWeight: 900 }}>Hi, I'm Eric Taylor!</h1>
+                <h1 class="flex justify-center xl:text-5xl lg:text-6xl md:text-4xl sm:text-4xl xs:text-4xl text-black" style={{ fontFamily: "Zapfino", fontWeight: 900 }}>Hi, I'm</h1>
+                <h1 class="text-8xl flex justify-center text-transparent" style={styles.text}>ERIC TAYLOR</h1>
               </div>
               <br></br>
               <br></br>
