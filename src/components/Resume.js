@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { ParallaxProvider } from 'react-scroll-parallax';
 import { Link } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import City from "./City"

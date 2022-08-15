@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import { ParallaxBanner } from 'react-scroll-parallax';
+import { ParallaxProvider } from 'react-scroll-parallax';
 import picture from "../images/assets/picture.png"
 import appa from "../images/assets/appa.png"
 import apollo from "../images/assets/apollo.png"
-import apolloFull from "../images/assets/apolloFull.mov"
+import laptop from "../images/assets/code.jpg"
 import jeopardy from "../images/assets/Inspirational-Jeopardy.png"
 import password from "../images/assets/Password.png"
 import restaurant from "../images/assets/Restaurant.png"
@@ -41,8 +43,22 @@ class Portfolio extends Component {
   render() {
     return (
       <div style={{ height: "auto" }}>
-        <div style={{ display: "flex", justifyContent: "center", height: "auto", width: "100vw", color: "white" , backgroundColor: "black" }}>
-          <h1 style={{ alignContent: "center", fontSize: "100px" }}>Projects</h1>
+        <div style={{ display: "flex", justifyContent: "center", height: "40vh", width: "100vw", color: "white", backgroundColor: "black" }}>
+          <ParallaxProvider>
+            <ParallaxBanner
+              layers={[
+                { image: laptop, speed: -20 },
+                { image: '/static/banner-foreground.png', speed: -10 },
+              ]}
+              className="aspect-[2/1]"
+            >
+              <div className="absolute inset-0 flex items-center justify-center">
+                <h1 className="text-8xl text-white font-bold">How I can help you!</h1>
+              </div>
+            </ParallaxBanner>
+
+          </ParallaxProvider>
+          {/* <h1 style={{ alignContent: "center", fontSize: "100px" }}>Projects</h1> */}
         </div>
         <hr></hr>
         <div style={{ color: "black" }}>
@@ -58,9 +74,9 @@ class Portfolio extends Component {
                 <img class="w-full" src={apollo} alt="Apollo Academy website" />
                 <div class="px-6 py-4">
                   <div class="flex flex-row justify-between font-bold text-xl mb-4">
-                      <h1>Apollo Academy Basketball</h1>
-                      <h3 style={{ marginLeft: "2rem" }}>FrontEnd Engineer</h3>
-                    </div>
+                    <h1>Apollo Academy Basketball</h1>
+                    <h3 style={{ marginLeft: "2rem" }}>FrontEnd Engineer</h3>
+                  </div>
                   <p class="text-gray-700 text-base">
                     This website was built to support my former basketball company, Apollo Academy Basketball. This application was built using Elementor and deployed to Wordpress. I loved the creativity and freedom that coding provides and sparked my interest in software development.
                   </p>
@@ -162,7 +178,8 @@ class Portfolio extends Component {
           </div>
         </div>
       </div>
-    )};
+    )
+  };
 };
 
 export default Portfolio;
