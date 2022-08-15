@@ -1,10 +1,11 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import Modal from "./Modal"
 
-import Stuff from "../images/assets/91030.png"
-import Denali from "../images/assets/Denali.png"
-import ApolloB from "../images/assets/ApolloB.png"
-import APT from "../images/assets/APT.png"
+import Kevin from "../images/assets/Kevin.jpg"
+import Hosting from "../images/assets/hosting.jpg"
+import budbud from "../images/assets/budbud.jpg"
+import talking from "../images/assets/talking.jpg"
 
 export default function Home() {
   const [photo, setPhoto] = useState(1);
@@ -20,7 +21,7 @@ export default function Home() {
   }, [photo]);
 
   const change = () => {
-    if (photo === 5) {
+    if (photo === 4) {
       setPhoto(1);
       return;
     }
@@ -31,15 +32,15 @@ export default function Home() {
   const returnPhotoURL = () => {
     switch (photo) {
       case 1:
-        return APT;
+        return Hosting;
       case 2:
-        return ApolloB;
+        return Kevin;
       case 3:
-        return Denali;
+        return budbud;
       case 4:
-        return Stuff;
-      default:
-        return null;
+        return talking;
+      // default:
+      //   return null;
     }
   };
 
@@ -50,14 +51,14 @@ export default function Home() {
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        marginTop: "1vh",
+        marginTop: "2vh",
         width: "100vw",
-        height: "90vh",
+        height: "92vh",
         zIndex: "0",
       }}
     >
-      <div style={{backgroundColor: "rgba(255, 255, 255, 0.56)", height: "100%", width: "100%"}}>
-        <h1 class="z-100 opacity-100 text-red-900">There</h1>
+      <div class="flex justify-center items-center" style={{backgroundColor: "rgba(0, 0, 0, 0.50)", height: "100%", width: "100%"}}>
+        <Modal />
       </div>
     </div>
   );

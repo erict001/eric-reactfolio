@@ -17,6 +17,8 @@ import CityAccomplishments from './components/cityAccomplishments';
 import Nav from './components/Navbar';
 import Icon from './components/Icons';
 import Carousel from './components/Carousel';
+import Modal from './components/Modal';
+import AboutSection from './components/AboutSection';
 
 
 
@@ -29,6 +31,8 @@ root.render(
     <Route path="/" element={<Home />} />
     <Route path="/" element={<Nav />} />
     <Route path="/" element={<Icon />} />
+    <Route path="/about-section" element={<AboutSection />} />
+    <Route path="/modal" element={<Modal />} />
     <Route path="/carousel" element={<Carousel />} />
     <Route path="/about" element={<About />} />
     <Route path="/portfolio" element={<Portfolio />} />
