@@ -6,7 +6,6 @@ import Resume from './Resume'
 import Headers from './Headers'
 import Carousel from './Carousel'
 import AboutSection from './AboutSection'
-import ResumeSection from './resumeSection'
 
 const styles = {
   heading: {
@@ -50,8 +49,7 @@ class Home extends Component {
         <Headers />
         <Resume />
         <Contact />
-        <ResumeSection />
-      </div>
+\      </div>
     );
   }
 }
