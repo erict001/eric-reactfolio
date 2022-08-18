@@ -1,13 +1,4 @@
 import React, { Component } from 'react';
-import picture from "../images/assets/picture.png"
-import appa from "../images/assets/appa.png"
-import apollo from "../images/assets/apollo.png"
-import apolloFull from "../images/assets/apolloFull.mov"
-// import apolloMov from "../images/assets/apollo.mov"
-import jeopardy from "../images/assets/Inspirational-Jeopardy.png"
-import password from "../images/assets/Password.png"
-import restaurant from "../images/assets/Restaurant.png"
-// import appaMov from "../images/assets/appa.mov"
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import About from './About'
@@ -15,8 +6,7 @@ import Resume from './Resume'
 import Headers from './Headers'
 import Carousel from './Carousel'
 import AboutSection from './AboutSection'
-
-const image1 = "../images/assets/Nike.png"
+import ResumeSection from './resumeSection'
 
 const styles = {
   heading: {
@@ -60,6 +50,7 @@ class Home extends Component {
         <Headers />
         <Resume />
         <Contact />
+        <ResumeSection />
       </div>
     );
   }

@@ -43,7 +43,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div style={{ height: "auto" }}>
-        <div style={{ display: "flex", justifyContent: "center", height: "40vh", width: "100vw", color: "white", backgroundColor: "black" }}>
+        <div style={{ display: "flex", justifyContent: "center", height: "20rem", width: "100vw", color: "white", backgroundColor: "black" }}>
           <ParallaxProvider>
             <ParallaxBanner
               layers={[
@@ -56,7 +56,6 @@ class Portfolio extends Component {
                 <h1 className="text-8xl text-white font-bold">How I can help you!</h1>
               </div>
             </ParallaxBanner>
-
           </ParallaxProvider>
           {/* <h1 style={{ alignContent: "center", fontSize: "100px" }}>Projects</h1> */}
         </div>

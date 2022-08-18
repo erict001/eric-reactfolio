@@ -57,7 +57,7 @@ export default function Home() {
         zIndex: "0",
       }}
     >
-      <div class="flex justify-center items-center" style={{backgroundColor: "rgba(0, 0, 0, 0.50)", height: "100%", width: "100%"}}>
+      <div class="flex justify-center items-center" style={{backgroundColor: "rgba(0, 0, 0, 0.50)", height: "100%", width: "100%", }}>
         <Modal />
       </div>
     </div>

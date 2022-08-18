@@ -9,6 +9,8 @@ import Denali from "./Denali"
 import ApolloAccomplishments from "./apolloAccomplishments"
 import FenixAccomplishments from "./fenixAccomplishments"
 import CityAccomplishments from "./cityAccomplishments"
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 // import 'react-tabs/style/react-tabs.css'
 // import Contact from "./Contact"
 // import Portfolio from "./Portfolio"
@@ -38,6 +40,7 @@ const styles = {
   },
 }
 
+
 class Resume extends Component {
   render() {
     return (
@@ -47,7 +50,7 @@ class Resume extends Component {
             <Tab style={styles.tabs}><Apollo /></Tab>
             <Tab style={styles.tabs}><Fenix /></Tab>
             <Tab style={styles.tabs}><City /></Tab>
-            <Tab style={styles.tabs}><Denali /></Tab>
+            {/* <Tab style={styles.tabs}><Denali /></Tab> */}
           </TabList>
           <div class="mt-20 mx-4">
             <TabPanel style={styles.tabs}>
@@ -59,9 +62,9 @@ class Resume extends Component {
             <TabPanel>
               <CityAccomplishments />
             </TabPanel>
-            <TabPanel>
+            {/* <TabPanel>
               <h2>Founder / CEO</h2>
-            </TabPanel>
+            </TabPanel> */}
           </div>
         </Tabs>
       </div>

@@ -32,7 +32,7 @@ class About extends Component {
               <img src={picture} class="border-2 rounded-xl" style={{ marginLeft: "8rem", marginRight: "1rem", height: "50rem", borderRadius: "80rem" }} alt="Eric Taylor"></img>
             </div>
             <div class="flex flex-col flex-wrap lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
-              <div class="flex flex-col lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black">
+              <div class="flex flex-col lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 text-black md:justify-center">
                 <h1 class="flex justify-center xl:text-5xl lg:text-6xl md:text-4xl sm:text-4xl xs:text-4xl text-black" style={{ fontFamily: "Zapfino", fontWeight: 900 }}>Hi, I'm</h1>
                 <h1 class="text-8xl flex justify-center text-transparent" style={styles.text}>ERIC TAYLOR</h1>
               </div>
