@@ -18,7 +18,9 @@ import Nav from './components/Navbar';
 import Icon from './components/Icons';
 import Carousel from './components/Carousel';
 import Modal from './components/Modal';
+import TWOU from './components/2U';
 import AboutSection from './components/AboutSection';
+import uwAccomplishments from './components/washingtonAccomplishments';
 
 
 
@@ -31,6 +33,8 @@ root.render(
     <Route path="/" element={<Home />} />
     <Route path="/" element={<Nav />} />
     <Route path="/" element={<Icon />} />
+    <Route path="/2u" element={<TWOU />} />
+    <Route path="/udub" element={<uwAccomplishments />} />
     <Route path="/about-section" element={<AboutSection />} />
     <Route path="/modal" element={<Modal />} />
     <Route path="/carousel" element={<Carousel />} />

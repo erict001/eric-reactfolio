@@ -10,7 +10,7 @@ class Headers extends Component {
                 </div> */}
                 <br></br>
                 <div style={{ marginTop: "5vh", display: "flex", justifyContent: "center", height: "auto", width: "100vw", color: "white", backgroundColor: "black" }}>
-                    <h1 style={{ alignContent: "center", fontSize: "100px" }}>Resume</h1>
+                    <h1 style={{ alignContent: "center", fontSize: "100px" }}>Highlighted Professions:</h1>
                 </div>
                 <hr></hr>
             </div>

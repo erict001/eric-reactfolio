@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import City from "./City"
 import Fenix from "./Fenix"
+import TWOU from "./2U"
 import Apollo from "./Apollo"
 import Denali from "./Denali"
 import ApolloAccomplishments from "./apolloAccomplishments"
 import FenixAccomplishments from "./fenixAccomplishments"
 import CityAccomplishments from "./cityAccomplishments"
-import AliceCarousel from 'react-alice-carousel';
+import UwAccomplishments from "./washingtonAccomplishments"
 import 'react-alice-carousel/lib/alice-carousel.css';
 // import 'react-tabs/style/react-tabs.css'
 // import Contact from "./Contact"
@@ -36,7 +37,8 @@ const styles = {
   },
   tabs: {
     border: "2px solid white",
-    height: "100%"
+    height: "100%",
+    width: "33%"
   },
 }
 
@@ -47,17 +49,17 @@ class Resume extends Component {
       <div className="tabs">
         <Tabs>
           <TabList className="tab" class="flex flex-row xl:columns-4 lg:columns-2 md:columns-1 sm:columns-2 xs:columns-2" style={{ display: "flex", listStyle: "none", justifyContent: "space-around" }} >
+            <Tab style={styles.tabs}><TWOU /></Tab>
             <Tab style={styles.tabs}><Apollo /></Tab>
-            <Tab style={styles.tabs}><Fenix /></Tab>
             <Tab style={styles.tabs}><City /></Tab>
             {/* <Tab style={styles.tabs}><Denali /></Tab> */}
           </TabList>
           <div class="mt-20 mx-4">
+            <TabPanel>
+              <UwAccomplishments />
+            </TabPanel>
             <TabPanel style={styles.tabs}>
               <ApolloAccomplishments />
-            </TabPanel>
-            <TabPanel>
-              <FenixAccomplishments />
             </TabPanel>
             <TabPanel>
               <CityAccomplishments />
