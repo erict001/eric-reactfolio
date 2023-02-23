@@ -3,24 +3,9 @@ import Apollo from "../images/assets/City.png"
 import CountUp from "react-countup"
 import NBalance from "../images/assets/NBalance.png"
 import sportsStadium from "../images/assets/sportsStadium.png"
-import nikeAlternate from "../images/assets/nikeAlternate.png"
 import SEL from "../images/assets/SEL.png"
 import WSU from "../images/assets/WSU.png"
 import Vice from "../images/assets/WOU.png"
-
-const styles = {
-    header: {
-        display: "flex",
-        flexDirection: "column",
-        listStyle: "none",
-        justifyContent: "space-around",
-    },
-    label: {
-        width: "30rem",
-    }
-}
-
-
 
 class cityAccomplishments extends Component {
     render() {

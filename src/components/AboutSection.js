@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import Github from "../images/assets/Github.png"
-import LinkedIn from "../images/assets/91030.png"
-import Resume from "../images/assets/Resume.pdf"
 import css from "../images/assets/css.jpg"
 import html from "../images/assets/html.png"
 import node from "../images/assets/node.jpg"

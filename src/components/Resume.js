@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-import { ParallaxProvider } from 'react-scroll-parallax';
-import { Link } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import City from "./City"
-import Fenix from "./Fenix"
 import TWOU from "./2U"
 import Apollo from "./Apollo"
-import Denali from "./Denali"
 import ApolloAccomplishments from "./apolloAccomplishments"
-import FenixAccomplishments from "./fenixAccomplishments"
 import CityAccomplishments from "./cityAccomplishments"
 import UwAccomplishments from "./washingtonAccomplishments"
 import 'react-alice-carousel/lib/alice-carousel.css';

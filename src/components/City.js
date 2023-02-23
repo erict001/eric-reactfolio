@@ -2,19 +2,6 @@ import React, { Component } from "react";
 import city from "../images/assets/City.png"
 
 
-const styles = {
-    header: {
-        display: "flex",
-        flexDirection: "column",
-        listStyle: "none",
-        justifyContent: "space-around",
-    },
-    label: {
-        width: "30rem",
-    }
-}
-
-
 
 class City extends Component {
     render() {

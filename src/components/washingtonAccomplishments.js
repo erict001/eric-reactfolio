@@ -1,28 +1,12 @@
 import React, { Component } from "react";
 import Apollo from "../images/assets/uw-logo.png"
 import CountUp from "react-countup"
-import Nike from "../images/assets/Nike.png"
 import kids from "../images/assets/kids.png"
 import Tallus from "../images/assets/Tallus.png"
 import APT from "../images/assets/APT.png"
 import SPS from "../images/assets/BGCKC.png"
-import Vice from "../images/assets/Vice.png"
 import sportsStadium from "../images/assets/sportsStadium.png"
 import threeD from "../images/assets/threeD.png"
-
-const styles = {
-    header: {
-        display: "flex",
-        flexDirection: "column",
-        listStyle: "none",
-        justifyContent: "space-around",
-    },
-    label: {
-        width: "30rem",
-    }
-}
-
-
 
 class washingtonAccomplishments extends Component {
     render() {

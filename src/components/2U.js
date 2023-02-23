@@ -2,19 +2,6 @@ import React, { Component } from "react";
 import uw from "../images/assets/uw-logo.png"
 
 
-const styles = {
-    header: {
-        display: "flex",
-        flexDirection: "column",
-        listStyle: "none",
-        justifyContent: "space-around",
-    },
-    label: {
-        width: "30rem",
-    }
-}
-
-
 
 class TWOU extends Component {
     render() {
@@ -28,7 +15,7 @@ class TWOU extends Component {
                                         bg-black rounded-lg shadow-xl h-60 w-full hover:bg-gray-600">
                             {/* <!-- media --> */}
                             <div class="w-1/3 md:w-1/3">
-                                <img class="h-60 object-center object-contain w-auto invert scale-150" src={uw} />
+                                <img class="h-60 object-center object-contain w-auto invert scale-150" src={uw} alt="university of washington"/>
                             </div>
                             {/* <!-- content --> */}
                             <div class="w-2/3 pt-4 px-12 text-white flex flex-col">

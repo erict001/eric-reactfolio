@@ -1,17 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home'
-import About from './components/About'
-import Portfolio from './components/Portfolio'
-import Resume from "../src/images/assets/Resume.pdf"
-import Contact from './components/Contact'
-import { Link } from "react-router-dom";
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import Github from "./images/assets/Github.png"
-import LinkedIn from "./images/assets/LinkedIn.png"
 import Navbar from './components/Navbar';
 import Icons from './components/Icons'
-import Images from './components/Carousel'
 
 const styles = {
   color: {

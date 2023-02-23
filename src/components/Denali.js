@@ -2,20 +2,6 @@ import React, { Component } from "react";
 import denali from "../images/assets/Denali.png"
 
 
-const styles = {
-    header: {
-        display: "flex",
-        flexDirection: "column",
-        listStyle: "none",
-        justifyContent: "space-around",
-    },
-    label: {
-        width: "30rem",
-    }
-}
-
-
-
 class Denali extends Component {
     render() {
         return (

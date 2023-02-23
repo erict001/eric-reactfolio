@@ -2,20 +2,6 @@ import React, { Component } from "react";
 import fenix from "../images/assets/Fenix.png"
 
 
-const styles = {
-    header: {
-        display: "flex",
-        flexDirection: "column",
-        listStyle: "none",
-        justifyContent: "space-around",
-    },
-    label: {
-        width: "30rem",
-    }
-}
-
-
-
 class Fenix extends Component {
     render() {
         return (

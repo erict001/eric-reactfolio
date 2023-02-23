@@ -1,11 +1,6 @@
-import React, { useState } from "react";
-import { Navlink } from "react-router-dom";
+import React from "react";
 import Home from '../components/Home'
 import About from '../components/About'
-import Portfolio from '../components/Portfolio'
-import Resume from "../images/assets/Resume.pdf"
-import Contact from '../components/Contact'
-import { Link } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Github from "../images/assets/Github.png"
 import LinkedIn from "../images/assets/LinkedIn.png"

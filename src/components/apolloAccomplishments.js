@@ -9,20 +9,6 @@ import SPS from "../images/assets/SPS.png"
 import Vice from "../images/assets/Vice.png"
 
 
-const styles = {
-    header: {
-        display: "flex",
-        flexDirection: "column",
-        listStyle: "none",
-        justifyContent: "space-around",
-    },
-    label: {
-        width: "30rem",
-    }
-}
-
-
-
 class apolloAccomplishments extends Component {
     render() {
         return (

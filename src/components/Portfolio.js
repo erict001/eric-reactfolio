@@ -1,43 +1,12 @@
 import React, { Component } from "react";
 import { ParallaxBanner } from 'react-scroll-parallax';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import picture from "../images/assets/picture.png"
 import appa from "../images/assets/appa.png"
 import apollo from "../images/assets/apollo.png"
 import laptop from "../images/assets/code.jpg"
 import jeopardy from "../images/assets/Inspirational-Jeopardy.png"
 import password from "../images/assets/Password.png"
 import restaurant from "../images/assets/Restaurant.png"
-
-
-const styles = {
-  header: {
-    height: "50vh",
-    justifyContent: "center",
-    marginTop: "5%",
-    marginLeft: "5%",
-    marginRight: "40%",
-  },
-  image: {
-    // position: "absolute",
-    height: "60vh",
-    width: "80%",
-  },
-  margin: {
-    marginTop: "5%",
-    marginRight: "40%"
-  },
-  button: {
-    fontSize: "1.2rem",
-    marginLeft: "6rem"
-  },
-  title: {
-    fontSize: "45px",
-    fontWeight: 600,
-    marginLeft: "20%"
-  }
-}
-
 
 class Portfolio extends Component {
   render() {

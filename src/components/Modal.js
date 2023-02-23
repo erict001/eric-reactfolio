@@ -1,6 +1,4 @@
-import { style } from "@mui/system";
 import React, { Component } from "react";
-import ApolloB from "../images/assets/ApolloB.png"
 
 
 const styles = {

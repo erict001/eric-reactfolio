@@ -2,19 +2,6 @@ import React, { Component } from "react";
 import Apollo from "../images/assets/ApolloB.png"
 import CountUp from "react-countup"
 
-const styles = {
-    header: {
-        display: "flex",
-        flexDirection: "column",
-        listStyle: "none",
-        justifyContent: "space-around",
-    },
-    label: {
-        width: "30rem",
-    }
-}
-
-
 
 class apolloAccomplishments extends Component {
     render() {
