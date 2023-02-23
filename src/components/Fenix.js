@@ -14,7 +14,7 @@ class Fenix extends Component {
                                         bg-black rounded-lg shadow-xl h-60 w-full hover:bg-gray-600">
                             {/* <!-- media --> */}
                             <div class="w-3/4 md:w-1/2">
-                                <img class="h-60 w-fill object-center object-cover invert scale-150" src={fenix} />
+                                <img class="h-60 w-fill object-center object-cover invert scale-150" src={fenix} alt="fenix basketball"/>
                             </div>
                             {/* <!-- content --> */}
                             <div class="w-2/3 pt-4 px-12 text-white flex flex-col">

@@ -14,7 +14,7 @@ class Denali extends Component {
                                         bg-black rounded-lg shadow-xl h-60 w-full hover:bg-gray-600">
                             {/* <!-- media --> */}
                             <div class="h-auto w-3/4 md:w-3/4">
-                                <img class="inset-0 h-40 w-fill object-cover justify-center mt-7 object-center" src={denali} />
+                                <img class="inset-0 h-40 w-fill object-cover justify-center mt-7 object-center" src={denali} alt="denali"/>
                             </div>
                             {/* <!-- content --> */}
                             <div class="w-2/3 pt-4 text-white flex flex-col content-center">

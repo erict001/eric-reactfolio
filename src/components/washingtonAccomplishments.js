@@ -20,7 +20,7 @@ class washingtonAccomplishments extends Component {
                         <div class="h-max w-1/3 flex flex-col xl:columns-3 lg:columns-2 md:columns-2 sm:columns-1 xs:columns-1">
                             <div class="flex flex-row xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1">
                                 <div>
-                                    <img class="mt-8 inset-0 h-auto w-cover scale-150 object-fill object-center invert" src={Apollo} />
+                                    <img class="mt-8 inset-0 h-auto w-cover scale-150 object-fill object-center invert" src={Apollo} alt="Apollo Academy Basketball"/>
                                 </div>
                                 <div class="flex flex-col content-center lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 md:px-4 xs:px-4">
                                     <h1 class="font-semibold text-6xl pt-4 md:text-3xl sm:text-xl xs:text-xl leading-tight text-white truncate">University of Washington</h1>

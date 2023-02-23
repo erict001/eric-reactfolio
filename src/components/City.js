@@ -14,7 +14,7 @@ class City extends Component {
                         <div class="flex flex-row bg-black rounded-lg shadow-xl h-60 w-full hover:bg-gray-600">
                             {/* <!-- media --> */}
                             <div class="h-auto w-1/3 md:w-1/3">
-                                <img class="inset-0 h-full w-conver object-fill object-center invert" src={city} />
+                                <img class="inset-0 h-full w-conver object-fill object-center invert" src={city} alt="city baseball"/>
                             </div>
                             {/* <!-- content --> */}
                             <div class="w-2/3 pt-4 px-12 text-white flex flex-col">

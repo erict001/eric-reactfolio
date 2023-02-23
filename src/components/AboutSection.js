@@ -102,13 +102,13 @@ const responsive = {
 
 const items = [
     //paddingRight and paddingLeft to get width to be 1/3 vw
-    <div className="item" data-value="1"><img class="scale-150" src={html} style={styles.html}></img></div>,
-    <div className="item" data-value="2"><img class="invert" src={css} style={styles.icon}></img></div>,
-    <div className="item" data-value="3"><img class="scale-50" src={js} style={styles.javascript}></img></div>,
-    <div className="item" data-value="4"><img class="bg-transparent" src={node} style={styles.node}></img></div>,
-    <div className="item" data-value="5"><img class="bg-transparent" src={express} style={styles.express}></img></div>,
-    <div className="item" data-value="6"><img class="bg-transparent" src={sql} style={styles.sql}></img></div>,
-    <div className="item" data-value="7"><img class="bg-transparent" src={react} style={styles.react}></img></div>,
+    <div className="item" data-value="1"><img class="scale-150" src={html} style={styles.html} alt="html"></img></div>,
+    <div className="item" data-value="2"><img class="invert" src={css} style={styles.icon} alt="css"></img></div>,
+    <div className="item" data-value="3"><img class="scale-50" src={js} style={styles.javascript} alt="javascript"></img></div>,
+    <div className="item" data-value="4"><img class="bg-transparent" src={node} style={styles.node} alt="node"></img></div>,
+    <div className="item" data-value="5"><img class="bg-transparent" src={express} style={styles.express} alt="express"></img></div>,
+    <div className="item" data-value="6"><img class="bg-transparent" src={sql} style={styles.sql} alt="SQL"></img></div>,
+    <div className="item" data-value="7"><img class="bg-transparent" src={react} style={styles.react} alt="react"></img></div>,
 
 ];
 
