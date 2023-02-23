@@ -19,7 +19,7 @@ class cityAccomplishments extends Component {
                         <div class="h-max w-1/3 flex flex-col xl:columns-3 lg:columns-2 md:columns-2 sm:columns-1 xs:columns-1">
                             <div class="flex flex-row xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1">
                                 <div>
-                                    <img class="inset-0 h-60 scale-150 invert w-cover object-fill object-center" src={Apollo} />
+                                    <img class="inset-0 h-60 scale-150 invert w-cover object-fill object-center" src={Apollo} alt="city logo"/>
                                 </div>
                                 <div class="flex flex-col content-center lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 md:px-4 xs:px-4">
                                     <h1 class="font-semibold text-6xl pt-4 md:text-3xl sm:text-xl xs:text-xl leading-tight text-white truncate">City Baseball</h1>
@@ -58,7 +58,7 @@ class cityAccomplishments extends Component {
                                         </div>
                                         <div class="h-full">
                                             <div class="flex justify-center">
-                                                <img src={NBalance} class="scale-100 animate-in zoom-in-0 duration-1000"></img>
+                                                <img src={NBalance} class="scale-100 animate-in zoom-in-0 duration-1000" alt="nb logo"></img>
                                             </div>
                                             <div class="flex justify-center">
                                                 <h1 class="text-2xl md:text-3xl md:px-2">Partnered with the world's largest <br></br> baseball sporting goods company.</h1>
@@ -66,7 +66,7 @@ class cityAccomplishments extends Component {
                                         </div>
                                         <div class="h-1/2 pl-6">
                                             <div class="flex justify-center h-72">
-                                            <img src={sportsStadium} class="scale-150 animate-in zoom-in-0 duration-1000"></img>
+                                            <img src={sportsStadium} class="scale-150 animate-in zoom-in-0 duration-1000" alt="stadium logo"></img>
                                             </div>
                                             <div class="flex justify-center">
                                                 <h1 class="text-2xl md:text-3xl md:px-2">Helped build and integrate <br></br>a new 14,000 sq ft baseball facility <br></br>in the Seattle area.</h1>

@@ -15,7 +15,7 @@ class Apollo extends Component {
                                         bg-black rounded-lg shadow-xl h-60 w-full hover:bg-gray-600">
                             {/* <!-- media --> */}
                             <div class="h-auto w-1/3 md:w-1/3">
-                                <img class="inset-0 h-40 w-fill object-cover justify-center mt-7 pt-2 object-center" src={ApolloB} />
+                                <img class="inset-0 h-40 w-fill object-cover justify-center mt-7 pt-2 object-center" src={ApolloB} alt="apollo icon"/>
                             </div>
                             {/* <!-- content --> */}
                             <div class="w-2/3 pt-4 px-12 text-white flex flex-col">

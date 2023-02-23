@@ -39,8 +39,8 @@ class Icons extends Component {
         return (
             <div style={{ display: "flex", height: "auto", width: "100vw", backgroundColor: "#d7c25e" }}>
                 <div class="flex flex-row justify-start mt-3 mb-3 ml-3" >
-                    <a href={"https://github.com/erict001"}><img class="invert" src={Github} style={styles.icons}></img></a>
-                    <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img class="scale-110" src={LinkedIn} style={styles.icons}></img></a>
+                    <a href={"https://github.com/erict001"}><img class="invert" src={Github} style={styles.icons} alt="github icon"></img></a>
+                    <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img class="scale-110" src={LinkedIn} style={styles.icons} alt="linkedin icon"></img></a>
                 </div>
                 <div class="flex w-full justify-end content-center">
                 <a href={Resume} download><button class="text-xl font-bold uppercase text-white py-3 pl-12 pr-12" style={{backgroundColor: "#50C878"}}>Download My Resume</button></a>

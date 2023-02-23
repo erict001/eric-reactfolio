@@ -13,7 +13,7 @@ class apolloAccomplishments extends Component {
                     bg-black rounded-lg shadow-xl h-auto mt-4 mr-1">
                         {/* <!-- media --> */}
                         <div class="h-max w-1/3 flex flex-row">
-                            <img class="inset-0 h-auto w-conver object-fill object-center" src={Apollo} />
+                            <img class="inset-0 h-auto w-conver object-fill object-center" src={Apollo} alt="denali logo"/>
                             <div class="flex flex-col content-center">
                                 <h1 class="font-semibold text-4xl leading-tight text-white truncate">Apollo Basketball</h1>
                                 <h2 class="text-3xl text-white">Founder, <br></br>CEO</h2>

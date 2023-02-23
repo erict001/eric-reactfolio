@@ -50,7 +50,7 @@ class Portfolio extends Component {
                   </p>
                 </div>
                 <div class="px-6 pt-4 pb-2">
-                  <a href="https://www.apolloacademyhoops.com" target="_blank" id="apolloacademyhoops"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
+                  <a href="https://www.apolloacademyhoops.com" target="_blank" id="apolloacademyhoops" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
                 </div>
               </div>
             </div>
@@ -79,8 +79,8 @@ class Portfolio extends Component {
                     </p>
                   </div>
                   <div class="px-6 pt-4 pb-2">
-                    <a href="https://github.com/erict001/inspirational-jeopardy" target="_blank"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
-                    <a href="https://erict001.github.io/inspirational-jeopardy/" target="_blank" id="liveJeopardy"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
+                    <a href="https://github.com/erict001/inspirational-jeopardy" target="_blank" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
+                    <a href="https://erict001.github.io/inspirational-jeopardy/" target="_blank" id="liveJeopardy" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
                     <button class="inline-block bg-yellow rounded-full px-3 py-1 text-sm font-semibold text-black-700 mr-2 mb-2">People's Choice Award</button>
                   </div>
                 </div>
@@ -98,8 +98,8 @@ class Portfolio extends Component {
                       The Appa's Landing API is built using React, Node.js, Express, and the npm package Matter.js to handle collisions and provide a physics game engine. I was responsible for adding the majority of the game functionality using React and Matter.js </p>
                   </div>
                   <div class="px-6 pt-4 pb-2">
-                    <a href="https://github.com/erict001/project-3" target="_blank" id="gitPlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
-                    <a href="https://mysterious-anchorage-31370.herokuapp.com/" target="_blank" id="livePlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
+                    <a href="https://github.com/erict001/project-3" target="_blank" id="gitPlanner" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
+                    <a href="https://mysterious-anchorage-31370.herokuapp.com/" target="_blank" id="livePlanner" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
                     <button class="inline-block bg-yellow rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">People's Choice Award</button>
                   </div>
                 </div>
@@ -118,8 +118,8 @@ class Portfolio extends Component {
                     </p>
                   </div>
                   <div class="px-6 pt-4 pb-2">
-                    <a href="https://github.com/erict001/Password-Generator" target="_blank" id="gitPassword"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
-                    <a href="https://erict001.github.io/Password-Generator/" target="_blank" id="livePlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
+                    <a href="https://github.com/erict001/Password-Generator" target="_blank" id="gitPassword" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
+                    <a href="https://erict001.github.io/Password-Generator/" target="_blank" id="livePlanner" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
                   </div>
                 </div>
                 <div class="max-w-5xl rounded overflow-hidden shadow-2xl mr-4 border-solid border-2 border-black">
@@ -137,8 +137,8 @@ class Portfolio extends Component {
                     </p>
                   </div>
                   <div class="px-6 pt-4 pb-2">
-                    <a href="https://github.com/erict001/Restaurant-Finder" target="_blank" id="gitPlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
-                    <a href="https://roogle-2022.herokuapp.com/" target="_blank" id="livePlanner"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
+                    <a href="https://github.com/erict001/Restaurant-Finder" target="_blank" id="gitPlanner" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
+                    <a href="https://roogle-2022.herokuapp.com/" target="_blank" id="livePlanner" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
                   </div>
                 </div>
               </div>

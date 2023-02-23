@@ -53,7 +53,7 @@ const Nav = () => {
                         <Tab class="w-3/5 pl-20" style={styles.item}>Home</Tab>
                         <Tab class="w-3/5 pl-20" style={styles.item}>My Story</Tab>
                         {/* <a href={<About />} target="_blank"><button style={styles.items}>My Story</button></a> */}
-                        <a href="mailto:eric.taylor1012@gmail.com" target="_blank"><button style={styles.items}>Contact Me</button></a>
+                        <a href="mailto:eric.taylor1012@gmail.com" target="_blank" rel="noreferrer"><button style={styles.items}>Contact Me</button></a>
                     </TabList>
                     <div>
                         <TabPanel>
@@ -67,8 +67,8 @@ const Nav = () => {
             </div>
             <footer>
                 <div class="flex flex-row justify-center mt-9" >
-                    <a href={"https://github.com/erict001"}><img src={Github} style={styles.icons}></img></a>
-                    <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img src={LinkedIn} style={{ marginLeft: "2rem", height: "50px", width: "50px", backgroundColor: "#F3F2F2" }}></img></a>
+                    <a href={"https://github.com/erict001"} rel="noreferrer"><img src={Github} style={styles.icons} alt="github icon"></img></a>
+                    <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"} rel="noreferrer"><img src={LinkedIn} alt="github icon" style={{ marginLeft: "2rem", height: "50px", width: "50px", backgroundColor: "#F3F2F2" }}></img></a>
                 </div>
             </footer>
         </div>

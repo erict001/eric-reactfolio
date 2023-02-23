@@ -21,7 +21,7 @@ class fenixAccomplishments extends Component {
                         <div class="h-max w-1/3 flex flex-col xl:columns-3 lg:columns-2 md:columns-2 sm:columns-1 xs:columns-1">
                             <div class="flex flex-row xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1">
                                 <div>
-                                    <img class="inset-0 h-auto w-conver scale-150 object-fill object-center invert" src={Apollo} />
+                                    <img class="inset-0 h-auto w-conver scale-150 object-fill object-center invert" src={Apollo} alt="fenix logo"/>
                                 </div>
                                 <div class="flex flex-col content-center lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 md:px-4 xs:px-4">
                                     <h1 class="font-semibold text-6xl pt-4 md:text-3xl sm:text-xl xs:text-xl leading-tight text-white truncate">Fenix Basketball</h1>
@@ -58,7 +58,7 @@ class fenixAccomplishments extends Component {
                                         </div>
                                         <div class="h-full">
                                             <div class="flex justify-center pt-6">
-                                                <img src={sportsStadium} class="scale-150 animate-in zoom-in-0 duration-1000"></img>
+                                                <img src={sportsStadium} class="scale-150 animate-in zoom-in-0 duration-1000" alt="sports logo"></img>
                                             </div>
                                             <div class="flex justify-center pt-12">
                                                 <h1 class="text-2xl md:text-3xl md:px-2">Built and pitched an all-inclusive sports complex, <br></br> which ultimately raised over $800,000 in seed money.</h1>
@@ -66,7 +66,7 @@ class fenixAccomplishments extends Component {
                                         </div>
                                         <div class="h-1/2">
                                             <div class="flex justify-center h-72">
-                                                <img src={kids} class="scale-150 animate-bounce "></img>
+                                                <img src={kids} class="scale-150 animate-bounce" alt="kids gif"></img>
                                             </div>
                                             <div class="flex justify-center">
                                                 <h1 class="text-2xl md:text-3xl md:px-2">Created a very highly regarded, positive culture <br></br>around helping kids reach their maximum <br></br>potential athletically, academically, and socially.</h1>
@@ -97,17 +97,17 @@ class fenixAccomplishments extends Component {
                                     <div class="flex flex-row md:justify-around xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1 xs:justify-center">
                                         <div class="flex flex-col justify-center pt-16">
                                             <div class="h-240 scale-150 flex justify-center">
-                                                <a href="https://talluscapital.com"><img src={Tallus}></img></a>
+                                                <a href="https://talluscapital.com"><img src={Tallus} alt="tallus logo"></img></a>
                                             </div>
                                         </div>
                                         <div class="flex flex-col justify-center pt-16">
                                             <div class="h-240 scale-150 flex justify-center">
-                                            <a href="https://www.aptresilience.com"><img src={APT} ></img></a>
+                                            <a href="https://www.aptresilience.com"><img src={APT} alt="apt logo"></img></a>
                                             </div>
                                         </div>
                                         <div class="flex flex-col justify-center pt-24">
                                             <a href="https://positiveplace.org"><div class="h-40 flex justify-center">
-                                                <img src={SPS} class="invert"></img>
+                                                <img src={SPS} class="invert" alt="sps logo"></img>
                                             </div></a>
                                             {/* <div class="text-2xl flex justify-center md:text-lg">
                                                 <a href="https://positiveplace.org"><h1 >Boys and Girls Club of King County </h1></a>
@@ -115,7 +115,7 @@ class fenixAccomplishments extends Component {
                                         </div>
                                         <div class="flex flex-col justify-center pt-10">
                                             <div class="h-240 scale-75 flex justify-center">
-                                                <a href="https://viceathletics.com"><img src={threeD}></img></a>
+                                                <a href="https://viceathletics.com"><img src={threeD} alt="vice logo"> </img></a>
                                             </div>
                                             {/* <div class="text-2xl flex justify-center md:text-lg">
                                                 <a href="https://viceathletics.com"><h1 >3D Total Health </h1></a>
