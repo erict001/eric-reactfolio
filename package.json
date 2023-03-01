@@ -4,7 +4,6 @@
   "private": true,
   "main": "app.js",
   "engines": {
-    "npm": "6.5.1",
     "node": "19.5.0"
   },
   "dependencies": {
