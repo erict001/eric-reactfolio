@@ -21,7 +21,7 @@
     "tw-elements": "^1.0.0-alpha12"
   },
   "scripts": {
-    "web": "react-scripts start",
+    "start": "web: npm start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
