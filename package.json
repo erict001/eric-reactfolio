@@ -2,6 +2,7 @@
   "name": "eric-reactfolio",
   "version": "0.1.0",
   "private": true,
+  "main": "./App.js",
   "engines": {
     "node": "19.5.0"
   },
