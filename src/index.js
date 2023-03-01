@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import {BrowserRouter, Routes, Route, Navbar} from "react-router-dom"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Home from '../src/components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -20,7 +20,6 @@ import Carousel from './components/Carousel';
 import Modal from './components/Modal';
 import TWOU from './components/2U';
 import AboutSection from './components/AboutSection';
-import uwAccomplishments from './components/washingtonAccomplishments';
 
 
 

@@ -9,6 +9,15 @@ import talking from "../images/assets/talking.jpg"
 
 export default function Home() {
   const [photo, setPhoto] = useState(1);
+  
+  const change = () => {
+    if (photo === 4) {
+      setPhoto(1);
+      return;
+    }
+
+    setPhoto((prev) => prev + 1);
+  };
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -18,16 +27,8 @@ export default function Home() {
     return () => {
       clearInterval(interval);
     };
-  }, [photo]);
+  }, (photo));
 
-  const change = () => {
-    if (photo === 4) {
-      setPhoto(1);
-      return;
-    }
-
-    setPhoto((prev) => prev + 1);
-  };
 
   const returnPhotoURL = () => {
     switch (photo) {
