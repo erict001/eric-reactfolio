@@ -28,25 +28,25 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <Routes>
-    <Route path="/" element={<App />} />
-    <Route path="/" element={<Home />} />
-    <Route path="/" element={<Nav />} />
-    <Route path="/" element={<Icon />} />
-    <Route path="/2u" element={<TWOU />} />
-    <Route path="/udub" element={<uwAccomplishments />} />
-    <Route path="/about-section" element={<AboutSection />} />
-    <Route path="/modal" element={<Modal />} />
-    <Route path="/carousel" element={<Carousel />} />
-    <Route path="/about" element={<About />} />
-    <Route path="/portfolio" element={<Portfolio />} />
-    <Route path="/contact" element={<Contact />} />
-    <Route path="/resume" element={<Resume />} />
-    <Route path="/denali" element={<Denali />} />
-    <Route path="/city" element={<City />} />
-    <Route path="/fenix" element={<Fenix />} />
-    <Route path="/apollo" element={<Apollo />} />
-    <Route path="/apolloAccomplishments" element={<ApolloAccomplishments />} />
-    <Route path="/cityAccomplishments" element={<CityAccomplishments />} />
+    <Route path="salty-beyond-13820.herokuapp.com" element={<App />} />
+    <Route path="salty-beyond-13820.herokuapp.com" element={<Home />} />
+    <Route path="salty-beyond-13820.herokuapp.com" element={<Nav />} />
+    <Route path="salty-beyond-13820.herokuapp.com" element={<Icon />} />
+    <Route path="salty-beyond-13820.herokuapp.com/2u" element={<TWOU />} />
+    <Route path="salty-beyond-13820.herokuapp.com/udub" element={<uwAccomplishments />} />
+    <Route path="salty-beyond-13820.herokuapp.com/about-section" element={<AboutSection />} />
+    <Route path="salty-beyond-13820.herokuapp.com/modal" element={<Modal />} />
+    <Route path="salty-beyond-13820.herokuapp.com/carousel" element={<Carousel />} />
+    <Route path="salty-beyond-13820.herokuapp.com/about" element={<About />} />
+    <Route path="salty-beyond-13820.herokuapp.com/portfolio" element={<Portfolio />} />
+    <Route path="salty-beyond-13820.herokuapp.com/contact" element={<Contact />} />
+    <Route path="salty-beyond-13820.herokuapp.com/resume" element={<Resume />} />
+    <Route path="salty-beyond-13820.herokuapp.com/denali" element={<Denali />} />
+    <Route path="salty-beyond-13820.herokuapp.com/city" element={<City />} />
+    <Route path="salty-beyond-13820.herokuapp.com/fenix" element={<Fenix />} />
+    <Route path="salty-beyond-13820.herokuapp.com/apollo" element={<Apollo />} />
+    <Route path="salty-beyond-13820.herokuapp.com/apolloAccomplishments" element={<ApolloAccomplishments />} />
+    <Route path="salty-beyond-13820.herokuapp.com/cityAccomplishments" element={<CityAccomplishments />} />
   </Routes>
 </BrowserRouter>
 );
