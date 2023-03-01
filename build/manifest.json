@@ -1,6 +1,6 @@
 {
-  "short_name": "Eric Taylor Portfolio",
-  "name": "Eric Taylor Portfolio",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
