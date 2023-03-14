@@ -7,6 +7,8 @@ import laptop from "../images/assets/code.jpg"
 import jeopardy from "../images/assets/Inspirational-Jeopardy.png"
 import password from "../images/assets/Password.png"
 import restaurant from "../images/assets/Restaurant.png"
+import mojave from "../images/assets/mojave.png"
+import united from "../images/assets/uwmqt.png"
 
 class Portfolio extends Component {
   render() {
@@ -43,7 +45,7 @@ class Portfolio extends Component {
                 <div class="px-6 py-4">
                   <div class="flex flex-row justify-between font-bold text-xl mb-4">
                     <h1>Apollo Academy Basketball</h1>
-                    <h3 style={{ marginLeft: "2rem" }}>FrontEnd Engineer</h3>
+                    <h3 style={{ marginLeft: "2rem" }}>FrontEnd Engineer <br/> UI/UX Designer</h3>
                   </div>
                   <p class="text-gray-700 text-base">
                     This website was built to support my former basketball company, Apollo Academy Basketball. This application was built using Elementor and deployed to Wordpress. I loved the creativity and freedom that coding provides and sparked my interest in software development.
@@ -54,10 +56,44 @@ class Portfolio extends Component {
                 </div>
               </div>
             </div>
+            <div class="flex justify-center mb-20" >
+              <div class="max-w-5xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
+                <img class="w-full" src={mojave} alt="Apollo Academy website" />
+                <div class="px-6 py-4">
+                  <div class="flex flex-row justify-between font-bold text-xl mb-4">
+                    <h1>Mojave Desert Land Trust</h1>
+                    <h3 style={{ marginLeft: "2rem" }}>FrontEnd Engineer</h3>
+                  </div>
+                  <p class="text-gray-700 text-base">
+                    This website was built to help raise awareness and increase financial donations to support the Mojave Desert Land Trust. I built custom CSS into the Squarespace platform to generate custom features throughout the website. 
+                  </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <a href="https://www.mdlt.org" target="_blank" id="apolloacademyhoops" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mb-20" >
+              <div class="max-w-5xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
+                <img class="w-full" src={united} alt="Apollo Academy website" />
+                <div class="px-6 py-4">
+                  <div class="flex flex-row justify-between font-bold text-xl mb-4">
+                    <h1>United Way of Marquette County</h1>
+                    <h3 style={{ marginLeft: "2rem" }}>FrontEnd Engineer <br/> UI/UX Designer</h3>
+                  </div>
+                  <p class="text-gray-700 text-base">
+                    This website was built to help increase web traffic and awarenesss for the United Way of Marquette County. I built themes and blocks into the Wordpress platform to generate custom features throughout the website. 
+                  </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <a href="https://www.mdlt.org" target="_blank" id="apolloacademyhoops" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
+                </div>
+              </div>
+            </div>
           </div>
           <div>
             <div class="flex content-center" style={{ height: "4rem" }}>
-              <h1 class="flex justify-center text-5xl text-black" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>Bootcamp Projects:</h1>
+              <h1 class="flex justify-center text-5xl text-black" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>Full Stack Projects:</h1>
             </div>
             <br></br>
             <br></br>
@@ -101,25 +137,6 @@ class Portfolio extends Component {
                     <a href="https://github.com/erict001/project-3" target="_blank" id="gitPlanner" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
                     <a href="https://mysterious-anchorage-31370.herokuapp.com/" target="_blank" id="livePlanner" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
                     <button class="inline-block bg-yellow rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">People's Choice Award</button>
-                  </div>
-                </div>
-                <div class="max-w-5xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
-                  <img class="w-full" src={password} alt="Password Generator" />
-                  <div class="px-6 py-4">
-                    <div class="flex flex-row justify-between font-bold text-lg mb-4">
-                      <h1>Password Generator</h1>
-                      <h3 style={{ marginLeft: "2rem" }}>FrontEnd Engineer</h3>
-                    </div>
-                    <p class="text-gray-700 text-base">
-                      We created an API that generates a random password from the user's selection of password length and characters based on the parameters that were entered.
-                      <br></br>
-                      <br></br>
-                      Password Generator used Javascript, HTML, and CSS to create and was diployed using Github pages.
-                    </p>
-                  </div>
-                  <div class="px-6 pt-4 pb-2">
-                    <a href="https://github.com/erict001/Password-Generator" target="_blank" id="gitPassword" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github</button></a>
-                    <a href="https://erict001.github.io/Password-Generator/" target="_blank" id="livePlanner" rel="noreferrer"><button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Deployed Link</button></a>
                   </div>
                 </div>
                 <div class="max-w-5xl rounded overflow-hidden shadow-2xl mr-4 border-solid border-2 border-black">
