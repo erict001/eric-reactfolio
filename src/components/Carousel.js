@@ -40,8 +40,8 @@ export default function Home() {
         return budbud;
       case 4:
         return talking;
-      // default:
-      //   return null;
+      default:
+        return;
     }
   };
 
