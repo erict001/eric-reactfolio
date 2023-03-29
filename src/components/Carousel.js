@@ -12,8 +12,7 @@ export default function Home() {
   
   const change = () => {
     if (photo === 4) {
-      // setPhoto(1);
-      return setPhoto(1);
+      return setPhoto();
     }
 
     setPhoto((prev) => prev + 1);
@@ -41,7 +40,7 @@ export default function Home() {
       case 4:
         return talking;
       default:
-        return;
+        return setPhoto(1);
     }
   };
 
