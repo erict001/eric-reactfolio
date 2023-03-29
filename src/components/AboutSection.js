@@ -116,29 +116,6 @@ class AboutSection extends Component {
     render() {
         return (
             <div>
-                <div style={{ display: "flex", height: "12rem", width: "100vw", backgroundColor: "black" }}>
-                        <AliceCarousel
-                            autoPlay
-                            // autoPlayControls
-                            autoPlayStrategy="none"
-                            autoPlayInterval={500}
-                            animationDuration={1000}
-                            responsive = {responsive}
-                            paddingLeft = {100}
-                            paddingRight = {100}
-                            infinite
-                            disableDotsControls
-                            disableButtonsControls
-                            items={items}
-                        />
-                        {/* <div class="flex flex-row justify-around mt-3 mb-3 ml-3" >
-                                
-                                
-                                
-                                
-                                
-                            </div> */}
-                </div>
                 <div style={{ height: "auto", width: "100vw", backgroundColor: "#d7c25e" }}>
                     <div class="flex flex-row justify-center content-center pb-6 ml-3 mr-3">
                         <div class="flex flex-row h-full w-full justify-around content-center pt-6">

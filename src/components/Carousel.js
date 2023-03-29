@@ -12,8 +12,8 @@ export default function Home() {
   
   const change = () => {
     if (photo === 4) {
-      setPhoto(1);
-      return;
+      // setPhoto(1);
+      return setPhoto(1);
     }
 
     setPhoto((prev) => prev + 1);
@@ -27,7 +27,7 @@ export default function Home() {
     return () => {
       clearInterval(interval);
     };
-  }, (photo));
+  }, [photo]);
 
 
   const returnPhotoURL = () => {
