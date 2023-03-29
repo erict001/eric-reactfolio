@@ -6,6 +6,7 @@ import Resume from './Resume'
 import Headers from './Headers'
 import Carousel from './Carousel'
 import AboutSection from './AboutSection'
+import BuildAccordion from './BuildAccordion';
 
 const styles = {
   heading: {
@@ -48,6 +49,7 @@ class Home extends Component {
         <Portfolio />
         <Headers />
         <Resume />
+        <BuildAccordion />
         <Contact />
 \      </div>
     );
