@@ -22,7 +22,7 @@ const Accordion = ({ title, company, duration, image, description1, description2
         <div class="max-w w-full flex max-w-full">
           <div class="flex">
             {/* <img class="inset-0 h-auto w-conver object-fill object-center" src={image} alt="denali logo"/> */}
-            <div style={{backgroundImage: `url(${image})`, "background-size": "cover", "background-position": "center", "height": "10vh", "width": "10vw"}}></div>
+            <div style={{ backgroundImage: `url(${image})`, "background-size": "cover", "background-repeat": "no-repeat", "background-position": "center", "height": "100%", "width": "10vw" }}></div>
           </div>
           <div class="border-r border-b border-l border-gray-400 w-full lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div class="mb-8">
@@ -34,9 +34,11 @@ const Accordion = ({ title, company, duration, image, description1, description2
           </div>
         </div>
       </div>
-      {isActive && <div className="accordion-content">• {description1}</div>}
-      {isActive && <div className="accordion-content">• {description2}</div>}
-      {isActive && <div className="accordion-content">• {description3}</div>}
+      <div class="w-full bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-center">
+        {isActive && <div className="accordion-content">• {description1}</div>}
+        {isActive && <div className="accordion-content">• {description2}</div>}
+        {isActive && <div className="accordion-content">• {description3}</div>}
+      </div>
     </div>
   );
 };
