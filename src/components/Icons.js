@@ -43,7 +43,7 @@ class Icons extends Component {
                     <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img class="scale-110" src={LinkedIn} style={styles.icons} alt="linkedin icon"></img></a>
                 </div>
                 <div class="flex w-full justify-end content-center">
-                <a href={Resume} download><button class="text-xl font-bold uppercase text-white py-3 pl-12 pr-12" style={{backgroundColor: "#50C878"}}>Download My Resume</button></a>
+                <a href={Resume} download><button class="text-xl font-bold uppercase text-black py-3 pl-12 pr-12">Download My Resume</button></a>
                 </div>
             </div>
         )

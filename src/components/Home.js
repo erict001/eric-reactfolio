@@ -48,7 +48,6 @@ class Home extends Component {
         <About />
         <Portfolio />
         <Headers />
-        {/* <Resume /> */}
         <BuildAccordion />
         <Contact />
 \      </div>

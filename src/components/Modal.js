@@ -35,7 +35,7 @@ class Modal extends Component {
                             </div>
                             {/* <!-- content --> */}
                             <div class="w-full px-12 text-white">
-                                <h3 style={{fontSize: "30px", textShadow: "2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000"}} class="whitespace-normal">Full stack software developer with 4+ years of experience in all stages of advanced web development. Built two multi-six figure companies from scratch in under 2 years. </h3>
+                                <h3 style={{fontSize: "30px", textShadow: "2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000"}} class="whitespace-normal">Full stack software developer with over 5 years of experience in all stages of advanced web development. Built two multi-six figure companies from scratch in under 2 years while operating a third multi-million dollar company. </h3>
                             </div>
                         </div>
                     </div>
