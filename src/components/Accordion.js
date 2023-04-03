@@ -10,9 +10,14 @@ const Accordion = ({ title, company, duration, image, description1, description2
       margin: "0 2vw 0 1vw",
       border: "1px solid black",
     },
-    header: {
+    dropdown: {
       display: "flex",
-      alignItems: "center"
+      width: "98%",
+      borderLeft: "1px solid black",
+      borderRight: "1px solid black"
+    },
+    content: {
+      padding: "2vh 1vw 2vh 1vw"
     }
   }
 
@@ -34,11 +39,11 @@ const Accordion = ({ title, company, duration, image, description1, description2
           </div>
         </div>
       </div>
-      <div class="w-full bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-center">
-        {isActive && <div className="accordion-content">• {description1}</div>}
-        {isActive && <div className="accordion-content">• {description2}</div>}
-        {isActive && <div className="accordion-content">• {description3}</div>}
-      </div>
+        <div style={styles.dropdown} class="w-full bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col w-11/12 ml-4 justify-center text-lg">
+          {isActive && <div className="accordion-content" style={styles.content}>• {description1}</div>}
+          {isActive && <div className="accordion-content" style={styles.content}>• {description2}</div>}
+          {isActive && <div className="accordion-content" style={styles.content}>• {description3}</div>}
+        </div>
     </div>
   );
 };

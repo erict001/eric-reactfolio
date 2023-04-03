@@ -4,7 +4,6 @@ import Modal from "./Modal"
 
 import Kevin from "../images/assets/Kevin.jpg"
 import Hosting from "../images/assets/hosting.jpg"
-import budbud from "../images/assets/budbud.jpg"
 import talking from "../images/assets/talking.jpg"
 
 export default function Home() {
@@ -36,8 +35,6 @@ export default function Home() {
       case 2:
         return Kevin;
       case 3:
-        return budbud;
-      case 4:
         return talking;
       default:
         return setPhoto(1);
