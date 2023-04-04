@@ -10,17 +10,13 @@ import BuildAccordion from './BuildAccordion';
 
 const styles = {
   heading: {
-    // marginTop: "8%",
-    // marginBottom: "8%",
     display: "flex",
     flexDirection: "column",
-    // marginLeft: "35vw",
     justifyContent: "center",
     height: "90vh",
     width: "100vw",
     fontSize: "6rem",
     fontWeight: "bold",
-    // backgroundImage: `url(${jeopardy})`,
     opacity: "50%"
   },
   font: {
@@ -38,7 +34,7 @@ class Home extends Component {
               <Carousel />
             </div>
           </section>
-          <div class="mt-5">
+          <div class="mt-3">
             <AboutSection />
           </div>
         </div>

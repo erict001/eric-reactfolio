@@ -39,7 +39,7 @@ class Portfolio extends Component {
               <br></br>
               <br></br>
             </div>
-            <div class="flex flex-wrap xs:flex-col mx-2">
+            <div class="flex sm:justify-center flex-wrap xs:flex-col mx-2">
               <div class="flex justify-center mb-20 mx-2">
                 <div class="max-w-xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
                   <img class="w-full" src={apollo} alt="Apollo Academy website" />

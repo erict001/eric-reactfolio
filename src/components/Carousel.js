@@ -41,19 +41,21 @@ export default function Home() {
     }
   };
 
+  const styles = {
+    background: {
+      backgroundImage: `url(${returnPhotoURL()})`,
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+      marginTop: "2vh",
+      width: "100vw",
+      height: "92vh",
+      zIndex: "0",
+    }
+  }
+
   return (
-    <div
-      style={{
-        backgroundImage: `url(${returnPhotoURL()})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        marginTop: "2vh",
-        width: "100vw",
-        height: "92vh",
-        zIndex: "0",
-      }}
-    >
+    <div style={styles.background}>
       <div class="flex justify-center items-center" style={{backgroundColor: "rgba(0, 0, 0, 0.50)", height: "100%", width: "100%", }}>
         <Modal />
       </div>

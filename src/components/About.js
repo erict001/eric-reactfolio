@@ -29,11 +29,11 @@ class About extends Component {
             {/* <div class="lg:columns-1 md:columns-1 lg:w-4/5 md:w-4/5 sm:w-4/5 ">
               <img src={picture} class="border-2 rounded-xl" style={{ marginLeft: "8rem", marginRight: "1rem", height: "50rem", borderRadius: "80rem" }} alt="Eric Taylor"></img>
             </div> */}
-            <div class="flex flex-col flex-wrap lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 xs:w-5/5 text-black">
+            <div class="flex lg:columns-1 md:columns-1 sm:columns-1 xs:columns-1 lg:w-5/5 md:w-5/5 sm:w-5/5 xs:mt-20 xs:w-5/5 text-black">
               <br></br>
               <br></br>
               <div>
-                <h1 class="auto-cols-max xl:text-4.2xl lg:text-5xl md:text-3xl sm:text-5xl xs:text-3xl pr-10 lg:w-4/5 md:4/5 xs:ml-20">
+                <h1 class="xl:text-4.2xl lg:text-5xl md:text-3xl sm:text-5xl xs:text-3xl pr-10 lg:w-4/5 md:4/5 xs:ml-20">
                   I'm driven to help people and companies become their best selves through creative design, quality branding, and unparalleled customer service.
                   <br />
                   <br />
