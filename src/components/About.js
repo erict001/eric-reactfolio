@@ -20,9 +20,6 @@ class About extends Component {
   render() {
     return (
       <div>
-        {/* <div style={{ display: "flex", justifyContent: "center", height: "auto", width: "100vw", color: "white", backgroundColor: "black" }}>
-          <h1 style={{ alignContent: "center", fontSize: "100px" }}>About Me</h1>
-        </div> */}
         <hr></hr>
         <div class="flex flex-col">
           <div class="xl:columns-2 lg:flex lg:flex-col md:columns-1 sm:columns-1 xs:columns-1 h-min pt-20 pb-20 lg:pl-20 pr-20 w-100">

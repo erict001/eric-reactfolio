@@ -101,7 +101,7 @@ class Portfolio extends Component {
               <br></br>
               <div class="flex flex-wrap justify-center space-evenly center">
                 <div class="xl:columns-4 lg:columns-1 md:columns-1 sm:columns-1 xl:ml-4">
-                  <div class="max-w-5xl rounded overflow-hidden shadow-2xl mb-10 border-solid border-2 border-black">
+                <div class="max-w-xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
                     <img class="w-full" src={jeopardy} alt="Inspirational Jeopardy" />
                     <div class="px-6 py-4">
                       <div class="flex justify-center text-xl font-bold pb-2">

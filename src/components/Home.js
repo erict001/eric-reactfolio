@@ -34,13 +34,10 @@ class Home extends Component {
               <Carousel />
             </div>
           </section>
-          <div class="mt-3">
+          <div class="mt-5">
             <AboutSection />
           </div>
         </div>
-        {/* <div style={{ height: "110vh" }}>
-          <video style={{ width: "100%", height: "100vh" }} src={apolloFull} autoPlay muted loop width="1000" alt="Eric Apollo Academy Media"></video>
-        </div> */}
         <About />
         <Portfolio />
         <Headers />
