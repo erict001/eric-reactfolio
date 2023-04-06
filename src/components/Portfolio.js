@@ -43,9 +43,12 @@ class Portfolio extends Component {
               <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
                 <img class="w-full" src={apollo} alt="Apollo Academy website" />
                 <div class="px-6 py-4">
-                  <div class="flex flex-row justify-between font-bold text-xl mb-4">
+                  <div class="flex justify-center text-xl font-bold pb-2">
                     <h1>Apollo Academy Basketball</h1>
-                    <h3 style={{ marginLeft: "2rem" }}>FrontEnd Engineer <br /> UI/UX Designer</h3>
+                  </div>
+                  <div class="flex flex-column justify-between text-md mb-4">
+                    <h3>FrontEnd Engineer</h3>
+                    <h3>UI/UX Designer</h3>
                   </div>
                   <p class="text-gray-700 text-base">
                     This website was built to support my former basketball company, Apollo Academy Basketball. This application was built using Elementor and deployed to Wordpress. I loved the creativity and freedom that coding provides and sparked my interest in software development.
@@ -58,9 +61,11 @@ class Portfolio extends Component {
               <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
                 <img class="w-full" src={mojave} alt="Apollo Academy website" />
                 <div class="px-6 py-4">
-                  <div class="flex flex-row justify-between font-bold text-xl mb-4">
+                  <div class="flex justify-center text-xl font-bold pb-2">
                     <h1>Mojave Desert Land Trust</h1>
-                    <h3 style={{ marginLeft: "2rem" }}>FrontEnd Engineer</h3>
+                  </div>
+                  <div class="flex flex-column justify-center text-md mb-4">
+                    <h3>FrontEnd Developer</h3>
                   </div>
                   <p class="text-gray-700 text-base">
                     This website was built to help raise awareness and increase financial donations to support the Mojave Desert Land Trust. I built custom CSS into the Squarespace platform to generate custom features throughout the website.
@@ -73,9 +78,12 @@ class Portfolio extends Component {
               <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
                 <img class="w-full" src={united} alt="Apollo Academy website" />
                 <div class="px-6 py-4">
-                  <div class="flex flex-row justify-between font-bold text-xl mb-4">
+                <div class="flex justify-center text-xl font-bold pb-2">
                     <h1>United Way of Marquette County</h1>
-                    <h3 style={{ marginLeft: "2rem" }}>FrontEnd Engineer <br /> UI/UX Designer</h3>
+                  </div>
+                  <div class="flex flex-column justify-between text-md mb-4">
+                    <h3>FrontEnd Engineer</h3>
+                    <h3>UI/UX Designer</h3>
                   </div>
                   <p class="text-gray-700 text-base">
                     This website was built to help increase web traffic and awarenesss for the United Way of Marquette County. I built themes and blocks into the Wordpress platform to generate custom features throughout the website.
