@@ -38,7 +38,7 @@ class Portfolio extends Component {
               <br></br>
               <br></br>
             </div>
-            <div class="xl:flex space-x-4 xl:mx-4 xl:ml-4 lg:flex-col lg:justify-center">
+            <div class="xl:flex xl:space-x-4 xl:mx-4 xl:ml-4 lg:flex-col lg:justify-center">
               <div class="md:max-w-5xl sm:max-w-3xl rounded shadow-2xl mb-4 border-solid border-2 border-black">
                 <img class="w-full" src={apollo} alt="Apollo Academy website" />
                 <div class="px-6 py-4">
@@ -100,7 +100,7 @@ class Portfolio extends Component {
               <br></br>
               <br></br>
               <br></br>
-              <div class="xl:flex space-x-4 lg:flex-col xl:mx-4 xl:ml-4">
+              <div class="xl:flex xl:space-x-4 lg:flex-col xl:mx-4 xl:ml-4">
                 <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
                   <img class="w-full" src={jeopardy} alt="Inspirational Jeopardy" />
                   <div class="px-6 py-4">
