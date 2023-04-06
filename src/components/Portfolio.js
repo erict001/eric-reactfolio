@@ -23,7 +23,7 @@ class Portfolio extends Component {
               className="aspect-[2/1]"
             >
               <div className="absolute inset-0 flex items-center justify-center">
-                <h1 className="text-8xl text-white font-bold">How I can help you!</h1>
+                <h1 className="xl:text-8xl text-6xl text-white font-bold">How I can help you!</h1>
               </div>
             </ParallaxBanner>
           </ParallaxProvider>
@@ -38,7 +38,7 @@ class Portfolio extends Component {
               <br></br>
               <br></br>
             </div>
-            <div class="xl:flex space-x-4 lg:flex-col xl:mx-4 xl:ml-4">
+            <div class="xl:flex space-x-4 xl:mx-4 xl:ml-4 lg:flex-col lg:justify-center">
               <div class="md:max-w-5xl sm:max-w-3xl rounded shadow-2xl mb-4 border-solid border-2 border-black">
                 <img class="w-full" src={apollo} alt="Apollo Academy website" />
                 <div class="px-6 py-4">
@@ -58,7 +58,7 @@ class Portfolio extends Component {
                 </div>
               </div>
               <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
-                <img class="w-full" src={mojave} alt="Apollo Academy website" />
+                <img class="w-full" src={mojave} alt="Mojave Desert Land Trust" />
                 <div class="px-6 py-4">
                   <div class="flex justify-center text-xl font-bold pb-2">
                     <h1>Mojave Desert Land Trust</h1>
@@ -75,7 +75,7 @@ class Portfolio extends Component {
                 </div>
               </div>
               <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
-                <img class="w-full" src={united} alt="Apollo Academy website" />
+                <img class="w-full" src={united} alt="United Way of Marquette County" />
                 <div class="px-6 py-4">
                 <div class="flex justify-center text-xl font-bold pb-2">
                     <h1>United Way of Marquette County</h1>
