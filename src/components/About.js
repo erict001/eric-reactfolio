@@ -22,7 +22,7 @@ class About extends Component {
       <div>
         <hr></hr>
         <div class="flex flex-col">
-          <div class="xl:columns-1 lg:flex lg:flex-col md:columns-1 sm:columns-1 xs:columns-1 h-min pt-20 pb-20 inline-block lg:pl-20 pr-20 w-100">
+          <div class="xl:columns-1 lg:flex lg:flex-col md:columns-1 sm:columns-1 xs:columns-1 h-min pt-20 pb-20 lg:pl-20 pr-20 w-100">
             {/* <div class="lg:columns-1 md:columns-1 lg:w-4/5 md:w-4/5 sm:w-4/5 ">
               <img src={picture} class="border-2 rounded-xl" style={{ marginLeft: "8rem", marginRight: "1rem", height: "50rem", borderRadius: "80rem" }} alt="Eric Taylor"></img>
             </div> */}

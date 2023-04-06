@@ -5,7 +5,6 @@ import appa from "../images/assets/appa.png"
 import apollo from "../images/assets/apollo.png"
 import laptop from "../images/assets/code.jpg"
 import jeopardy from "../images/assets/Inspirational-Jeopardy.png"
-import password from "../images/assets/Password.png"
 import restaurant from "../images/assets/Restaurant.png"
 import mojave from "../images/assets/mojave.png"
 import united from "../images/assets/uwmqt.png"
@@ -39,7 +38,7 @@ class Portfolio extends Component {
               <br></br>
               <br></br>
             </div>
-            <div class="xl:columns-3 lg:columns-1  md:columns-1 sm:columns-1 sm:mx-4 xl:ml-4">
+            <div class="xl:columns-3 inline-block lg:columns-1  md:columns-1 sm:columns-1 sm:mx-4 xl:ml-4">
               <div class="md:max-w-5xl sm:max-w-3xl rounded shadow-2xl mb-4 border-solid border-2 border-black">
                 <img class="w-full" src={apollo} alt="Apollo Academy website" />
                 <div class="px-6 py-4">
@@ -101,7 +100,7 @@ class Portfolio extends Component {
               <br></br>
               <br></br>
               <br></br>
-              <div class="xl:columns-3 lg:columns-1  md:columns-1 sm:columns-1 sm:mx-4 xl:ml-4">
+              <div class="xl:columns-3 inline-block lg:columns-1  md:columns-1 sm:columns-1 sm:mx-4 xl:ml-4">
                 <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
                   <img class="w-full" src={jeopardy} alt="Inspirational Jeopardy" />
                   <div class="px-6 py-4">
