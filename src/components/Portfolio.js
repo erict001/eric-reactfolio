@@ -40,7 +40,7 @@ class Portfolio extends Component {
               <br></br>
             </div>
             <div class="xl:columns-3 lg:columns-1  md:columns-1 sm:columns-1 sm:mx-4 xl:ml-4">
-              <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
+              <div class="md:max-w-5xl sm:max-w-3xl rounded shadow-2xl mb-4 border-solid border-2 border-black">
                 <img class="w-full" src={apollo} alt="Apollo Academy website" />
                 <div class="px-6 py-4">
                   <div class="flex justify-center text-xl font-bold pb-2">

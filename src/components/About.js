@@ -30,7 +30,7 @@ class About extends Component {
               <br></br>
               <br></br>
               <div>
-                <h1 class="xl:text-4.2xl lg:text-5xl md:text-3xl sm:text-5xl xs:text-3xl pr-10 lg:w-4/5 md:4/5 xs:ml-20">
+                <h1 class="xl:text-4xl lg:text-4xl md:text-4xl sm:text-3xl xs:text-3xl pr-10 lg:w-4/5 md:4/5 xs:ml-20">
                   I'm driven to help people and companies become their best selves through creative design, quality branding, and unparalleled customer service.
                   <br />
                   <br />
