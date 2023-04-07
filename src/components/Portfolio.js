@@ -40,7 +40,7 @@ class Portfolio extends Component {
             </div>
             <div class="xl:flex xl:space-x-4 xl:mx-4 xl:ml-4 lg:flex-col lg:justify-center">
               <div class="md:max-w-5xl sm:max-w-3xl rounded shadow-2xl mb-4 border-solid border-2 border-black">
-                <img class="w-full" src={apollo} alt="Apollo Academy website" />
+                <img class="w-full h-2/5" src={apollo} alt="Apollo Academy website" />
                 <div class="px-6 py-4">
                   <div class="flex justify-center text-xl font-bold pb-2">
                     <h1>Apollo Academy Basketball</h1>
@@ -58,7 +58,7 @@ class Portfolio extends Component {
                 </div>
               </div>
               <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
-                <img class="w-full" src={mojave} alt="Mojave Desert Land Trust" />
+                <img class="w-full h-2/5" src={mojave} alt="Mojave Desert Land Trust" />
                 <div class="px-6 py-4">
                   <div class="flex justify-center text-xl font-bold pb-2">
                     <h1>Mojave Desert Land Trust</h1>
@@ -75,7 +75,7 @@ class Portfolio extends Component {
                 </div>
               </div>
               <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
-                <img class="w-full" src={united} alt="United Way of Marquette County" />
+                <img class="w-full h-2/5" src={united} alt="United Way of Marquette County" />
                 <div class="px-6 py-4">
                 <div class="flex justify-center text-xl font-bold pb-2">
                     <h1>United Way of Marquette County</h1>
@@ -102,7 +102,7 @@ class Portfolio extends Component {
               <br></br>
               <div class="xl:flex xl:space-x-4 lg:flex-col xl:mx-4 xl:ml-4">
                 <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
-                  <img class="w-full" src={jeopardy} alt="Inspirational Jeopardy" />
+                  <img class="w-full h-1/3" src={jeopardy} alt="Inspirational Jeopardy" />
                   <div class="px-6 py-4">
                     <div class="flex justify-center text-xl font-bold pb-2">
                       <h1>Inspirational Jeopardy</h1>
@@ -125,7 +125,7 @@ class Portfolio extends Component {
                   </div>
                 </div>
                 <div class="max-w-5xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
-                  <img class="w-full" src={appa} alt="Appa's Landing" />
+                  <img class="w-full h-1/3" src={appa} alt="Appa's Landing" />
                   <div class="px-6 py-4">
                     <div class="flex justify-center text-xl font-bold pb-2">
                       <h1>Appa's Landing</h1>
@@ -146,7 +146,7 @@ class Portfolio extends Component {
                   </div>
                 </div>
                 <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
-                  <img class="w-full" src={restaurant} alt="Restaurant Finder" />
+                  <img class="w-full h-1/3" src={restaurant} alt="Restaurant Finder" />
                   <div class="px-6 py-4">
                     <div class="flex justify-center text-xl font-bold pb-2">
                       <h1>Restaurant Finder</h1>
