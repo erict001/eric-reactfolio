@@ -27,9 +27,9 @@ const Accordion = ({ title, company, duration, image, description1, description2
     <div className="accordion-item">
       <div className="accordion-title" style={styles.accordions} onClick={() => setIsActive(!isActive)}>
         <div class="max-w w-full flex max-w-full">
-          <div class="flex">
-            {/* <img class="inset-0 h-auto w-conver object-fill object-center" src={image} alt="denali logo"/> */}
-            <div style={{ backgroundImage: `url(${image})`, "background-size": "cover", "background-repeat": "no-repeat", "background-position": "center", "height": "100%", "width": "10vw" }}></div>
+          <div class="flex w-1/5 xs:w-1/3">
+            <img class="inset-0 h-auto w-full object-fill object-center" src={image} alt="denali logo"/>
+            {/* <div style={{ backgroundImage: `url(${image})`, "background-size": "cover", "background-repeat": "no-repeat", "background-position": "center", "height": "100%", "width": "10vw" }}></div> */}
           </div>
           <div class="border-r border-b border-l border-gray-400 w-full lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div class="mb-8">

@@ -40,6 +40,15 @@ export const accordionData = [
         description3: "Successfully managed relationships with over 150 customers on a weekly basis, ensuring timely and effective communication and issue resolution."
     },
     {
+        title: "Frontend Web Developer, UI/UX Designer",
+        company: "Apollo Academy",
+        duration: "November 2018 - February 2022",
+        image: Apollo,
+        description1: "Successfully grew the company to over 300k in revenue in under 2 years through strategic marketing and sales efforts, resulting in increased profitability and market share.",
+        description2: "Conducted extensive market research to identify emerging trends and customer needs, resulting in the successful development and launch of new products and services.",
+        description3: "Successfully managed relationships with over 150 customers on a weekly basis, ensuring timely and effective communication and issue resolution."
+    },
+    {
         title: "Co-Founder, COO",
         company: "Fenix Experience",
         duration: "March 2016 - November 2018",
