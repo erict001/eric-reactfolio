@@ -18,7 +18,7 @@ function App() {
   return (
     <div style={styles.color}>
       <Icons />
-      <NewNav />
+      {/* <NewNav /> */}
       <Navbar />
       {/* <Images /> */}
       {/* <footer>
