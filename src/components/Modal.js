@@ -30,7 +30,7 @@ class Modal extends Component {
                         <div class="flex flex-col md:flex-col overflow-hidden
                                         rounded-lg h-96 w-full" style={{backgroundColor: "rgba(255, 255, 255, 0.00)"}}>
                             {/* <!-- media --> */}
-                            <div style={{zIndex: "5"}} class="w-full flex justify-center text-black">
+                            <div style={{zIndex: "5"}} class="w-full flex justify-center text-black ">
                                 <h1 style={styles.text}>Hi, I'm Eric Taylor. </h1>
                             </div>
                             {/* <!-- content --> */}

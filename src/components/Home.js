@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import About from './About'
-import Resume from './Resume'
 import Headers from './Headers'
 import Carousel from './Carousel'
 import AboutSection from './AboutSection'

@@ -2,8 +2,8 @@ import React from "react";
 import Home from '../components/Home'
 import About from '../components/About'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import Github from "../images/assets/Github.png"
-import LinkedIn from "../images/assets/LinkedIn.png"
+import Github from "../images/assets/Github.webp"
+import LinkedIn from "../images/assets/LinkedIn.webp"
 
 const styles = {
     rootStyle: {

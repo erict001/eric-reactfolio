@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Github from "../images/assets/Github.png"
-import LinkedIn from "../images/assets/91030.png"
+import Github from "../images/assets/Github.webp"
+import LinkedIn from "../images/assets/91030.webp"
 import Resume from "../images/assets/Resume.pdf"
 
 

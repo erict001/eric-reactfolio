@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import city from "../images/assets/City.png"
+import city from "../images/assets/City.webp"
 
 
 

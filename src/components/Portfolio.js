@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { ParallaxBanner } from 'react-scroll-parallax';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import appa from "../images/assets/appa.png"
-import apollo from "../images/assets/apollo.png"
-import laptop from "../images/assets/code.jpg"
-import jeopardy from "../images/assets/Inspirational-Jeopardy.png"
-import restaurant from "../images/assets/Restaurant.png"
-import mojave from "../images/assets/mojave.png"
-import united from "../images/assets/uwmqt.png"
+import appa from "../images/assets/appa.webp"
+import apollo from "../images/assets/apollo.webp"
+import laptop from "../images/assets/code.webp"
+import jeopardy from "../images/assets/Inspirational-Jeopardy.webp"
+import restaurant from "../images/assets/Restaurant.webp"
+import mojave from "../images/assets/mojave.webp"
+import united from "../images/assets/uwmqt.webp"
 
 class Portfolio extends Component {
   render() {

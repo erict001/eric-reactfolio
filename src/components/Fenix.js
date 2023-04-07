@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import fenix from "../images/assets/Fenix.png"
+import fenix from "../images/assets/Fenix.webp"
 
 
 class Fenix extends Component {

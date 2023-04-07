@@ -2,9 +2,9 @@ import React from "react";
 import { useEffect, useState } from "react";
 import Modal from "./Modal"
 
-import Kevin from "../images/assets/Kevin.jpg"
-import Hosting from "../images/assets/hosting.jpg"
-import talking from "../images/assets/talking.jpg"
+import Kevin from "../images/assets/Kevin.webp"
+import Hosting from "../images/assets/hosting.webp"
+import talking from "../images/assets/talking.webp"
 
 export default function Home() {
   const [photo, setPhoto] = useState(1);

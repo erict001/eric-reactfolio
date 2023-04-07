@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Apollo from "../images/assets/uw-logo.png"
+import Apollo from "../images/assets/uw-logo.jpg"
 import CountUp from "react-countup"
-import kids from "../images/assets/kids.png"
-import Tallus from "../images/assets/Tallus.png"
-import APT from "../images/assets/APT.png"
-import SPS from "../images/assets/BGCKC.png"
-import sportsStadium from "../images/assets/sportsStadium.png"
-import threeD from "../images/assets/threeD.png"
+import kids from "../images/assets/kids.jpg"
+import Tallus from "../images/assets/Tallus.jpg"
+import APT from "../images/assets/APT.jpg"
+import SPS from "../images/assets/BGCKC.jpg"
+import sportsStadium from "../images/assets/sportsStadium.jpg"
+import threeD from "../images/assets/threeD.jpg"
 
 class washingtonAccomplishments extends Component {
     render() {

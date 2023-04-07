@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ApolloB from "../images/assets/ApolloB.png"
+import ApolloB from "../images/assets/ApolloB.webp"
 
 
 

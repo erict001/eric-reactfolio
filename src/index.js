@@ -7,13 +7,10 @@ import Home from '../src/components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Resume from './components/Resume';
 import Denali from './components/Denali';
 import City from './components/City';
 import Fenix from './components/Fenix';
 import Apollo from './components/Apollo';
-import ApolloAccomplishments from './components/apolloAccomplishments';
-import CityAccomplishments from './components/cityAccomplishments';
 import Nav from './components/Navbar';
 import Icon from './components/Icons';
 import Carousel from './components/Carousel';
@@ -40,13 +37,10 @@ root.render(
     <Route path="/about" element={<About />} />
     <Route path="/portfolio" element={<Portfolio />} />
     <Route path="/contact" element={<Contact />} />
-    <Route path="/resume" element={<Resume />} />
     <Route path="/denali" element={<Denali />} />
     <Route path="/city" element={<City />} />
     <Route path="/fenix" element={<Fenix />} />
     <Route path="/apollo" element={<Apollo />} />
-    <Route path="/apolloAccomplishments" element={<ApolloAccomplishments />} />
-    <Route path="/cityAccomplishments" element={<CityAccomplishments />} />
   </Routes>
 </BrowserRouter>
 );

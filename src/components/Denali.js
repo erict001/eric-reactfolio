@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import denali from "../images/assets/Denali.png"
+import denali from "../images/assets/Denali.webp"
 
 
 class Denali extends Component {

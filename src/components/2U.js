@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import uw from "../images/assets/uw-logo.png"
+import uw from "../images/assets/uw-logo.webp"
 
 
 
