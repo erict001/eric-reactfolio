@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Icons from './components/Icons'
+import NewNav from "./components/NewNav"
 
 const styles = {
   color: {
@@ -17,6 +18,7 @@ function App() {
   return (
     <div style={styles.color}>
       <Icons />
+      <NewNav />
       <Navbar />
       {/* <Images /> */}
       {/* <footer>
