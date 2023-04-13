@@ -29,11 +29,11 @@ const styles = {
         marginLeft: "1rem",
     },
     logo: {
-        height: "45px",
-        width: "50px",
+        height: "55px",
+        width: "55px",
         display: "flex",
         justifyContent: "start",
-        marginTop: "5px",
+        marginTop: "1px",
         marginLeft: "1rem",
     },
     color: {
