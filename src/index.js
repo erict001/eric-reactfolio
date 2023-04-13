@@ -12,7 +12,6 @@ import Icon from './components/Icons';
 import Carousel from './components/Carousel';
 import Modal from './components/Modal';
 import AboutSection from './components/AboutSection';
-import NewNav from './components/NewNav';
 
 
 
@@ -24,7 +23,6 @@ root.render(
     <Route path="/" element={<App />} />
     <Route path="/" element={<Home />} />
     <Route path="/" element={<Nav />} />
-    <Route path="/" element={<NewNav />} />
     <Route path="/" element={<Icon />} />
     <Route path="/about-section" element={<AboutSection />} />
     <Route path="/modal" element={<Modal />} />

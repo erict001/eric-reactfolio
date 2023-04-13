@@ -20,6 +20,12 @@ const Accordion = ({ title, company, duration, image, description1, description2
     },
     content: {
       padding: "2vh 1vw 2vh 1vw"
+    },
+    button: {
+      border: "1px solid black",
+      padding: "5px",
+      backgroundColor: "#ECECEC",
+      textDecoration: "bold"
     }
   }
 
@@ -29,7 +35,6 @@ const Accordion = ({ title, company, duration, image, description1, description2
         <div class="max-w w-full flex max-w-full">
           <div class="flex w-1/5 xs:w-1/3">
             <img class="inset-0 h-auto w-full object-fill object-center" src={image} alt="denali logo"/>
-            {/* <div style={{ backgroundImage: `url(${image})`, "background-size": "cover", "background-repeat": "no-repeat", "background-position": "center", "height": "100%", "width": "10vw" }}></div> */}
           </div>
           <div class="border-r border-b border-l border-gray-400 w-full lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div class="mb-8">
@@ -37,7 +42,9 @@ const Accordion = ({ title, company, duration, image, description1, description2
               <h3 class="text-gray-700 font-bold text-lg mb-1 text-base">{company}</h3>
               <h5 class="text-gray-600">{duration}</h5>
             </div>
-            <div>{isActive ? '-' : 'Learn More'}</div>
+            <div>
+              <button style={styles.button}>{isActive ? '-' : 'Learn More'}</button>
+            </div>
           </div>
         </div>
       </div>
