@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Github from "../images/assets/Github.webp"
 import LinkedIn from "../images/assets/91030.webp"
+import Logo from "../images/assets/logos.webp"
 import Resume from "../images/assets/Resume.pdf"
 
 
@@ -27,6 +28,14 @@ const styles = {
         justifyContent: "start",
         marginLeft: "1rem",
     },
+    logo: {
+        height: "45px",
+        width: "50px",
+        display: "flex",
+        justifyContent: "start",
+        marginTop: "5px",
+        marginLeft: "1rem",
+    },
     color: {
         color: "black",
         // backgroundColor: "white"
@@ -37,13 +46,14 @@ const styles = {
 class Icons extends Component {
     render() {
         return (
-            <div style={{ display: "flex", height: "auto", width: "100vw", backgroundColor: "#d7c25e" }}>
-                <div class="flex flex-row justify-start mt-3 mb-3 ml-3" >
-                    <a href={"https://github.com/erict001"}><img class="invert" src={Github} style={styles.icons} alt="github icon"></img></a>
-                    <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img class="scale-110" src={LinkedIn} style={styles.icons} alt="linkedin icon"></img></a>
+            <div style={{ display: "flex", height: "50px", width: "100vw", backgroundColor: "#d7c25e" }}>
+                <div class="flex flex-row justify-start mb-3 ml-3" >
+                    <a href={"/"}><img class="invert" src={Logo} style={styles.logo} alt="eric taylor logo"></img></a>
+                    <a href={"https://github.com/erict001"}><img class="invert  mt-3" src={Github} style={styles.icons} alt="github icon"></img></a>
+                    <a href={"https://www.linkedin.com/in/eric-taylor-03181917a/"}><img class="scale-110  mt-3" src={LinkedIn} style={styles.icons} alt="linkedin icon"></img></a>
                 </div>
                 <div class="flex w-full justify-end content-center">
-                <a href={Resume} download><button class="text-xl font-bold uppercase text-black py-3 pl-12 pr-12">Download My Resume</button></a>
+                    <a href={Resume} download><button class="text-xl font-bold uppercase text-black py-3 pl-12 pr-12">Download My Resume</button></a>
                 </div>
             </div>
         )
