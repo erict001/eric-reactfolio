@@ -1,19 +1,5 @@
 import React from 'react';
 
-// const styles = {
-//   margin: {
-//     marginTop: "5%",
-//     marginLeft: "5%",
-//     marginRight: "40%"
-//   },
-//   text: {
-//     color: "white",
-//     textShadow: "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000",
-//     fontFamily: "Impact", 
-//     letterSpacing: ".5rem"
-//   }
-// }
-
 
 function About() {
   return (

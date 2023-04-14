@@ -11,11 +11,9 @@ import threeD from "../images/assets/threeD.jpg"
 function washingtonAccomplishments() {
     return (
         < div class="container bg-black ">
-            {/* <!-- card --> */}
             <div class="flex flex-col bg-black" style={{ width: "98.7vw" }}>
                 < div class="flex flex-row lg:flex-col lg:columns-2 md:columns-2 sm:columns-1 xs:columns-1 overflow-hidden
                     bg-black rounded-lg shadow-xl h-auto mt-4 mr-1">
-                    {/* <!-- media --> */}
                     <div class="h-max w-1/3 flex flex-col xl:columns-3 lg:columns-2 md:columns-2 sm:columns-1 xs:columns-1">
                         <div class="flex flex-row xl:flex-row lg:columns-2 md:columns-2 sm:columns-1 xs:flex-col xs:columns-1">
                             <div>
@@ -28,7 +26,6 @@ function washingtonAccomplishments() {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- content --> */}
                     <div class="w-2/3 pt-4 px-12 text-white text-3xl flex flex-col">
                         <ul class="list-disc md:text-3xl xs:text-2xl">
                             <li class="pt-2"> Successfully built our brand identity in the Seattle area focusing on social media and traditional marketing efforts to help grow our program to be the second largest youth sports program in Seattle, grossing over $180,000 in our first year with a 10% increase in our second fiscal year.  </li>
@@ -107,17 +104,11 @@ function washingtonAccomplishments() {
                                         <a href="https://positiveplace.org"><div class="h-40 flex justify-center">
                                             <img src={SPS} class="invert" alt="sps logo"></img>
                                         </div></a>
-                                        {/* <div class="text-2xl flex justify-center md:text-lg">
-                                                <a href="https://positiveplace.org"><h1 >Boys and Girls Club of King County </h1></a>
-                                            </div> */}
                                     </div>
                                     <div class="flex flex-col justify-center pt-10">
                                         <div class="h-240 scale-75 flex justify-center">
                                             <a href="https://viceathletics.com"><img src={threeD} alt="vice logo"></img></a>
                                         </div>
-                                        {/* <div class="text-2xl flex justify-center md:text-lg">
-                                                <a href="https://viceathletics.com"><h1 >3D Total Health </h1></a>
-                                            </div> */}
                                     </div>
                                 </div>
                             </div>

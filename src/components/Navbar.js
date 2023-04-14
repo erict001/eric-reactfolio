@@ -28,18 +28,13 @@ const styles = {
     },
     item: {
         fontSize: "20px",
-        // paddingLeft: "3rem",
-        // paddingRight: "75rem",
     },
     items: {
-        // border: "solid 1px white",
-        // padding: "1rem",
         fontSize: "20px",
         color: "white"
     },
     color: {
         color: "black",
-        // backgroundColor: "white"
         backgroundColor: "#F3F2F2"
     }
 }
@@ -52,7 +47,6 @@ function Nav() {
                     <TabList style={styles.header}>
                         <Tab class="w-3/5 pl-20" style={styles.item}>Home</Tab>
                         <Tab class="w-3/5 pl-20" style={styles.item}>My Story</Tab>
-                        {/* <a href={<About />} target="_blank"><button style={styles.items}>My Story</button></a> */}
                         <a href="mailto:eric.taylor1012@gmail.com" target="_blank" rel="noreferrer"><button style={styles.items}>Contact Me</button></a>
                     </TabList>
                     <div>

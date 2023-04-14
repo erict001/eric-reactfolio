@@ -26,7 +26,6 @@ function Portfolio() {
             </div>
           </ParallaxBanner>
         </ParallaxProvider>
-        {/* <h1 style={{ alignContent: "center", fontSize: "100px" }}>Projects</h1> */}
       </div>
       <hr></hr>
       <div style={{ color: "black" }}>
