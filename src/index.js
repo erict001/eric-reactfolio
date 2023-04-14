@@ -12,6 +12,7 @@ import Icon from './components/Icons';
 import Carousel from './components/Carousel';
 import Modal from './components/Modal';
 import AboutSection from './components/AboutSection';
+import MyStory from './components/MyStory';
 
 
 
@@ -27,7 +28,7 @@ root.render(
     <Route path="/about-section" element={<AboutSection />} />
     <Route path="/modal" element={<Modal />} />
     <Route path="/carousel" element={<Carousel />} />
-    <Route path="/about" element={<About />} />
+    <Route path="/about" element={<MyStory />} />
     <Route path="/portfolio" element={<Portfolio />} />
     <Route path="/contact" element={<Contact />} />
   </Routes>

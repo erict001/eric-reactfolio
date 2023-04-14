@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import About from './About'
@@ -23,28 +23,26 @@ const styles = {
   }
 }
 
-class Home extends Component {
-  render() {
-    return (
-      <div className="tabs">
-        <div>
-          <section class="flex justify-center content-center" style={styles.heading}>
-            <div>
-              <Carousel />
-            </div>
-          </section>
-          <div class="mt-5">
-            <AboutSection />
+function Home() {
+  return (
+    <div className="tabs">
+      <div>
+        <section class="flex justify-center content-center" style={styles.heading}>
+          <div>
+            <Carousel />
           </div>
+        </section>
+        <div class="mt-5">
+          <AboutSection />
         </div>
-        <About />
-        <Portfolio />
-        <Headers />
-        <BuildAccordion />
-        <Contact />
-\      </div>
-    );
-  }
+      </div>
+      <About />
+      <Portfolio />
+      <Headers />
+      <BuildAccordion />
+      <Contact />
+      \      </div>
+  );
 }
 
 export default Home;

@@ -1,25 +1,22 @@
 import React from "react";
 
-
-const styles = {
-    header: {
-        display: "flex",
-        flexDirection: "column",
-        listStyle: "none",
-        justifyContent: "space-around",
-    },
-    label: {
-        width: "30rem",
-    },
-    text: {
-        color: "white",
-        textShadow: "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000",
+function myModal() {
+    const styles = {
+        header: {
+            display: "flex",
+            flexDirection: "column",
+            listStyle: "none",
+            justifyContent: "space-around",
+        },
+        label: {
+            width: "30rem",
+        },
+        text: {
+            color: "white",
+            textShadow: "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000",
+        }
     }
-}
-
-
-
-function Modal() {
+    
     return (
         <div>
             <div id="card">
@@ -40,7 +37,7 @@ function Modal() {
                 </div>
             </div>
         </div>
-    );
+    )
 };
 
-export default Modal;
+export default myModal;

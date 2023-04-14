@@ -1,6 +1,6 @@
 import React from "react";
 import Home from '../components/Home'
-import About from '../components/About'
+import MyStory from '../components/MyStory'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Github from "../images/assets/Github.webp"
 import LinkedIn from "../images/assets/LinkedIn.webp"
@@ -44,7 +44,7 @@ const styles = {
     }
 }
 
-const Nav = () => {
+function Nav() {
     return (
         <div className="tabs" style={styles.color}>
             <div className="tabs">
@@ -60,7 +60,7 @@ const Nav = () => {
                             <Home />
                         </TabPanel>
                         <TabPanel>
-                            <About />
+                            <MyStory />
                         </TabPanel>
                     </div>
                 </Tabs>

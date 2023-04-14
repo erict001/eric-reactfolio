@@ -2,8 +2,7 @@ import React from "react";
 import { accordionData } from "../utils/accordionData";
 import Accordion from "./Accordion.js"
 
-const BuildAccordion = () => {
- 
+function BuildAccordion() {
   return (
     <div>
       <div className="accordion">
