@@ -39,12 +39,18 @@ const styles = {
     color: {
         color: "black",
         backgroundColor: "#F3F2F2"
+    },
+    div: { 
+        display: "flex", 
+        height: "50px", 
+        width: "100vw", 
+        backgroundColor: "#d7c25e" 
     }
 }
 
 function Icons() {
     return (
-        <div style={{ display: "flex", height: "50px", width: "100vw", backgroundColor: "#d7c25e" }}>
+        <div style={styles.div}>
             <div class="flex flex-row justify-start mb-3 ml-3" >
                 <a href={"/"}><img class="invert" src={Logo} style={styles.logo} alt="eric taylor logo"></img></a>
                 <a href={"https://github.com/erict001"}><img class="invert  mt-3" src={Github} style={styles.icons} alt="github icon"></img></a>

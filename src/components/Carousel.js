@@ -51,12 +51,16 @@ export default function Home() {
       width: "100vw",
       height: "92vh",
       zIndex: "0",
-    }
+    },
+    back: {
+      backgroundColor: "rgba(0, 0, 0, 0.50)", 
+      height: "100%", 
+      width: "100%", }
   }
 
   return (
     <div style={styles.background}>
-      <div class="flex justify-center items-center" style={{backgroundColor: "rgba(0, 0, 0, 0.50)", height: "100%", width: "100%", }}>
+      <div class="flex justify-center items-center" style={styles.back}>
         <Modal />
       </div>
     </div>
