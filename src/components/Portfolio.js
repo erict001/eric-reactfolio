@@ -10,9 +10,31 @@ import mojave from "../images/assets/mojave.webp"
 import united from "../images/assets/uwmqt.webp"
 
 function Portfolio() {
+
+  const styles = {
+  title: { 
+    width: "100%", 
+    fontFamily: "Zapfino", 
+    paddingTop: "10vh", 
+    fontWeight: 900 
+  },
+  header: { 
+    display: "flex", 
+    justifyContent: "center", 
+    height: "20rem", 
+    width: "100vw", 
+    color: "white", 
+    backgroundColor: "black" 
+  },
+  margin: {
+    height: "4rem", 
+    marginTop: "5vh"
+  }
+  }
+
   return (
     <div style={{ height: "auto" }}>
-      <div style={{ display: "flex", justifyContent: "center", height: "20rem", width: "100vw", color: "white", backgroundColor: "black" }}>
+      <div style={styles.header}>
         <ParallaxProvider>
           <ParallaxBanner
             layers={[
@@ -31,7 +53,7 @@ function Portfolio() {
       <div style={{ color: "black" }}>
         <div>
           <div>
-            <h1 class="flex justify-center text-5xl text-black" style={{ width: "100%", fontFamily: "Zapfino", paddingTop: "10vh", fontWeight: 900 }}>Professional Projects:</h1>
+            <h1 class="flex justify-center text-5xl text-black" style={styles.title}>Professional Projects:</h1>
             <br></br>
             <br></br>
             <br></br>
@@ -92,8 +114,8 @@ function Portfolio() {
             </div>
           </div>
           <div>
-            <div class="flex content-center" style={{ height: "4rem", marginTop: "5vh" }}>
-              <h1 class="flex justify-center text-5xl text-black" style={{ width: "100%", fontFamily: "Zapfino", fontWeight: 900 }}>Full Stack Projects:</h1>
+            <div class="flex content-center" style={styles.margin}>
+              <h1 class="flex justify-center text-5xl text-black" style={styles.title}>Full Stack Projects:</h1>
             </div>
             <br></br>
             <br></br>
