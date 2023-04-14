@@ -37,7 +37,7 @@ function Modal() {
     return (
         <div>
             <div id="card">
-                <div class="container" style={zIndex}>
+                <div class="container" style={styles.zIndex}>
                     <div class="flex flex-col md:flex-col overflow-hidden
                                         rounded-lg h-96 w-full" style={styles.background}>
                         <div style={styles.zIndexs} class="w-full flex justify-center text-black ">

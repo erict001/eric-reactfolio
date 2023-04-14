@@ -1,10 +1,11 @@
-import Modal from "./Modal.js"
-import Profile from "../images/assets/view.webp"
+import MyModal from "./myModal.js"
+import MyModal2 from "./myModal2.js"
+import City from "../images/assets/ManCity.webp"
 
 function MyStory() {
     const styles = {
         background: {
-          backgroundImage: `url(${Profile})`,
+          backgroundImage: `url(${City})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
@@ -13,7 +14,7 @@ function MyStory() {
           zIndex: "0",
         },
         divStyle: {
-          backgroundColor: "rgba(0, 0, 0, 0.50)", 
+          backgroundColor: "rgba(0, 0, 0, 0.60)", 
           height: "100%", 
           width: "100%", 
         }
@@ -21,8 +22,9 @@ function MyStory() {
     
       return (
         <div style={styles.background}>
-          <div class="flex justify-center items-center" style={styles.divStyle}>
-            <Modal />
+          <div class="flex text-center justify-around items-center" style={styles.divStyle}>
+            <MyModal />
+            <MyModal2 />
           </div>
         </div>
       );
