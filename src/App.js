@@ -5,7 +5,6 @@ import Icons from './components/Icons'
 const styles = {
   color: {
     color: "black",
-    // backgroundColor: "white"
     backgroundColor: "#F3F2F2",
     height: "auto"
   }
