@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { ParallaxBanner } from 'react-scroll-parallax';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import appa from "../images/assets/appa.webp"
