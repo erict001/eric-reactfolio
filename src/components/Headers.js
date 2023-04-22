@@ -17,7 +17,7 @@ function Headers() {
             justifyContent: "center", 
             fontSize: "100px" 
         }
-    }
+    } 
 
     return (
         <div class="mb-10">

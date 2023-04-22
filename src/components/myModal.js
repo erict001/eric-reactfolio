@@ -13,7 +13,8 @@ const styles = {
     text: {
         color: "white",
         textShadow: "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000",
-        fontSize: "3rem"
+        fontSize: "2rem",
+        width: "90vw"
     },
     zIndex: {
         zIndex: "1"
@@ -29,31 +30,49 @@ const styles = {
         textShadow: "2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000"
     },
     divStyle: {
-        backgroundColor: "rgba(0, 0, 0, 0.60)", 
-        height: "100%", 
-        width: "100%", 
-      }
+        backgroundColor: "rgba(0, 0, 0, 0.60)",
+        height: "100%",
+        width: "100%",
+    },
+    headers: {
+        border: "1px solid white"
+    }
 }
-
 
 
 function myModal() {
     return (
         <div>
-            <div id="card">
-                <div class="container" style={styles.zIndex}>
-                    <div class="flex" style={styles.background}>
-                        <div class="flex-col">
-                            <div style={styles.zIndexs} class="w-full flex justify-center text-black ">
-                                <h1 style={styles.text}>Hi, I'm Eric Taylor. </h1>
-                            </div>
-                            <div class="w-full px-12 text-white">
-                                <h3 style={styles.styled} class="whitespace-normal">Full stack software developer with over 5 years of experience in all stages of advanced web development. Built two multi-six figure companies from scratch in under 2 years while operating a third multi-million dollar company. </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <table style={styles.text}>
+                <tbody>
+                    <tr style={styles.headers}>
+                        <th scope="row" style={styles.headers}>Languages</th>
+                        <td>HTML5</td>
+                        <td>CSS</td>
+                        <td>JavaScript</td>
+                        <td>jQuery</td>
+                    </tr>
+                    <tr style={styles.headers}>
+                        <th scope="row" style={styles.headers}>Frameworks</th>
+                        <td>Bootstrap</td>
+                        <td>Express.js</td>
+                        <td>Node.js</td>
+                        <td>React</td>
+                        <td>Wordpress</td>
+                    </tr>
+                    <tr style={styles.headers}>
+                        <th scope="row" style={styles.headers}>Databases</th>
+                        <td>MySQL</td>
+                        <td>SQL</td>
+                    </tr>
+                    <tr style={styles.headers}>
+                        <th scope="row" style={styles.headers}>Learning</th>
+                        <td>Python</td>
+                        <td>MongoDB</td>
+                        <td>Flutter & Dart</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     );
 };

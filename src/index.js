@@ -15,6 +15,7 @@ import AboutSection from './components/AboutSection';
 import MyStory from './components/MyStory';
 import MyModal from './components/myModal';
 import MyModal2 from './components/myModal2';
+import Languages from './components/Languages';
 
 
 
@@ -30,6 +31,7 @@ root.render(
     <Route path="/about-section" element={<AboutSection />} />
     <Route path="/modal" element={<Modal />} />
     <Route path="/my-modal" element={<MyModal />} />
+    <Route path="/my-languages" element={<Languages />} />
     <Route path="/my-modal" element={<MyModal2 />} />
     <Route path="/carousel" element={<Carousel />} />
     <Route path="/about" element={<MyStory />} />
