@@ -52,6 +52,12 @@ function Portfolio() {
       <hr></hr>
       <div style={{ color: "black" }}>
         <div>
+          <div>
+            <h1 class="flex justify-center text-5xl text-black" style={styles.title}>Projects:</h1>
+            <br></br>
+            <br></br>
+            <br></br>
+          </div>
           <div class="xl:flex xl:space-x-4 xl:mx-4 xl:ml-4 lg:flex-col lg:justify-center">
             <div class="md:max-w-5xl sm:max-w-3xl rounded shadow-2xl mb-4 border-solid border-2 border-black">
               <img class="w-full h-2/5" src={apollo} alt="Apollo Academy website" />
@@ -108,12 +114,6 @@ function Portfolio() {
             </div>
           </div>
           <div>
-            <div class="flex content-center" style={styles.margin}>
-              <h1 class="flex justify-center text-5xl text-black" style={styles.title}>Full Stack Projects:</h1>
-            </div>
-            <br></br>
-            <br></br>
-            <br></br>
             <div class="xl:flex xl:space-x-4 lg:flex-col xl:mx-4 xl:ml-4">
               <div class="md:max-w-5xl sm:max-w-3xl rounded overflow-hidden shadow-2xl mb-4 border-solid border-2 border-black">
                 <img class="w-full h-1/3" src={jeopardy} alt="Inspirational Jeopardy" />
