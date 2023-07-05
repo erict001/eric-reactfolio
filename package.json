@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "main": "./App.js",
-  "homepage": "https://erict001.github.io/eric-reactfolio",
   "engines": {
     "node": "19.5.0"
   },
@@ -32,8 +31,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -57,7 +54,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.1.4",
     "tailwindcss-animate": "^1.0.5"
   }
