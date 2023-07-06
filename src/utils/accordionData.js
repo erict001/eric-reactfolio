@@ -4,12 +4,23 @@ import Fenix from "../images/assets/Fenix.webp"
 import Oregon from "../images/assets/oregon.webp"
 import CatchaFire from "../images/assets/CatchaFire.webp"
 import Cappers from "../images/assets/Cappers.webp"
+import Cwk from "../images/assets/Cwk.webp"
+
 
 export const accordionData = [
     {
-        title: "Full Stack Application Developer",
+        title: "Full Stack Software Engineer",
+        company: "Coding with Kids",
+        duration: "May 2023 - June 2023",
+        image: Cwk,
+        description1: "Built business software systems for thousands of users to use worldwide.",
+        description2: "Developed software solutions using programming languages, frameworks, and tools such as Angular, TypeScript, PHP, SQL, and AWS.",
+        description3: "Documented software designs, technical specifications, and the development setup for new developers to share knowledge for future maintenance."
+    },
+    {
+        title: "Lead Full Stack Software Engineer",
         company: "Cappers Sports",
-        duration: "November 2022 - Present",
+        duration: "December 2022 - May 2023",
         image: Cappers,
         description1: "Designed and built an innovative app from scratch, utilizing cutting-edge technologies and features to deliver a seamless user experience.",
         description2: "Developed and implemented a comprehensive marketing strategy, resulting in widespread adoption of the app by tens of thousands of users from around the world.",
